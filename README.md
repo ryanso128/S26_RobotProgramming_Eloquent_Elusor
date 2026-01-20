@@ -4,5 +4,5 @@ Allen Paily
 Paul Khoury
 Christian Yamada
 Ryan Ames
-Alex wallach
+Alex Wallach
 Emma Wojnarowski
