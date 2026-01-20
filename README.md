@@ -1,5 +1,5 @@
 # Eloquent-Elusor
-Ryan So\\
+Ryan So
 Allen Paily
 Paul Khoury
 Christian Yamada
