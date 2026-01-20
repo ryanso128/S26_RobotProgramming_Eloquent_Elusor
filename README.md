@@ -1,7 +1,8 @@
 # Eloquent-Elusor
-Ryan So
+Ryan So\\
 Allen Paily
 Paul Khoury
 Christian Yamada
 Ryan Ames
 Alex wallach
+Emma Wojnarowski
