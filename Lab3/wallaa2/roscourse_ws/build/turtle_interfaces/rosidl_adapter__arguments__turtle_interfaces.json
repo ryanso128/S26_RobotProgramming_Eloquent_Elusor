@@ -1,0 +1,8 @@
+{
+  "package_name": "turtle_interfaces",
+  "non_idl_tuples": [
+    "/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/src/turtle_interfaces:msg/TurtleMsg.msg",
+    "/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/src/turtle_interfaces:srv/SetPose.srv",
+    "/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/src/turtle_interfaces:srv/SetColor.srv"
+  ]
+}
