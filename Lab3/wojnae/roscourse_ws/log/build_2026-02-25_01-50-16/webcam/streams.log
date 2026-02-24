@@ -1,0 +1,41 @@
+[2.151s] Invoking command in '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/src/webcam': PYTHONPATH=/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/build/webcam/prefix_override:/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webcam build --build-base /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/build/webcam/build install --record /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/build/webcam/install.log --single-version-externally-managed install_data
+[2.950s] running egg_info
+[2.951s] creating ../../build/webcam/webcam.egg-info
+[2.952s] writing ../../build/webcam/webcam.egg-info/PKG-INFO
+[2.952s] writing dependency_links to ../../build/webcam/webcam.egg-info/dependency_links.txt
+[2.953s] writing entry points to ../../build/webcam/webcam.egg-info/entry_points.txt
+[2.953s] writing requirements to ../../build/webcam/webcam.egg-info/requires.txt
+[2.954s] writing top-level names to ../../build/webcam/webcam.egg-info/top_level.txt
+[2.955s] writing manifest file '../../build/webcam/webcam.egg-info/SOURCES.txt'
+[2.958s] reading manifest file '../../build/webcam/webcam.egg-info/SOURCES.txt'
+[2.962s] writing manifest file '../../build/webcam/webcam.egg-info/SOURCES.txt'
+[2.962s] running build
+[2.962s] running build_py
+[2.963s] creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/build/webcam/build
+[2.963s] creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/build/webcam/build/lib
+[2.963s] creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/build/webcam/build/lib/webcam
+[2.963s] copying webcam/cam_sub.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/build/webcam/build/lib/webcam
+[2.964s] copying webcam/__init__.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/build/webcam/build/lib/webcam
+[2.964s] copying webcam/cam_pub.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/build/webcam/build/lib/webcam
+[2.964s] running install
+[2.965s] running install_lib
+[2.967s] creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam
+[2.967s] copying /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/build/webcam/build/lib/webcam/cam_sub.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam
+[2.967s] copying /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/build/webcam/build/lib/webcam/__init__.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam
+[2.968s] copying /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/build/webcam/build/lib/webcam/cam_pub.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam
+[2.970s] byte-compiling /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam/cam_sub.py to cam_sub.cpython-310.pyc
+[2.972s] byte-compiling /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam/__init__.py to __init__.cpython-310.pyc
+[2.972s] byte-compiling /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam/cam_pub.py to cam_pub.cpython-310.pyc
+[2.974s] running install_data
+[2.975s] creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/webcam/share/ament_index
+[2.975s] creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/webcam/share/ament_index/resource_index
+[2.975s] creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/webcam/share/ament_index/resource_index/packages
+[2.976s] copying resource/webcam -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/webcam/share/ament_index/resource_index/packages
+[2.976s] copying package.xml -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/webcam/share/webcam
+[2.976s] running install_egg_info
+[2.981s] Copying ../../build/webcam/webcam.egg-info to /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam-0.0.0-py3.10.egg-info
+[2.984s] running install_scripts
+[3.047s] Installing webcam_pub script to /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/webcam/lib/webcam
+[3.047s] Installing webcam_sub script to /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/webcam/lib/webcam
+[3.048s] writing list of installed files to '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/build/webcam/install.log'
+[3.100s] Invoked command in '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/src/webcam' returned '0': PYTHONPATH=/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/build/webcam/prefix_override:/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webcam build --build-base /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/build/webcam/build install --record /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/build/webcam/install.log --single-version-externally-managed install_data

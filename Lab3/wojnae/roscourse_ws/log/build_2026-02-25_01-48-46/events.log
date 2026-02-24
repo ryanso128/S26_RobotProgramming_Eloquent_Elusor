@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.002483] (-) JobUnselected: {'identifier': 'turtle_interfaces'}
+[0.002625] (-) JobUnselected: {'identifier': 'webcam'}
+[0.002698] (python_turtle) JobQueued: {'identifier': 'python_turtle', 'dependencies': OrderedDict([('turtle_interfaces', '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces')])}
+[0.002848] (python_turtle) JobStarted: {'identifier': 'python_turtle'}
+[0.046288] (python_turtle) JobEnded: {'identifier': 'python_turtle', 'rc': 1}
+[0.057952] (-) EventReactorShutdown: {}
