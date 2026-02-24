@@ -1,0 +1,33 @@
+[0.811s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/python_turtle': PYTHONPATH=/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/python_turtle/prefix_override:/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/install/python_turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/python_turtle build --build-base /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/python_turtle/build install --record /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/python_turtle/install.log --single-version-externally-managed install_data
+[1.065s] running egg_info
+[1.065s] creating ../build/python_turtle/python_turtle.egg-info
+[1.065s] writing ../build/python_turtle/python_turtle.egg-info/PKG-INFO
+[1.065s] writing dependency_links to ../build/python_turtle/python_turtle.egg-info/dependency_links.txt
+[1.066s] writing entry points to ../build/python_turtle/python_turtle.egg-info/entry_points.txt
+[1.066s] writing requirements to ../build/python_turtle/python_turtle.egg-info/requires.txt
+[1.066s] writing top-level names to ../build/python_turtle/python_turtle.egg-info/top_level.txt
+[1.066s] writing manifest file '../build/python_turtle/python_turtle.egg-info/SOURCES.txt'
+[1.067s] reading manifest file '../build/python_turtle/python_turtle.egg-info/SOURCES.txt'
+[1.068s] writing manifest file '../build/python_turtle/python_turtle.egg-info/SOURCES.txt'
+[1.068s] running build
+[1.068s] running build_py
+[1.068s] creating /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/python_turtle/build
+[1.069s] creating /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/python_turtle/build/lib
+[1.069s] creating /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/python_turtle/build/lib/python_turtle
+[1.069s] copying python_turtle/__init__.py -> /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/python_turtle/build/lib/python_turtle
+[1.069s] running install
+[1.069s] running install_lib
+[1.070s] creating /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/install/python_turtle/lib/python3.10/site-packages/python_turtle
+[1.070s] copying /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/python_turtle/build/lib/python_turtle/__init__.py -> /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/install/python_turtle/lib/python3.10/site-packages/python_turtle
+[1.070s] byte-compiling /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/install/python_turtle/lib/python3.10/site-packages/python_turtle/__init__.py to __init__.cpython-310.pyc
+[1.071s] running install_data
+[1.071s] creating /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/install/python_turtle/share/ament_index
+[1.071s] creating /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/install/python_turtle/share/ament_index/resource_index
+[1.071s] creating /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/install/python_turtle/share/ament_index/resource_index/packages
+[1.071s] copying resource/python_turtle -> /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/install/python_turtle/share/ament_index/resource_index/packages
+[1.072s] copying package.xml -> /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/install/python_turtle/share/python_turtle
+[1.072s] running install_egg_info
+[1.073s] Copying ../build/python_turtle/python_turtle.egg-info to /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/install/python_turtle/lib/python3.10/site-packages/python_turtle-0.0.0-py3.10.egg-info
+[1.074s] running install_scripts
+[1.093s] writing list of installed files to '/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/python_turtle/install.log'
+[1.115s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/python_turtle' returned '0': PYTHONPATH=/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/python_turtle/prefix_override:/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/install/python_turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/python_turtle build --build-base /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/python_turtle/build install --record /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/python_turtle/install.log --single-version-externally-managed install_data

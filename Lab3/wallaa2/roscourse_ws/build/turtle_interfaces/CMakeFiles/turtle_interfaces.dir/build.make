@@ -73,6 +73,7 @@ CMakeFiles/turtle_interfaces: rosidl_cmake/srv/SetPose_Response.msg
 CMakeFiles/turtle_interfaces: /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/src/turtle_interfaces/srv/SetColor.srv
 CMakeFiles/turtle_interfaces: rosidl_cmake/srv/SetColor_Request.msg
 CMakeFiles/turtle_interfaces: rosidl_cmake/srv/SetColor_Response.msg
+CMakeFiles/turtle_interfaces: /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/src/turtle_interfaces/action/TurtleToGoals.action
 CMakeFiles/turtle_interfaces: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
 CMakeFiles/turtle_interfaces: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
 CMakeFiles/turtle_interfaces: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -102,6 +103,10 @@ CMakeFiles/turtle_interfaces: /opt/ros/humble/share/geometry_msgs/msg/Vector3.id
 CMakeFiles/turtle_interfaces: /opt/ros/humble/share/geometry_msgs/msg/Vector3Stamped.idl
 CMakeFiles/turtle_interfaces: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
 CMakeFiles/turtle_interfaces: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
+CMakeFiles/turtle_interfaces: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
+CMakeFiles/turtle_interfaces: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
+CMakeFiles/turtle_interfaces: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
+CMakeFiles/turtle_interfaces: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
 
 turtle_interfaces: CMakeFiles/turtle_interfaces
 turtle_interfaces: CMakeFiles/turtle_interfaces.dir/build.make

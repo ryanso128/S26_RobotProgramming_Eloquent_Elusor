@@ -1,2 +1,1 @@
-
-int8 ret
+/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/turtle_interfaces/rosidl_cmake/srv/SetColor_Response.msg

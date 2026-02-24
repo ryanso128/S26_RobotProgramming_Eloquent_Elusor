@@ -1,1 +1,1 @@
-turtle_interfaces
+/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/turtle_interfaces/ament_cmake_python/turtle_interfaces/turtle_interfaces.egg-info/top_level.txt

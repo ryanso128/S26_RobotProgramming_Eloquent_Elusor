@@ -1,3 +1,1 @@
-string name
-geometry_msgs/Pose turtle_pose
-string color
+/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/src/turtle_interfaces/msg/TurtleMsg.msg

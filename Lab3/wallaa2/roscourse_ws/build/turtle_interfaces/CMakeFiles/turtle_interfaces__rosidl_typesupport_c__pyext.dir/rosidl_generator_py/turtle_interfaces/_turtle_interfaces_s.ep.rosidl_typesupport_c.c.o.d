@@ -218,4 +218,8 @@ CMakeFiles/turtle_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_p
  /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/set_pose__functions.h \
  /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/set_color__type_support.h \
  /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/set_color__struct.h \
- /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/set_color__functions.h
+ /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/set_color__functions.h \
+ /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/action/detail/turtle_to_goals__type_support.h \
+ /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/action/detail/turtle_to_goals__struct.h \
+ /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
+ /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/action/detail/turtle_to_goals__functions.h
