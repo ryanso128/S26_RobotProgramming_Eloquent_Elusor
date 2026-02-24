@@ -1,0 +1,1 @@
+The client is constantly publishing twist vectors and the server subsribes on topic turtleDrive and updates the new twist vectors.
