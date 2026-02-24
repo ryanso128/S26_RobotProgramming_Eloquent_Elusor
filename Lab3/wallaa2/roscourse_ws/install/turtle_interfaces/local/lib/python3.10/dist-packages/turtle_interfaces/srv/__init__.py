@@ -1,2 +1,1 @@
-from turtle_interfaces.srv._set_color import SetColor  # noqa: F401
-from turtle_interfaces.srv._set_pose import SetPose  # noqa: F401
+/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/srv/__init__.py

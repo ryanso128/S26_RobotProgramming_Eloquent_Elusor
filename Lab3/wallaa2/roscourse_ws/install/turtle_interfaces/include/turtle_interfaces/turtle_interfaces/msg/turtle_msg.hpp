@@ -1,11 +1,1 @@
-// generated from rosidl_generator_cpp/resource/idl.hpp.em
-// generated code does not contain a copyright notice
-
-#ifndef TURTLE_INTERFACES__MSG__TURTLE_MSG_HPP_
-#define TURTLE_INTERFACES__MSG__TURTLE_MSG_HPP_
-
-#include "turtle_interfaces/msg/detail/turtle_msg__struct.hpp"
-#include "turtle_interfaces/msg/detail/turtle_msg__builder.hpp"
-#include "turtle_interfaces/msg/detail/turtle_msg__traits.hpp"
-
-#endif  // TURTLE_INTERFACES__MSG__TURTLE_MSG_HPP_
+/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/turtle_interfaces/rosidl_generator_cpp/turtle_interfaces/msg/turtle_msg.hpp

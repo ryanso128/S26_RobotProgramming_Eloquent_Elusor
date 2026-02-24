@@ -1,0 +1,1 @@
+/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/action/_turtle_to_goals_s.c

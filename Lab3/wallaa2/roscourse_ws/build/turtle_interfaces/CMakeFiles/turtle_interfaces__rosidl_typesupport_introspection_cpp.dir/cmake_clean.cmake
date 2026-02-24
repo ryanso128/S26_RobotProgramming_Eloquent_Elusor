@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/action/detail/turtle_to_goals__type_support.cpp.o"
+  "CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/action/detail/turtle_to_goals__type_support.cpp.o.d"
   "CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/turtle_msg__type_support.cpp.o"
   "CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/turtle_msg__type_support.cpp.o.d"
   "CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/srv/detail/set_color__type_support.cpp.o"
@@ -7,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/srv/detail/set_pose__type_support.cpp.o.d"
   "libturtle_interfaces__rosidl_typesupport_introspection_cpp.pdb"
   "libturtle_interfaces__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/turtle_interfaces/action/detail/turtle_to_goals__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/turtle_interfaces/action/detail/turtle_to_goals__type_support.cpp"
   "rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/turtle_msg__rosidl_typesupport_introspection_cpp.hpp"
   "rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/turtle_msg__type_support.cpp"
   "rosidl_typesupport_introspection_cpp/turtle_interfaces/srv/detail/set_color__rosidl_typesupport_introspection_cpp.hpp"

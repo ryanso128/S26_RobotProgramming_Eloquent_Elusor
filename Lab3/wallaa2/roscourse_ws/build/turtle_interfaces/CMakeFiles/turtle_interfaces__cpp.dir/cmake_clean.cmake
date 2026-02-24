@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/turtle_interfaces__cpp"
+  "rosidl_generator_cpp/turtle_interfaces/action/detail/turtle_to_goals__builder.hpp"
+  "rosidl_generator_cpp/turtle_interfaces/action/detail/turtle_to_goals__struct.hpp"
+  "rosidl_generator_cpp/turtle_interfaces/action/detail/turtle_to_goals__traits.hpp"
+  "rosidl_generator_cpp/turtle_interfaces/action/turtle_to_goals.hpp"
   "rosidl_generator_cpp/turtle_interfaces/msg/detail/turtle_msg__builder.hpp"
   "rosidl_generator_cpp/turtle_interfaces/msg/detail/turtle_msg__struct.hpp"
   "rosidl_generator_cpp/turtle_interfaces/msg/detail/turtle_msg__traits.hpp"

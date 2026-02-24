@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/action/detail/turtle_to_goals__functions.c.o"
+  "CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/action/detail/turtle_to_goals__functions.c.o.d"
   "CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/turtle_msg__functions.c.o"
   "CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/turtle_msg__functions.c.o.d"
   "CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/set_color__functions.c.o"
@@ -7,6 +9,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/set_pose__functions.c.o.d"
   "libturtle_interfaces__rosidl_generator_c.pdb"
   "libturtle_interfaces__rosidl_generator_c.so"
+  "rosidl_generator_c/turtle_interfaces/action/detail/turtle_to_goals__functions.c"
+  "rosidl_generator_c/turtle_interfaces/action/detail/turtle_to_goals__functions.h"
+  "rosidl_generator_c/turtle_interfaces/action/detail/turtle_to_goals__struct.h"
+  "rosidl_generator_c/turtle_interfaces/action/detail/turtle_to_goals__type_support.h"
+  "rosidl_generator_c/turtle_interfaces/action/turtle_to_goals.h"
   "rosidl_generator_c/turtle_interfaces/msg/detail/turtle_msg__functions.c"
   "rosidl_generator_c/turtle_interfaces/msg/detail/turtle_msg__functions.h"
   "rosidl_generator_c/turtle_interfaces/msg/detail/turtle_msg__struct.h"

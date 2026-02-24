@@ -1,3 +1,4 @@
 /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces:msg/TurtleMsg.idl
 /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces:srv/SetPose.idl
 /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces:srv/SetColor.idl
+/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces:action/TurtleToGoals.idl

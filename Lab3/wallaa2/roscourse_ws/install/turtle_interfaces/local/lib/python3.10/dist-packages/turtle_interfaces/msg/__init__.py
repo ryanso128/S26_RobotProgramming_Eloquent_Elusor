@@ -1,1 +1,1 @@
-from turtle_interfaces.msg._turtle_msg import TurtleMsg  # noqa: F401
+/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/msg/__init__.py
