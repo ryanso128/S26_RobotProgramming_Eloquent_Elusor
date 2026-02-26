@@ -1,0 +1,305 @@
+[0.086s] Invoking command in '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/src/turtle_interfaces -DCMAKE_INSTALL_PREFIX=/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces
+[0.349s] -- The C compiler identification is GNU 11.4.0
+[0.537s] -- The CXX compiler identification is GNU 11.4.0
+[0.563s] -- Detecting C compiler ABI info
+[0.945s] -- Detecting C compiler ABI info - done
+[0.964s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.965s] -- Detecting C compile features
+[0.966s] -- Detecting C compile features - done
+[0.973s] -- Detecting CXX compiler ABI info
+[1.398s] -- Detecting CXX compiler ABI info - done
+[1.418s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.419s] -- Detecting CXX compile features
+[1.420s] -- Detecting CXX compile features - done
+[1.474s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.155s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.935s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.466s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.916s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.996s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.095s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.210s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.524s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.953s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[5.891s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[7.628s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.188s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.285s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[8.323s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[8.436s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[8.436s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.436s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.437s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[8.521s] -- Found PythonExtra: .so  
+[8.914s] -- Added test 'lint_cmake' to check CMake code style
+[8.922s] -- Added test 'xmllint' to check XML markup files
+[8.948s] -- Configuring done
+[9.106s] -- Generating done
+[9.117s] -- Build files have been written to: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/build/turtle_interfaces
+[9.140s] Invoked command in '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/src/turtle_interfaces -DCMAKE_INSTALL_PREFIX=/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces
+[9.146s] Invoking command in '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/build/turtle_interfaces -- -j4 -l4
+[9.393s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.476s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[9.513s] [  4%] Built target ament_cmake_python_copy_turtle_interfaces
+[10.389s] running egg_info
+[10.391s] creating turtle_interfaces.egg-info
+[10.392s] writing turtle_interfaces.egg-info/PKG-INFO
+[10.392s] writing dependency_links to turtle_interfaces.egg-info/dependency_links.txt
+[10.393s] writing top-level names to turtle_interfaces.egg-info/top_level.txt
+[10.394s] writing manifest file 'turtle_interfaces.egg-info/SOURCES.txt'
+[10.402s] reading manifest file 'turtle_interfaces.egg-info/SOURCES.txt'
+[10.402s] writing manifest file 'turtle_interfaces.egg-info/SOURCES.txt'
+[10.499s] [  4%] Built target ament_cmake_python_build_turtle_interfaces_egg
+[10.738s] [  4%] Built target turtle_interfaces__cpp
+[10.812s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.813s] [  8%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.816s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.836s] [ 12%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/turtle_msg__functions.c.o[0m
+[11.056s] [ 14%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/set_pose__functions.c.o[0m
+[11.316s] [ 17%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/set_color__functions.c.o[0m
+[11.548s] [ 19%] [32m[1mLinking C shared library libturtle_interfaces__rosidl_generator_c.so[0m
+[11.737s] [ 19%] Built target turtle_interfaces__rosidl_generator_c
+[11.801s] [ 21%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/turtle_msg__type_support.cpp.o[0m
+[11.801s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.016s] [ 25%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/turtle_msg__type_support.cpp.o[0m
+[12.162s] [ 27%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/turtle_msg__type_support.cpp.o[0m
+[12.830s] [ 29%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/srv/set_pose__type_support.cpp.o[0m
+[13.124s] [ 31%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/turtle_msg__type_support_c.cpp.o[0m
+[13.756s] [ 34%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/srv/detail/set_pose__type_support.cpp.o[0m
+[13.846s] [ 36%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/srv/set_color__type_support.cpp.o[0m
+[14.058s] [ 38%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/srv/detail/dds_fastrtps/set_pose__type_support.cpp.o[0m
+[14.640s] [ 40%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/srv/detail/set_pose__type_support_c.cpp.o[0m
+[14.768s] [ 42%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_cpp.so[0m
+[14.950s] [ 42%] Built target turtle_interfaces__rosidl_typesupport_cpp
+[14.999s] [ 44%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/srv/detail/set_color__type_support_c.cpp.o[0m
+[15.036s] [ 46%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/srv/detail/set_color__type_support.cpp.o[0m
+[15.305s] [ 48%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/srv/detail/dds_fastrtps/set_color__type_support.cpp.o[0m
+[15.728s] [ 51%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[16.105s] [ 53%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[16.119s] [ 55%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[16.385s] [ 55%] Built target turtle_interfaces__rosidl_typesupport_introspection_cpp
+[16.446s] [ 55%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_c
+[16.454s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[16.585s] [ 59%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[16.934s] [ 59%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_cpp
+[16.950s] [ 61%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/turtle_msg__type_support.c.o[0m
+[16.968s] [ 63%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/set_pose__type_support.c.o[0m
+[16.996s] [ 65%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/set_color__type_support.c.o[0m
+[17.184s] [ 68%] [32m[1mLinking C shared library libturtle_interfaces__rosidl_typesupport_introspection_c.so[0m
+[17.413s] [ 68%] Built target turtle_interfaces__rosidl_typesupport_introspection_c
+[17.451s] [ 70%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/turtle_msg__type_support.cpp.o[0m
+[17.451s] [ 72%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/srv/set_pose__type_support.cpp.o[0m
+[17.452s] [ 74%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/srv/set_color__type_support.cpp.o[0m
+[17.602s] [ 76%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_c.so[0m
+[17.812s] [ 76%] Built target turtle_interfaces__rosidl_typesupport_c
+[17.947s] [ 76%] Built target turtle_interfaces
+[18.084s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[19.641s] [ 78%] Built target turtle_interfaces__py
+[19.783s] [ 82%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_interfaces/srv/_set_pose_s.c.o[0m
+[19.783s] [ 82%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_interfaces/srv/_set_color_s.c.o[0m
+[19.783s] [ 85%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_interfaces/msg/_turtle_msg_s.c.o[0m
+[20.150s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interfaces/libturtle_interfaces__rosidl_generator_py.so[0m
+[20.347s] [ 87%] Built target turtle_interfaces__rosidl_generator_py
+[20.521s] [ 89%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[20.521s] [ 93%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[20.521s] [ 93%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[20.913s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[20.914s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[20.919s] [100%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[21.117s] [100%] Built target turtle_interfaces__rosidl_typesupport_introspection_c__pyext
+[21.117s] [100%] Built target turtle_interfaces__rosidl_typesupport_c__pyext
+[21.117s] [100%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[21.179s] Invoked command in '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/build/turtle_interfaces -- -j4 -l4
+[22.225s] Invoking command in '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/build/turtle_interfaces
+[22.270s] -- Install configuration: ""
+[22.270s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/ament_index/resource_index/rosidl_interfaces/turtle_interfaces
+[22.271s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[22.272s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[22.272s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[22.272s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_color__type_support.h
+[22.273s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_color__functions.h
+[22.274s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__functions.h
+[22.275s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_color__functions.c
+[22.276s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__struct.h
+[22.276s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__type_support.h
+[22.277s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_color__struct.h
+[22.277s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__functions.c
+[22.277s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/set_pose.h
+[22.278s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/set_color.h
+[22.278s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[22.278s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[22.279s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__functions.c
+[22.279s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__type_support.h
+[22.279s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__functions.h
+[22.280s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__struct.h
+[22.281s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/turtle_msg.h
+[22.281s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_generator_c__visibility_control.h
+[22.282s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/environment/library_path.sh
+[22.283s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/environment/library_path.dsv
+[22.284s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_c.so
+[22.285s] -- Set runtime path of "/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_c.so" to ""
+[22.285s] -- Up-to-date: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[22.286s] -- Up-to-date: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[22.286s] -- Up-to-date: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[22.286s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_color__rosidl_typesupport_fastrtps_c.h
+[22.287s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_c.h
+[22.287s] -- Up-to-date: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[22.288s] -- Up-to-date: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[22.288s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__rosidl_typesupport_fastrtps_c.h
+[22.288s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[22.289s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_c.so
+[22.291s] -- Set runtime path of "/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[22.291s] -- Up-to-date: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[22.291s] -- Up-to-date: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[22.291s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/set_pose.hpp
+[22.292s] -- Up-to-date: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[22.292s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_color__struct.hpp
+[22.292s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_color__builder.hpp
+[22.292s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__traits.hpp
+[22.293s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_color__traits.hpp
+[22.293s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__builder.hpp
+[22.330s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__struct.hpp
+[22.330s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/set_color.hpp
+[22.331s] -- Up-to-date: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[22.332s] -- Up-to-date: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[22.332s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__traits.hpp
+[22.333s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__struct.hpp
+[22.333s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__builder.hpp
+[22.333s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/turtle_msg.hpp
+[22.334s] -- Up-to-date: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[22.335s] -- Up-to-date: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[22.335s] -- Up-to-date: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[22.335s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_color__rosidl_typesupport_fastrtps_cpp.hpp
+[22.335s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[22.336s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/dds_fastrtps
+[22.336s] -- Up-to-date: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[22.336s] -- Up-to-date: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[22.337s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[22.337s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/dds_fastrtps
+[22.338s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[22.338s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[22.339s] -- Set runtime path of "/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[22.339s] -- Up-to-date: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[22.340s] -- Up-to-date: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[22.340s] -- Up-to-date: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[22.341s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_color__type_support.c
+[22.341s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_c.h
+[22.342s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__type_support.c
+[22.342s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_color__rosidl_typesupport_introspection_c.h
+[22.342s] -- Up-to-date: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[22.342s] -- Up-to-date: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[22.343s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__rosidl_typesupport_introspection_c.h
+[22.343s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__type_support.c
+[22.344s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[22.346s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_c.so
+[22.346s] -- Set runtime path of "/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[22.346s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_c.so
+[22.347s] -- Set runtime path of "/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_c.so" to ""
+[22.348s] -- Up-to-date: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[22.348s] -- Up-to-date: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[22.349s] -- Up-to-date: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[22.349s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_color__type_support.cpp
+[22.349s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_cpp.hpp
+[22.349s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__type_support.cpp
+[22.349s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_color__rosidl_typesupport_introspection_cpp.hpp
+[22.350s] -- Up-to-date: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[22.351s] -- Up-to-date: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[22.351s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__type_support.cpp
+[22.351s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__rosidl_typesupport_introspection_cpp.hpp
+[22.351s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_cpp.so
+[22.353s] -- Set runtime path of "/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[22.353s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_cpp.so
+[22.354s] -- Set runtime path of "/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_cpp.so" to ""
+[22.355s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/environment/pythonpath.sh
+[22.356s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/environment/pythonpath.dsv
+[22.356s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info
+[22.357s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[22.359s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[22.360s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[22.360s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[22.361s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces
+[22.362s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/libturtle_interfaces__rosidl_generator_py.so
+[22.363s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_c.c
+[22.363s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv
+[22.364s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/_set_color.py
+[22.365s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/_set_pose_s.c
+[22.365s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/__init__.py
+[22.366s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/_set_color_s.c
+[22.367s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/_set_pose.py
+[22.367s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[22.368s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/__init__.py
+[22.369s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[22.370s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[22.371s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg
+[22.372s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/_turtle_msg.py
+[22.372s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/__init__.py
+[22.373s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/_turtle_msg_s.c
+[22.373s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[22.374s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[22.524s] Listing '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces'...
+[22.525s] Compiling '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/__init__.py'...
+[22.525s] Listing '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg'...
+[22.525s] Compiling '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/__init__.py'...
+[22.525s] Compiling '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/_turtle_msg.py'...
+[22.526s] Listing '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv'...
+[22.526s] Compiling '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/__init__.py'...
+[22.526s] Compiling '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/_set_color.py'...
+[22.526s] Compiling '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/_set_pose.py'...
+[22.536s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[22.537s] -- Set runtime path of "/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[22.537s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[22.539s] -- Set runtime path of "/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[22.539s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[22.541s] -- Set runtime path of "/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[22.541s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_py.so
+[22.542s] -- Set runtime path of "/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_py.so" to ""
+[22.542s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/msg/TurtleMsg.idl
+[22.543s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetPose.idl
+[22.544s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetColor.idl
+[22.545s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/msg/TurtleMsg.msg
+[22.545s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetPose.srv
+[22.545s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetPose_Request.msg
+[22.548s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetPose_Response.msg
+[22.549s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetColor.srv
+[22.549s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetColor_Request.msg
+[22.550s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetColor_Response.msg
+[22.550s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/ament_index/resource_index/package_run_dependencies/turtle_interfaces
+[22.551s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/ament_index/resource_index/parent_prefix_path/turtle_interfaces
+[22.551s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/environment/ament_prefix_path.sh
+[22.552s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/environment/ament_prefix_path.dsv
+[22.552s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/environment/path.sh
+[22.553s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/environment/path.dsv
+[22.591s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.bash
+[22.592s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.sh
+[22.593s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.zsh
+[22.593s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.dsv
+[22.594s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/package.dsv
+[22.594s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/ament_index/resource_index/packages/turtle_interfaces
+[22.595s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_cExport.cmake
+[22.596s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_cExport-noconfig.cmake
+[22.597s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[22.597s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[22.598s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_cppExport.cmake
+[22.599s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[22.600s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[22.600s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[22.601s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[22.602s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cExport.cmake
+[22.602s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[22.603s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[22.603s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[22.604s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cppExport.cmake
+[22.604s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[22.605s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_pyExport.cmake
+[22.606s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[22.606s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake-extras.cmake
+[22.607s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.608s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.609s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[22.609s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[22.610s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[22.613s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[22.613s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfacesConfig.cmake
+[22.613s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfacesConfig-version.cmake
+[22.614s] -- Installing: /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/package.xml
+[22.623s] Invoked command in '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/wojnae/roscourse_ws/build/turtle_interfaces
