@@ -1,0 +1,129 @@
+[0.068s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/src/examples/rclcpp/wait_set -DCMAKE_INSTALL_PREFIX=/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set
+[0.332s] -- The C compiler identification is GNU 11.4.0
+[0.538s] -- The CXX compiler identification is GNU 11.4.0
+[0.568s] -- Detecting C compiler ABI info
+[0.941s] -- Detecting C compiler ABI info - done
+[0.965s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.966s] -- Detecting C compile features
+[0.968s] -- Detecting C compile features - done
+[0.976s] -- Detecting CXX compiler ABI info
+[1.427s] -- Detecting CXX compiler ABI info - done
+[1.450s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.452s] -- Detecting CXX compile features
+[1.454s] -- Detecting CXX compile features - done
+[1.503s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.339s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.204s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[3.707s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.804s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.904s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.030s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.201s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.501s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[4.910s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.955s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.698s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.850s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.118s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.243s] -- Looking for pthread.h
+[6.601s] -- Looking for pthread.h - found
+[6.603s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.984s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.987s] -- Found Threads: TRUE  
+[7.348s] -- Found rclcpp_components: 16.0.18 (/opt/ros/humble/share/rclcpp_components/cmake)
+[7.892s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.533s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.542s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.546s] -- Configured cppcheck include dirs: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/src/examples/rclcpp/wait_set/include
+[8.547s] -- Configured cppcheck exclude dirs and/or files: 
+[8.557s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.558s] -- Configured cpplint exclude dirs and/or files: 
+[8.568s] -- Added test 'lint_cmake' to check CMake code style
+[8.579s] -- Added test 'uncrustify' to check C / C++ code style
+[8.580s] -- Configured uncrustify additional arguments: 
+[8.587s] -- Added test 'xmllint' to check XML markup files
+[8.600s] -- Configuring done
+[8.731s] -- Generating done
+[8.788s] -- Build files have been written to: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclcpp_wait_set
+[8.828s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/src/examples/rclcpp/wait_set -DCMAKE_INSTALL_PREFIX=/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set
+[8.830s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclcpp_wait_set -- -j4 -l4
+[9.176s] [  4%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[21.922s] [  8%] [32m[1mLinking CXX shared library libtalker.so[0m
+[22.518s] [  8%] Built target talker
+[22.662s] [ 12%] [32mBuilding CXX object CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o[0m
+[31.729s] [ 16%] [32m[1mLinking CXX executable wait_set_listener[0m
+[32.145s] [ 16%] Built target wait_set_listener
+[32.280s] [ 20%] [32mBuilding CXX object CMakeFiles/wait_set.dir/src/wait_set.cpp.o[0m
+[57.014s] [ 25%] [32m[1mLinking CXX executable wait_set[0m
+[57.974s] [ 25%] Built target wait_set
+[58.097s] [ 29%] [32mBuilding CXX object CMakeFiles/static_wait_set.dir/src/static_wait_set.cpp.o[0m
+[60.215s] [ 33%] [32mBuilding CXX object CMakeFiles/thread_safe_wait_set.dir/src/thread_safe_wait_set.cpp.o[0m
+[62.447s] [ 37%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[102.368s] [ 41%] [32m[1mLinking CXX executable static_wait_set[0m
+[103.691s] [ 41%] Built target static_wait_set
+[107.084s] [ 45%] [32m[1mLinking CXX executable thread_safe_wait_set[0m
+[108.276s] [ 45%] Built target thread_safe_wait_set
+[109.451s] [ 50%] [32m[1mLinking CXX shared library liblistener.so[0m
+[110.496s] [ 50%] Built target listener
+[110.630s] [ 54%] [32mBuilding CXX object CMakeFiles/wait_set_random_order.dir/src/wait_set_random_order.cpp.o[0m
+[133.118s] [ 58%] [32m[1mLinking CXX executable wait_set_random_order[0m
+[134.053s] [ 58%] Built target wait_set_random_order
+[134.185s] [ 62%] [32mBuilding CXX object CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o[0m
+[140.275s] [ 66%] [32mBuilding CXX object CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o[0m
+[141.517s] [ 70%] [32mBuilding CXX object CMakeFiles/wait_set_topics_and_timer.dir/src/wait_set_topics_and_timer.cpp.o[0m
+[142.751s] [ 75%] [32mBuilding CXX object CMakeFiles/wait_set_talker.dir/rclcpp_components/node_main_wait_set_talker.cpp.o[0m
+[161.149s] [ 79%] [32m[1mLinking CXX executable wait_set_talker[0m
+[161.729s] [ 79%] Built target wait_set_talker
+[169.520s] [ 83%] [32m[1mLinking CXX executable executor_random_order[0m
+[170.636s] [ 83%] Built target executor_random_order
+[178.270s] [ 87%] [32m[1mLinking CXX executable wait_set_topics_with_different_rates[0m
+[178.622s] [ 91%] [32m[1mLinking CXX executable wait_set_topics_and_timer[0m
+[179.315s] [ 91%] Built target wait_set_topics_with_different_rates
+[179.719s] [ 91%] Built target wait_set_topics_and_timer
+[179.842s] [ 95%] [32mBuilding CXX object CMakeFiles/wait_set_composed.dir/src/wait_set_composed.cpp.o[0m
+[187.188s] [100%] [32m[1mLinking CXX executable wait_set_composed[0m
+[187.687s] [100%] Built target wait_set_composed
+[187.739s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclcpp_wait_set -- -j4 -l4
+[187.744s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclcpp_wait_set
+[187.785s] -- Install configuration: ""
+[187.786s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[187.788s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker" to ""
+[187.788s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[187.790s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener" to ""
+[187.790s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/lib/libtalker.so
+[187.797s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/lib/libtalker.so" to ""
+[187.797s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/lib/liblistener.so
+[187.818s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/lib/liblistener.so" to ""
+[187.818s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[187.830s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set" to ""
+[187.830s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[187.841s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set" to ""
+[187.841s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[187.853s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set" to ""
+[187.854s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[187.867s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer" to ""
+[187.867s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[187.880s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order" to ""
+[187.880s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[187.891s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order" to ""
+[187.891s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[187.903s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates" to ""
+[187.903s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[187.905s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed" to ""
+[187.905s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[187.906s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[187.907s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[187.908s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[187.909s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[187.910s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[187.910s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[187.911s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[187.911s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[187.912s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[187.912s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[187.913s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[187.914s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[187.914s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[187.916s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[187.918s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[187.925s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclcpp_wait_set

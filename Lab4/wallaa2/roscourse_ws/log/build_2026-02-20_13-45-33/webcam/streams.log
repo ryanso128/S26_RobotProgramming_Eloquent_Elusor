@@ -1,0 +1,42 @@
+[2.015s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/webcam': PYTHONPATH=/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/webcam/prefix_override:/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/webcam/build
+[2.837s] running develop
+[2.838s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.838s]   warnings.warn(
+[3.389s] Removing /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam.egg-link (link to .)
+[3.473s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/webcam' returned '0': PYTHONPATH=/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/webcam/prefix_override:/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/webcam/build
+[3.481s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/src/webcam': PYTHONPATH=/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/webcam/prefix_override:/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webcam build --build-base /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/webcam/build install --record /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/webcam/install.log --single-version-externally-managed install_data --force
+[4.269s] running egg_info
+[4.271s] writing ../../build/webcam/webcam.egg-info/PKG-INFO
+[4.272s] writing dependency_links to ../../build/webcam/webcam.egg-info/dependency_links.txt
+[4.273s] writing entry points to ../../build/webcam/webcam.egg-info/entry_points.txt
+[4.274s] writing requirements to ../../build/webcam/webcam.egg-info/requires.txt
+[4.274s] writing top-level names to ../../build/webcam/webcam.egg-info/top_level.txt
+[4.278s] reading manifest file '../../build/webcam/webcam.egg-info/SOURCES.txt'
+[4.281s] writing manifest file '../../build/webcam/webcam.egg-info/SOURCES.txt'
+[4.281s] running build
+[4.282s] running build_py
+[4.282s] creating /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/webcam/build
+[4.283s] creating /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/webcam/build/lib
+[4.283s] creating /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/webcam/build/lib/webcam
+[4.284s] copying webcam/cam_sub.py -> /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/webcam/build/lib/webcam
+[4.286s] copying webcam/__init__.py -> /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/webcam/build/lib/webcam
+[4.286s] copying webcam/cam_pub.py -> /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/webcam/build/lib/webcam
+[4.287s] running install
+[4.288s] running install_lib
+[4.290s] creating /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam
+[4.291s] copying /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/webcam/build/lib/webcam/cam_sub.py -> /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam
+[4.292s] copying /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/webcam/build/lib/webcam/__init__.py -> /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam
+[4.292s] copying /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/webcam/build/lib/webcam/cam_pub.py -> /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam
+[4.294s] byte-compiling /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam/cam_sub.py to cam_sub.cpython-310.pyc
+[4.295s] byte-compiling /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam/__init__.py to __init__.cpython-310.pyc
+[4.295s] byte-compiling /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam/cam_pub.py to cam_pub.cpython-310.pyc
+[4.297s] running install_data
+[4.297s] copying resource/webcam -> /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/install/webcam/share/ament_index/resource_index/packages
+[4.297s] copying package.xml -> /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/install/webcam/share/webcam
+[4.298s] running install_egg_info
+[4.302s] Copying ../../build/webcam/webcam.egg-info to /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam-0.0.0-py3.10.egg-info
+[4.305s] running install_scripts
+[4.352s] Installing webcam_pub script to /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/install/webcam/lib/webcam
+[4.353s] Installing webcam_sub script to /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/install/webcam/lib/webcam
+[4.354s] writing list of installed files to '/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/webcam/install.log'
+[4.404s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/src/webcam' returned '0': PYTHONPATH=/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/webcam/prefix_override:/home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webcam build --build-base /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/webcam/build install --record /home/yahboom/Desktop/team_repo/Lab3/wallaa2/roscourse_ws/build/webcam/install.log --single-version-externally-managed install_data --force

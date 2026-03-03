@@ -1,0 +1,4 @@
+[console_scripts]
+client = py_srv.area_client:main
+service = py_srv.area_service:main
+

@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b4c3e366e50cd373d43d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "intro_interfaces__py",
+					"jsonFile" : "directory-intro_interfaces__py-a3871ab8604a4e36d4d5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/intro_interfaces/intro_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "intro_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_intro_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_intro_interfaces_egg-05c98bce1f33d968550b.json",
+					"name" : "ament_cmake_python_build_intro_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_intro_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_intro_interfaces-3b86d8b206788b5fcb23.json",
+					"name" : "ament_cmake_python_copy_intro_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intro_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intro_interfaces-6014f7725248e3d2a70e.json",
+					"name" : "intro_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intro_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intro_interfaces__cpp-192873cff04f40a6e551.json",
+					"name" : "intro_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "intro_interfaces__py::@bcdc2047386a66fc4e17",
+					"jsonFile" : "target-intro_interfaces__py-cb36fc4812619594efba.json",
+					"name" : "intro_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intro_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intro_interfaces__rosidl_generator_c-606d2acf36c31a0b2b71.json",
+					"name" : "intro_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intro_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intro_interfaces__rosidl_generator_py-159827f53842994220d4.json",
+					"name" : "intro_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intro_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intro_interfaces__rosidl_typesupport_c-2593c6469fde4787cad5.json",
+					"name" : "intro_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intro_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intro_interfaces__rosidl_typesupport_c__pyext-8160f9cd0f50042e3755.json",
+					"name" : "intro_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intro_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intro_interfaces__rosidl_typesupport_cpp-a2b4ae4862cba6581eea.json",
+					"name" : "intro_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intro_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intro_interfaces__rosidl_typesupport_fastrtps_c-2a4c36e80cb500a4c53c.json",
+					"name" : "intro_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intro_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intro_interfaces__rosidl_typesupport_fastrtps_c__pyext-89f549b0286b22656191.json",
+					"name" : "intro_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intro_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intro_interfaces__rosidl_typesupport_fastrtps_cpp-4acb42ea0406b5a93629.json",
+					"name" : "intro_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intro_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intro_interfaces__rosidl_typesupport_introspection_c-a4a17212899b3dc9ad3c.json",
+					"name" : "intro_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intro_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intro_interfaces__rosidl_typesupport_introspection_c__pyext-03f788cf0d51ffbaa8ec.json",
+					"name" : "intro_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intro_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intro_interfaces__rosidl_typesupport_introspection_cpp-5fe7303f70f7b430358e.json",
+					"name" : "intro_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intro_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intro_interfaces_uninstall-6cfd64d6aea9f9390b4a.json",
+					"name" : "intro_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f207112c8e42d77738c7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/intro_interfaces",
+		"source" : "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/src/intro_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

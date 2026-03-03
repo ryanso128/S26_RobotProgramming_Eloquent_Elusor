@@ -1,0 +1,57 @@
+[4.215s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/src/examples/rclpy/executors': PYTHONPATH=/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclpy_executors/build install --record /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed install_data
+[5.179s] running egg_info
+[5.179s] creating ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info
+[5.180s] writing ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[5.181s] writing dependency_links to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[5.182s] writing entry points to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[5.183s] writing requirements to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[5.184s] writing top-level names to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[5.185s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[5.190s] reading manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[5.192s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[5.193s] running build
+[5.194s] running build_py
+[5.194s] creating /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclpy_executors/build
+[5.195s] creating /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclpy_executors/build/lib
+[5.196s] creating /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[5.197s] copying examples_rclpy_executors/custom_callback_group.py -> /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[5.197s] copying examples_rclpy_executors/__init__.py -> /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[5.198s] copying examples_rclpy_executors/callback_group.py -> /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[5.199s] copying examples_rclpy_executors/talker.py -> /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[5.200s] copying examples_rclpy_executors/custom_executor.py -> /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[5.200s] copying examples_rclpy_executors/listener.py -> /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[5.201s] copying examples_rclpy_executors/composed.py -> /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[5.202s] running install
+[5.203s] running install_lib
+[5.206s] creating /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[5.206s] copying /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_callback_group.py -> /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[5.207s] copying /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/__init__.py -> /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[5.208s] copying /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/callback_group.py -> /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[5.210s] copying /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/talker.py -> /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[5.210s] copying /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_executor.py -> /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[5.211s] copying /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/listener.py -> /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[5.213s] copying /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/composed.py -> /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[5.215s] byte-compiling /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/custom_callback_group.py to custom_callback_group.cpython-310.pyc
+[5.217s] byte-compiling /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/__init__.py to __init__.cpython-310.pyc
+[5.220s] byte-compiling /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/callback_group.py to callback_group.cpython-310.pyc
+[5.221s] byte-compiling /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/talker.py to talker.cpython-310.pyc
+[5.223s] byte-compiling /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/custom_executor.py to custom_executor.cpython-310.pyc
+[5.225s] byte-compiling /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/listener.py to listener.cpython-310.pyc
+[5.228s] byte-compiling /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/composed.py to composed.cpython-310.pyc
+[5.228s] running install_data
+[5.229s] creating /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/share/ament_index
+[5.230s] creating /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/share/ament_index/resource_index
+[5.231s] creating /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[5.231s] copying resource/examples_rclpy_executors -> /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[5.232s] copying package.xml -> /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/share/examples_rclpy_executors
+[5.235s] running install_egg_info
+[5.241s] Copying ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors-0.15.5-py3.10.egg-info
+[5.246s] running install_scripts
+[5.317s] Installing callback_group script to /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[5.318s] Installing composed script to /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[5.318s] Installing custom_callback_group script to /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[5.319s] Installing custom_executor script to /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[5.320s] Installing listener script to /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[5.320s] Installing talker script to /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[5.323s] writing list of installed files to '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclpy_executors/install.log'
+[5.392s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/src/examples/rclpy/executors' returned '0': PYTHONPATH=/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclpy_executors/build install --record /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed install_data

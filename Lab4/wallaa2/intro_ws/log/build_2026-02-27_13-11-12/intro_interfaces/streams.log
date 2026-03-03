@@ -1,0 +1,307 @@
+[0.162s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/intro_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/src/intro_interfaces -DCMAKE_INSTALL_PREFIX=/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces
+[0.494s] -- The C compiler identification is GNU 11.4.0
+[0.718s] -- The CXX compiler identification is GNU 11.4.0
+[0.750s] -- Detecting C compiler ABI info
+[1.111s] -- Detecting C compiler ABI info - done
+[1.138s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.172s] -- Detecting C compile features
+[1.172s] -- Detecting C compile features - done
+[1.172s] -- Detecting CXX compiler ABI info
+[1.554s] -- Detecting CXX compiler ABI info - done
+[1.581s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.582s] -- Detecting CXX compile features
+[1.585s] -- Detecting CXX compile features - done
+[1.632s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.334s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.203s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.691s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.776s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.867s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.981s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.155s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.410s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.539s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.060s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[7.799s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.460s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.581s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[8.670s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[8.830s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[8.830s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.830s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.830s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[8.999s] -- Found PythonExtra: .so  
+[9.613s] -- Added test 'lint_cmake' to check CMake code style
+[9.636s] -- Added test 'xmllint' to check XML markup files
+[9.707s] -- Configuring done
+[10.094s] -- Generating done
+[10.253s] -- Build files have been written to: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/intro_interfaces
+[10.379s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/intro_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/src/intro_interfaces -DCMAKE_INSTALL_PREFIX=/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces
+[10.380s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/intro_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/intro_interfaces -- -j4 -l4
+[11.170s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[11.413s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[11.562s] [  4%] Built target ament_cmake_python_copy_intro_interfaces
+[14.519s] running egg_info
+[14.523s] creating intro_interfaces.egg-info
+[14.524s] writing intro_interfaces.egg-info/PKG-INFO
+[14.525s] writing dependency_links to intro_interfaces.egg-info/dependency_links.txt
+[14.540s] writing top-level names to intro_interfaces.egg-info/top_level.txt
+[14.542s] writing manifest file 'intro_interfaces.egg-info/SOURCES.txt'
+[14.575s] reading manifest file 'intro_interfaces.egg-info/SOURCES.txt'
+[14.579s] writing manifest file 'intro_interfaces.egg-info/SOURCES.txt'
+[15.090s] [  4%] Built target ament_cmake_python_build_intro_interfaces_egg
+[16.141s] [  4%] Built target intro_interfaces__cpp
+[16.464s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[16.537s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[16.570s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[16.968s] [ 12%] [32mBuilding C object CMakeFiles/intro_interfaces__rosidl_generator_c.dir/rosidl_generator_c/intro_interfaces/msg/detail/num__functions.c.o[0m
+[18.132s] [ 14%] [32mBuilding C object CMakeFiles/intro_interfaces__rosidl_generator_c.dir/rosidl_generator_c/intro_interfaces/msg/detail/sphere__functions.c.o[0m
+[19.562s] [ 17%] [32mBuilding C object CMakeFiles/intro_interfaces__rosidl_generator_c.dir/rosidl_generator_c/intro_interfaces/srv/detail/area__functions.c.o[0m
+[20.632s] [ 19%] [32m[1mLinking C shared library libintro_interfaces__rosidl_generator_c.so[0m
+[21.201s] [ 21%] [32mBuilding CXX object CMakeFiles/intro_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/intro_interfaces/msg/num__type_support.cpp.o[0m
+[21.424s] [ 21%] Built target intro_interfaces__rosidl_generator_c
+[21.687s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[22.301s] [ 25%] [32mBuilding CXX object CMakeFiles/intro_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/intro_interfaces/msg/detail/num__type_support.cpp.o[0m
+[22.751s] [ 27%] [32mBuilding CXX object CMakeFiles/intro_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/intro_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[26.214s] [ 29%] [32mBuilding CXX object CMakeFiles/intro_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/intro_interfaces/msg/sphere__type_support.cpp.o[0m
+[26.994s] [ 31%] [32mBuilding CXX object CMakeFiles/intro_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/intro_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[28.303s] [ 34%] [32mBuilding CXX object CMakeFiles/intro_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/intro_interfaces/msg/detail/sphere__type_support.cpp.o[0m
+[30.902s] [ 36%] [32mBuilding CXX object CMakeFiles/intro_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/intro_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[31.717s] [ 38%] [32mBuilding CXX object CMakeFiles/intro_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/intro_interfaces/srv/area__type_support.cpp.o[0m
+[33.996s] [ 40%] [32mBuilding CXX object CMakeFiles/intro_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/intro_interfaces/msg/detail/sphere__type_support_c.cpp.o[0m
+[34.744s] [ 42%] [32mBuilding CXX object CMakeFiles/intro_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/intro_interfaces/srv/detail/area__type_support.cpp.o[0m
+[36.879s] [ 44%] [32mBuilding CXX object CMakeFiles/intro_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/intro_interfaces/srv/detail/dds_fastrtps/area__type_support.cpp.o[0m
+[37.459s] [ 46%] [32m[1mLinking CXX shared library libintro_interfaces__rosidl_typesupport_cpp.so[0m
+[38.113s] [ 46%] Built target intro_interfaces__rosidl_typesupport_cpp
+[39.353s] [ 48%] [32mBuilding CXX object CMakeFiles/intro_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/intro_interfaces/srv/detail/area__type_support_c.cpp.o[0m
+[39.558s] [ 51%] [32m[1mLinking CXX shared library libintro_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[40.877s] [ 51%] Built target intro_interfaces__rosidl_typesupport_introspection_cpp
+[41.345s] [ 53%] [32m[1mLinking CXX shared library libintro_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[42.117s] [ 53%] Built target intro_interfaces__rosidl_typesupport_fastrtps_cpp
+[42.473s] [ 55%] [32m[1mLinking CXX shared library libintro_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[42.984s] [ 55%] Built target intro_interfaces__rosidl_typesupport_fastrtps_c
+[43.118s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[44.961s] [ 59%] [32mBuilding CXX object CMakeFiles/intro_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/intro_interfaces/msg/num__type_support.cpp.o[0m
+[45.259s] [ 61%] [32mBuilding CXX object CMakeFiles/intro_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/intro_interfaces/srv/area__type_support.cpp.o[0m
+[45.537s] [ 63%] [32mBuilding CXX object CMakeFiles/intro_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/intro_interfaces/msg/sphere__type_support.cpp.o[0m
+[45.758s] [ 65%] [32m[1mLinking CXX shared library libintro_interfaces__rosidl_typesupport_c.so[0m
+[46.165s] [ 65%] Built target intro_interfaces__rosidl_typesupport_c
+[46.275s] [ 68%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[48.250s] [ 70%] [32mBuilding C object CMakeFiles/intro_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/intro_interfaces/msg/detail/num__type_support.c.o[0m
+[48.456s] [ 72%] [32mBuilding C object CMakeFiles/intro_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/intro_interfaces/srv/detail/area__type_support.c.o[0m
+[48.738s] [ 74%] [32mBuilding C object CMakeFiles/intro_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/intro_interfaces/msg/detail/sphere__type_support.c.o[0m
+[49.035s] [ 76%] [32m[1mLinking C shared library libintro_interfaces__rosidl_typesupport_introspection_c.so[0m
+[49.407s] [ 76%] Built target intro_interfaces__rosidl_typesupport_introspection_c
+[49.620s] [ 76%] Built target intro_interfaces
+[49.907s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[53.708s] [ 78%] Built target intro_interfaces__py
+[54.013s] [ 80%] [32mBuilding C object CMakeFiles/intro_interfaces__rosidl_generator_py.dir/rosidl_generator_py/intro_interfaces/msg/_num_s.c.o[0m
+[54.857s] [ 82%] [32mBuilding C object CMakeFiles/intro_interfaces__rosidl_generator_py.dir/rosidl_generator_py/intro_interfaces/srv/_area_s.c.o[0m
+[55.487s] [ 85%] [32mBuilding C object CMakeFiles/intro_interfaces__rosidl_generator_py.dir/rosidl_generator_py/intro_interfaces/msg/_sphere_s.c.o[0m
+[56.021s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/intro_interfaces/libintro_interfaces__rosidl_generator_py.so[0m
+[56.346s] [ 87%] Built target intro_interfaces__rosidl_generator_py
+[56.594s] [ 89%] [32mBuilding C object CMakeFiles/intro_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/intro_interfaces/_intro_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[57.293s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/intro_interfaces/intro_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[57.512s] [ 91%] Built target intro_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[57.687s] [ 93%] [32mBuilding C object CMakeFiles/intro_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/intro_interfaces/_intro_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[58.498s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/intro_interfaces/intro_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[58.888s] [ 95%] Built target intro_interfaces__rosidl_typesupport_c__pyext
+[59.177s] [ 97%] [32mBuilding C object CMakeFiles/intro_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/intro_interfaces/_intro_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[59.923s] [100%] [32m[1mLinking C shared library rosidl_generator_py/intro_interfaces/intro_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[60.221s] [100%] Built target intro_interfaces__rosidl_typesupport_introspection_c__pyext
+[60.341s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/intro_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/intro_interfaces -- -j4 -l4
+[60.350s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/intro_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/intro_interfaces
+[60.411s] -- Install configuration: ""
+[60.414s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/ament_index/resource_index/rosidl_interfaces/intro_interfaces
+[60.415s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces
+[60.416s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv
+[60.416s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv/detail
+[60.416s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv/detail/area__struct.h
+[60.419s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv/detail/area__type_support.h
+[60.419s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv/detail/area__functions.c
+[60.419s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv/detail/area__functions.h
+[60.420s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv/area.h
+[60.420s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg
+[60.420s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail
+[60.420s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/num__functions.h
+[60.420s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/sphere__type_support.h
+[60.421s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/sphere__struct.h
+[60.421s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/num__struct.h
+[60.422s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/sphere__functions.c
+[60.422s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/num__type_support.h
+[60.423s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/sphere__functions.h
+[60.424s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/num__functions.c
+[60.425s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/num.h
+[60.427s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/sphere.h
+[60.427s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/rosidl_generator_c__visibility_control.h
+[60.429s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/environment/library_path.sh
+[60.430s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/environment/library_path.dsv
+[60.432s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/lib/libintro_interfaces__rosidl_generator_c.so
+[60.434s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/lib/libintro_interfaces__rosidl_generator_c.so" to ""
+[60.434s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces
+[60.435s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv
+[60.436s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv/detail
+[60.436s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv/detail/area__rosidl_typesupport_fastrtps_c.h
+[60.438s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg
+[60.438s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail
+[60.439s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[60.439s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[60.441s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[60.442s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/lib/libintro_interfaces__rosidl_typesupport_fastrtps_c.so
+[60.444s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/lib/libintro_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[60.445s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces
+[60.445s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv
+[60.445s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv/area.hpp
+[60.446s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv/detail
+[60.446s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv/detail/area__type_support.hpp
+[60.447s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv/detail/area__builder.hpp
+[60.448s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv/detail/area__traits.hpp
+[60.449s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv/detail/area__struct.hpp
+[60.450s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg
+[60.450s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[60.451s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail
+[60.452s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/sphere__traits.hpp
+[60.453s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/sphere__type_support.hpp
+[60.454s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/num__type_support.hpp
+[60.455s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/num__traits.hpp
+[60.456s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/sphere__builder.hpp
+[60.458s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/sphere__struct.hpp
+[60.458s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/num__struct.hpp
+[60.459s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/num__builder.hpp
+[60.459s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/sphere.hpp
+[60.460s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/num.hpp
+[60.461s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces
+[60.461s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv
+[60.462s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv/detail
+[60.463s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv/detail/dds_fastrtps
+[60.463s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv/detail/area__rosidl_typesupport_fastrtps_cpp.hpp
+[60.464s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg
+[60.465s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail
+[60.465s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[60.466s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[60.466s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/dds_fastrtps
+[60.468s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[60.469s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/lib/libintro_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[60.470s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/lib/libintro_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[60.471s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces
+[60.471s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv
+[60.472s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv/detail
+[60.473s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv/detail/area__type_support.c
+[60.473s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv/detail/area__rosidl_typesupport_introspection_c.h
+[60.474s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg
+[60.475s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail
+[60.475s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[60.476s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[60.477s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/sphere__type_support.c
+[60.478s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/num__type_support.c
+[60.479s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[60.480s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/lib/libintro_interfaces__rosidl_typesupport_introspection_c.so
+[60.482s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/lib/libintro_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[60.482s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/lib/libintro_interfaces__rosidl_typesupport_c.so
+[60.484s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/lib/libintro_interfaces__rosidl_typesupport_c.so" to ""
+[60.485s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces
+[60.485s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv
+[60.486s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv/detail
+[60.487s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv/detail/area__rosidl_typesupport_introspection_cpp.hpp
+[60.488s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/srv/detail/area__type_support.cpp
+[60.488s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg
+[60.489s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail
+[60.489s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[60.490s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[60.491s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/sphere__type_support.cpp
+[60.492s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/include/intro_interfaces/intro_interfaces/msg/detail/num__type_support.cpp
+[60.493s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/lib/libintro_interfaces__rosidl_typesupport_introspection_cpp.so
+[60.497s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/lib/libintro_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[60.497s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/lib/libintro_interfaces__rosidl_typesupport_cpp.so
+[60.498s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/lib/libintro_interfaces__rosidl_typesupport_cpp.so" to ""
+[60.498s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/environment/pythonpath.sh
+[60.499s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/environment/pythonpath.dsv
+[60.500s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces-0.0.0-py3.10.egg-info
+[60.501s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[60.502s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[60.503s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[60.504s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[60.506s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces
+[60.506s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/_intro_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[60.507s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/_intro_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[60.508s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/intro_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[60.509s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/srv
+[60.510s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/srv/_area.py
+[60.510s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/srv/__init__.py
+[60.511s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/srv/_area_s.c
+[60.511s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/_intro_interfaces_s.ep.rosidl_typesupport_c.c
+[60.513s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/__init__.py
+[60.513s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/msg
+[60.514s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/msg/_num.py
+[60.515s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/msg/_sphere_s.c
+[60.516s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/msg/__init__.py
+[60.517s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/msg/_num_s.c
+[60.518s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/msg/_sphere.py
+[60.519s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/libintro_interfaces__rosidl_generator_py.so
+[60.521s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/intro_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[60.521s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/intro_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[60.761s] Listing '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces'...
+[60.761s] Compiling '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/__init__.py'...
+[60.762s] Listing '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/msg'...
+[60.762s] Compiling '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/msg/__init__.py'...
+[60.762s] Compiling '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/msg/_num.py'...
+[60.762s] Compiling '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/msg/_sphere.py'...
+[60.762s] Listing '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/srv'...
+[60.762s] Compiling '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/srv/__init__.py'...
+[60.763s] Compiling '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/srv/_area.py'...
+[60.774s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/intro_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[60.779s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/intro_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[60.780s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/intro_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[60.780s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/intro_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[60.780s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/intro_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[60.783s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/local/lib/python3.10/dist-packages/intro_interfaces/intro_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[60.783s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/lib/libintro_interfaces__rosidl_generator_py.so
+[60.783s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/lib/libintro_interfaces__rosidl_generator_py.so" to ""
+[60.784s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/msg/Num.idl
+[60.785s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/msg/Sphere.idl
+[60.785s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/srv/Area.idl
+[60.785s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/msg/Num.msg
+[60.785s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/msg/Sphere.msg
+[60.787s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/srv/Area.srv
+[60.787s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/srv/Area_Request.msg
+[60.788s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/srv/Area_Response.msg
+[60.788s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/ament_index/resource_index/package_run_dependencies/intro_interfaces
+[60.790s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/ament_index/resource_index/parent_prefix_path/intro_interfaces
+[60.790s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/environment/ament_prefix_path.sh
+[60.790s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/environment/ament_prefix_path.dsv
+[60.795s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/environment/path.sh
+[60.795s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/environment/path.dsv
+[60.795s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/local_setup.bash
+[60.796s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/local_setup.sh
+[60.796s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/local_setup.zsh
+[60.802s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/local_setup.dsv
+[60.802s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/package.dsv
+[60.802s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/ament_index/resource_index/packages/intro_interfaces
+[60.803s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/cmake/export_intro_interfaces__rosidl_generator_cExport.cmake
+[60.803s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/cmake/export_intro_interfaces__rosidl_generator_cExport-noconfig.cmake
+[60.803s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/cmake/export_intro_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[60.803s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/cmake/export_intro_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[60.804s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/cmake/export_intro_interfaces__rosidl_generator_cppExport.cmake
+[60.810s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/cmake/export_intro_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[60.810s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/cmake/export_intro_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[60.811s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/cmake/intro_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[60.811s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/cmake/intro_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[60.811s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/cmake/intro_interfaces__rosidl_typesupport_cExport.cmake
+[60.811s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/cmake/intro_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[60.811s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/cmake/intro_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[60.811s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/cmake/intro_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[60.812s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/cmake/intro_interfaces__rosidl_typesupport_cppExport.cmake
+[60.812s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/cmake/intro_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[60.812s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/cmake/export_intro_interfaces__rosidl_generator_pyExport.cmake
+[60.812s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/cmake/export_intro_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[60.812s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/cmake/rosidl_cmake-extras.cmake
+[60.813s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[60.818s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[60.818s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[60.818s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[60.818s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[60.818s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[60.818s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/cmake/intro_interfacesConfig.cmake
+[60.819s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/cmake/intro_interfacesConfig-version.cmake
+[60.819s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/intro_interfaces/share/intro_interfaces/package.xml
+[60.819s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/intro_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/intro_interfaces

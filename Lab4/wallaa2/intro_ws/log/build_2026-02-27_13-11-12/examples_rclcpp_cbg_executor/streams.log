@@ -1,0 +1,90 @@
+[0.087s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/src/examples/rclcpp/executors/cbg_executor -DCMAKE_INSTALL_PREFIX=/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_cbg_executor
+[0.382s] -- The C compiler identification is GNU 11.4.0
+[0.602s] -- The CXX compiler identification is GNU 11.4.0
+[0.631s] -- Detecting C compiler ABI info
+[0.996s] -- Detecting C compiler ABI info - done
+[1.053s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.053s] -- Detecting C compile features
+[1.053s] -- Detecting C compile features - done
+[1.054s] -- Detecting CXX compiler ABI info
+[1.415s] -- Detecting CXX compiler ABI info - done
+[1.440s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.441s] -- Detecting CXX compile features
+[1.441s] -- Detecting CXX compile features - done
+[1.485s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.292s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.121s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[3.687s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.766s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.863s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.972s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.145s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.732s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.801s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.639s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.810s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.069s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.219s] -- Looking for pthread.h
+[6.578s] -- Looking for pthread.h - found
+[6.580s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.941s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.942s] -- Found Threads: TRUE  
+[7.408s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.074s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.085s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.087s] -- Configured cppcheck include dirs: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/src/examples/rclcpp/executors/cbg_executor/include
+[8.090s] -- Configured cppcheck exclude dirs and/or files: 
+[8.098s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.099s] -- Configured cpplint exclude dirs and/or files: 
+[8.110s] -- Added test 'lint_cmake' to check CMake code style
+[8.122s] -- Added test 'uncrustify' to check C / C++ code style
+[8.123s] -- Configured uncrustify additional arguments: 
+[8.133s] -- Added test 'xmllint' to check XML markup files
+[8.152s] -- Configuring done
+[8.207s] -- Generating done
+[8.232s] -- Build files have been written to: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclcpp_cbg_executor
+[8.267s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/src/examples/rclcpp/executors/cbg_executor -DCMAKE_INSTALL_PREFIX=/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_cbg_executor
+[8.268s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclcpp_cbg_executor -- -j4 -l4
+[8.678s] [ 10%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/ping_pong.cpp.o[0m
+[8.687s] [ 20%] [32mBuilding CXX object CMakeFiles/pong.dir/src/pong.cpp.o[0m
+[8.703s] [ 30%] [32mBuilding CXX object CMakeFiles/pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o[0m
+[8.747s] [ 40%] [32mBuilding CXX object CMakeFiles/ping.dir/src/ping.cpp.o[0m
+[44.665s] [ 50%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o[0m
+[44.763s] [ 60%] [32mBuilding CXX object CMakeFiles/ping.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o[0m
+[67.861s] [ 70%] [32m[1mLinking CXX executable pong[0m
+[69.550s] [ 70%] Built target pong
+[78.535s] [ 80%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o[0m
+[79.308s] [ 90%] [32m[1mLinking CXX executable ping[0m
+[80.708s] [ 90%] Built target ping
+[102.757s] [100%] [32m[1mLinking CXX executable ping_pong[0m
+[104.159s] [100%] Built target ping_pong
+[104.220s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclcpp_cbg_executor -- -j4 -l4
+[104.226s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclcpp_cbg_executor
+[104.274s] -- Install configuration: ""
+[104.275s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping
+[104.288s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping" to ""
+[104.291s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong
+[104.302s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong" to ""
+[104.303s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong
+[104.322s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong" to ""
+[104.322s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_cbg_executor/include
+[104.322s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor
+[104.327s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp
+[104.328s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp
+[104.328s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_cbg_executor
+[104.330s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_cbg_executor
+[104.331s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.sh
+[104.332s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.dsv
+[104.334s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.sh
+[104.335s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.dsv
+[104.337s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.bash
+[104.339s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.sh
+[104.339s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.zsh
+[104.342s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.dsv
+[104.343s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.dsv
+[104.343s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/packages/examples_rclcpp_cbg_executor
+[104.345s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/ament_cmake_export_dependencies-extras.cmake
+[104.346s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig.cmake
+[104.352s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig-version.cmake
+[104.353s] -- Installing: /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.xml
+[104.360s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/examples_rclcpp_cbg_executor

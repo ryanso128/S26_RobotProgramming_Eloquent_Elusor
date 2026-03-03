@@ -1,0 +1,36 @@
+[2.171s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/src/python_parameters': PYTHONPATH=/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/python_parameters/build install --record /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/python_parameters/install.log --single-version-externally-managed install_data
+[3.024s] running egg_info
+[3.026s] writing ../../build/python_parameters/UNKNOWN.egg-info/PKG-INFO
+[3.027s] writing dependency_links to ../../build/python_parameters/UNKNOWN.egg-info/dependency_links.txt
+[3.028s] writing top-level names to ../../build/python_parameters/UNKNOWN.egg-info/top_level.txt
+[3.031s] reading manifest file '../../build/python_parameters/UNKNOWN.egg-info/SOURCES.txt'
+[3.033s] writing manifest file '../../build/python_parameters/UNKNOWN.egg-info/SOURCES.txt'
+[3.033s] running build
+[3.034s] running install
+[3.035s] running install_data
+[3.035s] copying launch/run_multi_launch.py -> /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/python_parameters/share/python_parameters/launch
+[3.035s] running install_egg_info
+[3.041s] removing '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/python_parameters/lib/python3.10/site-packages/UNKNOWN-0.0.0-py3.10.egg-info' (and everything under it)
+[3.042s] Copying ../../build/python_parameters/UNKNOWN.egg-info to /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/python_parameters/lib/python3.10/site-packages/UNKNOWN-0.0.0-py3.10.egg-info
+[3.044s] running install_scripts
+[3.108s] writing list of installed files to '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/python_parameters/install.log'
+[3.122s] running egg_info
+[3.123s] writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO
+[3.124s] writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+[3.125s] writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt
+[3.126s] writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt
+[3.128s] writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt
+[3.131s] reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[3.133s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[3.134s] running build
+[3.134s] running build_py
+[3.135s] running install
+[3.135s] running install_lib
+[3.139s] running install_data
+[3.139s] running install_egg_info
+[3.139s] removing '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters-0.0.0-py3.10.egg-info' (and everything under it)
+[3.141s] Copying ../../build/python_parameters/python_parameters.egg-info to /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters-0.0.0-py3.10.egg-info
+[3.143s] running install_scripts
+[3.147s] Installing minimal_param_node script to /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/python_parameters/lib/python_parameters
+[3.149s] writing list of installed files to '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/python_parameters/install.log'
+[3.201s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/src/python_parameters' returned '0': PYTHONPATH=/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/python_parameters/build install --record /home/yahboom/Desktop/team_repo/Lab4/wallaa2/intro_ws/build/python_parameters/install.log --single-version-externally-managed install_data
