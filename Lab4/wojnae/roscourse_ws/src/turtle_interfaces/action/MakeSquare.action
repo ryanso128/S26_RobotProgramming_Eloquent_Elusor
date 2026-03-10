@@ -1,0 +1,9 @@
+# Goal
+float64 square_size
+---
+# Result
+geometry_msgs/Pose final_pose
+---
+# Feedback
+geometry_msgs/Pose current_pose
+
