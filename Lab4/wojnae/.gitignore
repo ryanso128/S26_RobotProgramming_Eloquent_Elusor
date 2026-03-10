@@ -10,9 +10,9 @@ log/
 __pycache__/
 *.pyc
 
-# Editor junk
+# Editor configs
 .vscode/
 .idea/
 
-# Remove nested .git from teleop package
+# Prevent nested git from third-party packages
 roscourse_ws/src/teleop_twist_keyboard/.git/
