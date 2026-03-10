@@ -1,0 +1,16 @@
+# ROS build artifacts
+roscourse_ws/build/
+roscourse_ws/install/
+roscourse_ws/log/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# VSCode or other editor configs
+.vscode/
+.idea/
+
+# Teleop nested git (prevent future problems)
+roscourse_ws/src/teleop_twist_keyboard/.git/
+
