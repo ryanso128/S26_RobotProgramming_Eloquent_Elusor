@@ -1,1 +1,0 @@
-/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/wojnae/build/turtle_interfaces/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

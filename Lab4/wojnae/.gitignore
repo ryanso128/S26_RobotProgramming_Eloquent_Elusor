@@ -1,16 +1,18 @@
-# ROS build artifacts
+# ROS 2 build artifacts
 roscourse_ws/build/
 roscourse_ws/install/
 roscourse_ws/log/
+build/
+install/
+log/
 
-# Python cache files
+# Python cache
 __pycache__/
 *.pyc
 
-# VSCode or other editor configs
+# Editor junk
 .vscode/
 .idea/
 
-# Teleop nested git (prevent future problems)
+# Remove nested .git from teleop package
 roscourse_ws/src/teleop_twist_keyboard/.git/
-

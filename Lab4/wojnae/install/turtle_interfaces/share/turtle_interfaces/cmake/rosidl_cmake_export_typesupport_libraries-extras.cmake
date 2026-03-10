@@ -1,1 +1,0 @@
-/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/wojnae/build/turtle_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
