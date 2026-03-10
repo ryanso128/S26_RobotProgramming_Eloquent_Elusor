@@ -1,0 +1,1 @@
+/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/wojnae/build/turtle_interfaces/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/turtle_msg__rosidl_typesupport_introspection_cpp.hpp

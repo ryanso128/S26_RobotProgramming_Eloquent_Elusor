@@ -1,0 +1,1 @@
+/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/wojnae/build/turtle_interfaces/rosidl_typesupport_introspection_c/turtle_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h

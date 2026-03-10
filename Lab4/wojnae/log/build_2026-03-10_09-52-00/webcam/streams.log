@@ -1,0 +1,27 @@
+[2.399s] Invoking command in '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/wojnae/build/webcam': PYTHONPATH=/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/wojnae/build/webcam/prefix_override:/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/wojnae/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/wojnae/build/webcam/build --no-deps symlink_data
+[3.321s] running develop
+[3.325s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.326s]   warnings.warn(
+[3.891s] running egg_info
+[3.892s] creating webcam.egg-info
+[3.892s] writing webcam.egg-info/PKG-INFO
+[3.893s] writing dependency_links to webcam.egg-info/dependency_links.txt
+[3.894s] writing entry points to webcam.egg-info/entry_points.txt
+[3.894s] writing requirements to webcam.egg-info/requires.txt
+[3.894s] writing top-level names to webcam.egg-info/top_level.txt
+[3.894s] writing manifest file 'webcam.egg-info/SOURCES.txt'
+[3.898s] reading manifest file 'webcam.egg-info/SOURCES.txt'
+[3.900s] writing manifest file 'webcam.egg-info/SOURCES.txt'
+[3.906s] running build_ext
+[3.906s] Creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/wojnae/install/webcam/lib/python3.10/site-packages/webcam.egg-link (link to .)
+[3.908s] Installing webcam_pub script to /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/wojnae/install/webcam/lib/webcam
+[3.908s] Installing webcam_sub script to /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/wojnae/install/webcam/lib/webcam
+[3.909s] 
+[3.909s] Installed /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/wojnae/build/webcam
+[3.910s] running symlink_data
+[3.910s] creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/wojnae/install/webcam/share/ament_index
+[3.910s] creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/wojnae/install/webcam/share/ament_index/resource_index
+[3.911s] creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/wojnae/install/webcam/share/ament_index/resource_index/packages
+[3.911s] symbolically linking /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/wojnae/build/webcam/resource/webcam -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/wojnae/install/webcam/share/ament_index/resource_index/packages
+[3.911s] symbolically linking /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/wojnae/build/webcam/package.xml -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/wojnae/install/webcam/share/webcam
+[3.994s] Invoked command in '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/wojnae/build/webcam' returned '0': PYTHONPATH=/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/wojnae/build/webcam/prefix_override:/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/wojnae/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/wojnae/build/webcam/build --no-deps symlink_data

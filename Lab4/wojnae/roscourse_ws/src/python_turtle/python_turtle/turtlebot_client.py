@@ -1,112 +1,118 @@
+#!/usr/bin/env python3
+
+import math
 import rclpy
 from rclpy.node import Node
-import math
-import random
-
 import turtle
 
-from geometry_msgs.msg import Twist, Pose
+from geometry_msgs.msg import Pose  # for type hints / clarity (no direct publish)
+from turtle_interfaces.msg import TurtleMsg  # expects: geometry_msgs/Pose turtle_pose, string color
 
-from turtle_interfaces.srv import SetColor
-from turtle_interfaces.msg import TurtleMsg
 
 class TurtleClient(Node):
     def __init__(self):
         super().__init__('turtleClient')
 
-        #### Display/Turtle Setup ####
+        # --- Display/Turtle Setup ---
         self.screen = turtle.Screen()
+        self.screen.title("Python Turtle Client")
         self.screen.bgcolor('lightblue')
-        self.turtle_display = turtle.Turtle()
+
+        # Speed up drawing; update each frame in the timer callback
+        self.screen.tracer(0)
+
+        self.turtle_display = turtle.Turtle(visible=True)
         self.turtle_display.shape("turtle")
+        self.turtle_display.penup()  # start pen up until we know the color
+
+        # Current turtle state (updated from /turtleState)
         self.turtle = TurtleMsg()
 
-        #### publisher define ####
-        self.twist_pub = self.create_publisher(Twist, 'turtleDrive', 1)
-        ##########################
+        # --- Subscriptions ---
+        # Receives the pose/color from the server on /turtleState
+        self.turtle_sub = self.create_subscription(
+            TurtleMsg,
+            'turtleState',
+            self.turtle_callback,
+            10
+        )
 
-        #### subscribing turtlebot state ####
-        self.turtle_sub = self.create_subscription(TurtleMsg, 'turtleState', self.turtle_callback, 1)
+        # --- NO PUBLISHERS HERE ---
+        # Intentionally removed. Teleop will publish to /turtleDrive.
 
-    def turtle_callback(self, msg):
+        # Update display at ~30 Hz
+        self.timer = self.create_timer(1.0 / 30.0, self.update_display)
 
+        self.get_logger().info('Turtlebot Client Started! (no Twist publishing)')
+
+    # --- Callbacks ---
+
+    def turtle_callback(self, msg: TurtleMsg):
+        """Save the latest turtle state from the server."""
         self.turtle = msg
 
-    def update(self):
+    # --- Utilities ---
 
-        if self.turtle.color == 'None':
-            self.turtle_display.penup()
+    @staticmethod
+    def rpy_from_quat(x, y, z, w):
+        """Convert quaternion to roll, pitch, yaw."""
+        srcp = 2.0 * (w * x + y * z)
+        crcp = 1.0 - 2.0 * (x * x + y * y)
+        roll = math.atan2(srcp, crcp)
+
+        sp = 2.0 * (w * y - z * x)
+        if abs(sp) >= 1.0:
+            pitch = math.copysign(math.pi / 2.0, sp)
         else:
-            self.turtle_display.pencolor(self.turtle.color)
+            pitch = math.asin(sp)
 
-        self.turtle_display.setpos(self.turtle.turtle_pose.position.x, self.turtle.turtle_pose.position.y)
-        
-        roll, pitch, yaw = rpy_from_quat(self.turtle.turtle_pose.orientation.x,
-                                        self.turtle.turtle_pose.orientation.y,
-                                        self.turtle.turtle_pose.orientation.z,
-                                        self.turtle.turtle_pose.orientation.w)
+        sycp = 2.0 * (w * z + x * y)
+        cycp = 1.0 - 2.0 * (y * y + z * z)
+        yaw = math.atan2(sycp, cycp)
+
+        return roll, pitch, yaw
+
+    # --- Display update ---
+
+    def update_display(self):
+        """Update the on-screen turtle pose & pen based on latest state."""
+        # Pen color / pen up-down
+        color = (self.turtle.color or '').strip()
+        if color and color.lower() != 'none':
+            self.turtle_display.pendown()
+            self.turtle_display.pencolor(color)
+        else:
+            self.turtle_display.penup()
+
+        # Position & heading
+        px = self.turtle.turtle_pose.position.x
+        py = self.turtle.turtle_pose.position.y
+        ox = self.turtle.turtle_pose.orientation.x
+        oy = self.turtle.turtle_pose.orientation.y
+        oz = self.turtle.turtle_pose.orientation.z
+        ow = self.turtle.turtle_pose.orientation.w
+
+        # Move the display turtle
+        self.turtle_display.setpos(px, py)
+        _, _, yaw = self.rpy_from_quat(ox, oy, oz, ow)
         self.turtle_display.seth(math.degrees(yaw))
 
-def quat_from_rpy(roll, pitch, yaw):
+        # Render this frame
+        self.screen.update()
 
-    cy = math.cos(yaw*0.5)
-    sy = math.sin(yaw*0.5)
-    cp = math.cos(pitch*0.5)
-    sp = math.sin(pitch*0.5)
-    cr = math.cos(roll*0.5)
-    sr = math.sin(roll*0.5)
-
-    qw = cr * cp * cy + sr * sp * sy
-    qx = sr * cp * cy - cr * sp * sy
-    qy = cr * sp * cy + sr * cp * sy
-    qz = cr * cp * sy - sr * sp * cy
-
-    return qx, qy, qz, qw
-
-def rpy_from_quat(x, y, z, w):
-
-    srcp = 2*(w*x + y*z)
-    crcp = 1-2*(x*x + y*y)
-    roll = math.atan2(srcp, crcp)
-
-    sp = 2*(w*y - z*x)
-    if math.fabs(sp) >= 1:
-        pitch = (sp/math.fabs(sp))*math.pi/2
-    else:
-        pitch = math.asin(sp)
-    
-    sycp = 2*(w*z + x*y)
-    cycp = 1 - 2*(y*y + z*z)
-    yaw = math.atan2(sycp, cycp)
-
-    return roll, pitch, yaw
 
 def main(args=None):
-
-    #initial ROS2
     rclpy.init(args=args)
+    node = TurtleClient()
+    try:
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        pass
+    finally:
+        node.get_logger().info('Shutting down Turtlebot Client.')
+        node.destroy_node()
+        rclpy.shutdown()
 
-    #initial turtle client
-    cli_obj = TurtleClient()
-    cli_obj.get_logger().info('Turtlebot Client Started!')
-        
-    while rclpy.ok():
-    
-        cli_obj.update()
-        rclpy.spin_once(cli_obj)
 
-        unit_x = 1 #<put a reasonable ratio, 1 is a good number, around 1 is good enough>
-        unit_z = 1 #<put a reasonable ratio, 1 is a good number, around 1 is good enough>
-        
-        #### publish twist ####
-        cmd_msg = Twist()
-        cmd_msg.linear.x = float(50 * unit_x)
-        cmd_msg.angular.z = float(1 * unit_z)
-        cli_obj.twist_pub.publish(cmd_msg)
-
-    # Destory the node explicitly
-    cli_obj.destroy_node()
-    rclpy.shutdown()
-
-if __name__=='__main__':
+if __name__ == '__main__':
     main()

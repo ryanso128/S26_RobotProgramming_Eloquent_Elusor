@@ -1,0 +1,1 @@
+/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/wojnae/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/msg/__init__.py

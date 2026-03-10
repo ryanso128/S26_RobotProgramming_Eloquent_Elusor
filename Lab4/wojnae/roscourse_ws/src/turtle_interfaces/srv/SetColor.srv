@@ -1,3 +1,6 @@
-string color
+int32 r
+int32 g
+int32 b
 ---
-int8 ret
+bool success
+string message
