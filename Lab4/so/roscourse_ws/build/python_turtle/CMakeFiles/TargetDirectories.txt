@@ -1,0 +1,9 @@
+/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/so/roscourse_ws/build/python_turtle/CMakeFiles/uninstall.dir
+/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/so/roscourse_ws/build/python_turtle/CMakeFiles/python_turtle_uninstall.dir
+/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/so/roscourse_ws/build/python_turtle/CMakeFiles/test.dir
+/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/so/roscourse_ws/build/python_turtle/CMakeFiles/edit_cache.dir
+/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/so/roscourse_ws/build/python_turtle/CMakeFiles/rebuild_cache.dir
+/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/so/roscourse_ws/build/python_turtle/CMakeFiles/list_install_components.dir
+/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/so/roscourse_ws/build/python_turtle/CMakeFiles/install.dir
+/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/so/roscourse_ws/build/python_turtle/CMakeFiles/install/local.dir
+/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/so/roscourse_ws/build/python_turtle/CMakeFiles/install/strip.dir
