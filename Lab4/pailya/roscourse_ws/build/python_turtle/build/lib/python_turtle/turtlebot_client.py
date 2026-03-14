@@ -2,6 +2,8 @@ import rclpy
 from rclpy.node import Node
 import math
 import random
+from rclpy.parameter import Parameter
+from rcl_interfaces.msg import ParameterDescriptor
 
 import turtle
 
@@ -27,6 +29,20 @@ class TurtleClient(Node):
 
         #### subscribing turtlebot state ####
         self.turtle_sub = self.create_subscription(TurtleMsg, 'turtleState', self.turtle_callback, 1)
+        self.declare_parameter('turtleColor', 'blue', ParameterDescriptor(description='line color'))
+        turtleColor = self.get_parameter('turtleColor').get_parameter_value().string_value
+        self.turtle_display.color(turtleColor)
+        
+        self.color_cli = self.create_client(SetColor,'set_color')
+        while not self.color_cli.wait_for_service(timeout_sec=1.0):
+        	self.get_logger().info('Color service not available, waiting...')
+        self.color_req = SetColor.Request()
+        self.color_req.color = turtleColor
+        self.server_call = True
+        self.service_future = self.color_cli.call_async(self.color_req)
+        self.declare_parameter('penSize', 3, ParameterDescriptor(description='Pen size'))
+        penSize = self.get_parameter('penSize').get_parameter_value().integer_value
+        self.turtle_display.pensize(penSize)
 
     def turtle_callback(self, msg):
 
