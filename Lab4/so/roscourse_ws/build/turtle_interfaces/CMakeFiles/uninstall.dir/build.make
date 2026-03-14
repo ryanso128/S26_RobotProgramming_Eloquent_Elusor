@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/so/roscourse_ws/src/turtle_interfaces
+CMAKE_SOURCE_DIR = /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/so/roscourse_ws/src/turtle_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/so/roscourse_ws/build/turtle_interfaces
+CMAKE_BINARY_DIR = /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/so/roscourse_ws/build/turtle_interfaces
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/so/roscourse_ws/build/turtle_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/so/roscourse_ws/src/turtle_interfaces /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/so/roscourse_ws/src/turtle_interfaces /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/so/roscourse_ws/build/turtle_interfaces /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/so/roscourse_ws/build/turtle_interfaces /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/so/roscourse_ws/build/turtle_interfaces/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/so/roscourse_ws/build/turtle_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/so/roscourse_ws/src/turtle_interfaces /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/so/roscourse_ws/src/turtle_interfaces /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/so/roscourse_ws/build/turtle_interfaces /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/so/roscourse_ws/build/turtle_interfaces /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/so/roscourse_ws/build/turtle_interfaces/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/so/roscourse_ws/src/python_turtle
+CMAKE_SOURCE_DIR = /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/so/roscourse_ws/src/python_turtle
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/so/roscourse_ws/build/python_turtle
+CMAKE_BINARY_DIR = /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/so/roscourse_ws/build/python_turtle
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/so/roscourse_ws/build/python_turtle/CMakeFiles /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/so/roscourse_ws/build/python_turtle//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/so/roscourse_ws/build/python_turtle/CMakeFiles /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/so/roscourse_ws/build/python_turtle//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab3/so/roscourse_ws/build/python_turtle/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab4/so/roscourse_ws/build/python_turtle/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
