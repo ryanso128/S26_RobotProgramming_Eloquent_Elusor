@@ -27,28 +27,29 @@ class TurtleClient(Node):
         self.turtle = TurtleMsg()
 
         #### publisher define ####
-        # self.twist_pub = self.create_publisher(Twist, 'turtleDrive', 1)
+        self.twist_pub = self.create_publisher(Twist, 'turtleDrive', 1)
         ##########################
 
         #### subscribing turtlebot state ####
-        self.declare_parameter('turtleColor', 'black', ParameterDescriptor(description='Color of turtle'))
-        turtleColor = self.get_parameter('turtleColor').get_parameter_value().string_value
+        self.turtle_sub = self.create_subscription(TurtleMsg, 'turtleState', self.turtle_callback, 1)
         
-        self.declare_parameter('turtleWidth', 1, ParameterDescriptor(description='turtle pen width'))
-        turtleWidth = self.get_parameter('turtleWidth').get_parameter_value().integer_value
-        self.turtle_display.width(turtleWidth)
+        # Adding a parameter to let user set color of pen and turtle
+        self.declare_parameter('turtleColor', 'black', ParameterDescriptor(description='Color of turtle pen'))
+        turtleColor = self.get_parameter('turtleColor').get_parameter_value().string_value
         self.turtle_display.color(turtleColor)
         
         self.color_cli = self.create_client(SetColor,'set_color')
         while not self.color_cli.wait_for_service(timeout_sec=1.0):
-        	self.get_logger().info('Color service not available, waiting...')
+            self.get_logger().info('Color service not available, waiting...')
         self.color_req = SetColor.Request()
         self.color_req.color = self.get_parameter('turtleColor').get_parameter_value().string_value
         self.server_call = True
         self.service_future = self.color_cli.call_async(self.color_req)
         
-        self.turtle_sub = self.color_cli.call_async(self.color_req)
-
+        # Adding a parameter for pen width
+        self.declare_parameter('turtleWidth', 1, ParameterDescriptor(description='Pen width'))
+        turtleWidth = self.get_parameter('turtleWidth').get_parameter_value().integer_value
+        self.turtle_display.width(turtleWidth)
 
     def turtle_callback(self, msg):
 
@@ -121,10 +122,10 @@ def main(args=None):
         unit_z = 1 #<put a reasonable ratio, 1 is a good number, around 1 is good enough>
         
         #### publish twist ####
-        cmd_msg = Twist()
-        cmd_msg.linear.x = float(50 * unit_x)
-        cmd_msg.angular.z = float(1 * unit_z)
-        # cli_obj.twist_pub.publish(cmd_msg)
+        #cmd_msg = Twist()
+        #cmd_msg.linear.x = float(50 * unit_x)
+        #cmd_msg.angular.z = float(1 * unit_z)
+        #cli_obj.twist_pub.publish(cmd_msg)
 
     # Destory the node explicitly
     cli_obj.destroy_node()

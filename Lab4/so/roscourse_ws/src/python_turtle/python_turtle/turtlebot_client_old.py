@@ -101,10 +101,10 @@ def main(args=None):
         unit_z = 1 #<put a reasonable ratio, 1 is a good number, around 1 is good enough>
         
         #### publish twist ####
-        cmd_msg = Twist()
-        cmd_msg.linear.x = float(50 * unit_x)
-        cmd_msg.angular.z = float(1 * unit_z)
-        cli_obj.twist_pub.publish(cmd_msg)
+        #cmd_msg = Twist()
+        #cmd_msg.linear.x = float(50 * unit_x)
+        #cmd_msg.angular.z = float(1 * unit_z)
+        #cli_obj.twist_pub.publish(cmd_msg)
 
     # Destory the node explicitly
     cli_obj.destroy_node()

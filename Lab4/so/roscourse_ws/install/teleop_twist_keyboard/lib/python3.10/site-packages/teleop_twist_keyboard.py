@@ -142,7 +142,7 @@ def main():
     read_only_descriptor = rcl_interfaces.msg.ParameterDescriptor(read_only=True)
     stamped = node.declare_parameter('stamped', False, read_only_descriptor).value
     frame_id = node.declare_parameter('frame_id', '', read_only_descriptor).value
-    speed = node.declare_parameter('speed', 0.5, read_only_descriptor).value
+    speed = node.declare_parameter('speed', 1.0, read_only_descriptor).value
     turn = node.declare_parameter('turn', 1.0, read_only_descriptor).value
 
     if not stamped and frame_id:
@@ -153,7 +153,6 @@ def main():
     else:
         TwistMsg = geometry_msgs.msg.Twist
 
-	# changed topic name from cmd_vel to turtleDrive. - Ryan So
     pub = node.create_publisher(TwistMsg, 'turtleDrive', 10)
 
     spinner = threading.Thread(target=rclpy.spin, args=(node,))

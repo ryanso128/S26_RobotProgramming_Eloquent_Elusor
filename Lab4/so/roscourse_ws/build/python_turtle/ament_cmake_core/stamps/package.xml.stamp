@@ -13,7 +13,6 @@
   <test_depend>ament_lint_common</test_depend>
   
   <depend>rclpy</depend>
-  <depend>rcl_interfaces</depend>
   <depend>turtle_interfaces</depend>
   
   <export>

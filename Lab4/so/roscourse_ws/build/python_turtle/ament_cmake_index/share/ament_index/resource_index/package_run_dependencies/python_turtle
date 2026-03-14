@@ -1,1 +1,1 @@
-rclpy;rcl_interfaces;turtle_interfaces;ament_lint_auto;ament_lint_common
+rclpy;turtle_interfaces;ament_lint_auto;ament_lint_common
