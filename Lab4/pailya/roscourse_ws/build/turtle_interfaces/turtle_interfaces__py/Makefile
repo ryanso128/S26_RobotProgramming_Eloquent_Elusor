@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/src/turtle_interfaces
+CMAKE_SOURCE_DIR = /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/src/turtle_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/build/turtle_interfaces
+CMAKE_BINARY_DIR = /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/turtle_interfaces
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/build/turtle_interfaces && $(CMAKE_COMMAND) -E cmake_progress_start /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/build/turtle_interfaces/CMakeFiles /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/build/turtle_interfaces/turtle_interfaces__py//CMakeFiles/progress.marks
-	cd /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/build/turtle_interfaces && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtle_interfaces__py/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/build/turtle_interfaces/CMakeFiles 0
+	cd /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/turtle_interfaces && $(CMAKE_COMMAND) -E cmake_progress_start /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/turtle_interfaces/CMakeFiles /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/turtle_interfaces/turtle_interfaces__py//CMakeFiles/progress.marks
+	cd /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/turtle_interfaces && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtle_interfaces__py/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/turtle_interfaces/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/build/turtle_interfaces && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtle_interfaces__py/clean
+	cd /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/turtle_interfaces && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtle_interfaces__py/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/build/turtle_interfaces && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtle_interfaces__py/preinstall
+	cd /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/turtle_interfaces && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtle_interfaces__py/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/build/turtle_interfaces && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtle_interfaces__py/preinstall
+	cd /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/turtle_interfaces && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtle_interfaces__py/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/build/turtle_interfaces && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/turtle_interfaces && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 turtle_interfaces__py/CMakeFiles/turtle_interfaces__py.dir/rule:
-	cd /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/build/turtle_interfaces && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtle_interfaces__py/CMakeFiles/turtle_interfaces__py.dir/rule
+	cd /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/turtle_interfaces && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtle_interfaces__py/CMakeFiles/turtle_interfaces__py.dir/rule
 .PHONY : turtle_interfaces__py/CMakeFiles/turtle_interfaces__py.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ turtle_interfaces__py: turtle_interfaces__py/CMakeFiles/turtle_interfaces__py.di
 
 # fast build rule for target.
 turtle_interfaces__py/fast:
-	cd /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/build/turtle_interfaces && $(MAKE) $(MAKESILENT) -f turtle_interfaces__py/CMakeFiles/turtle_interfaces__py.dir/build.make turtle_interfaces__py/CMakeFiles/turtle_interfaces__py.dir/build
+	cd /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/turtle_interfaces && $(MAKE) $(MAKESILENT) -f turtle_interfaces__py/CMakeFiles/turtle_interfaces__py.dir/build.make turtle_interfaces__py/CMakeFiles/turtle_interfaces__py.dir/build
 .PHONY : turtle_interfaces__py/fast
 
 # Help Target
@@ -210,6 +210,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/build/turtle_interfaces && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/turtle_interfaces && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

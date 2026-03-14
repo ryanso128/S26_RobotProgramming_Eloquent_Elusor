@@ -153,7 +153,7 @@ def main():
     else:
         TwistMsg = geometry_msgs.msg.Twist
 
-    pub = node.create_publisher(TwistMsg, 'cmd_vel', 10)
+    pub = node.create_publisher(TwistMsg, "turtleDrive", 10)
 
     spinner = threading.Thread(target=rclpy.spin, args=(node,))
     spinner.start()

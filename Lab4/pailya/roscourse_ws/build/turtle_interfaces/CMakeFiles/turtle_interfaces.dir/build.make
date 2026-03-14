@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/src/turtle_interfaces
+CMAKE_SOURCE_DIR = /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/src/turtle_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/build/turtle_interfaces
+CMAKE_BINARY_DIR = /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/turtle_interfaces
 
 # Utility rule file for turtle_interfaces.
 
@@ -66,11 +66,11 @@ include CMakeFiles/turtle_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/turtle_interfaces.dir/progress.make
 
-CMakeFiles/turtle_interfaces: /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/src/turtle_interfaces/msg/TurtleMsg.msg
-CMakeFiles/turtle_interfaces: /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/src/turtle_interfaces/srv/SetPose.srv
+CMakeFiles/turtle_interfaces: /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/src/turtle_interfaces/msg/TurtleMsg.msg
+CMakeFiles/turtle_interfaces: /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/src/turtle_interfaces/srv/SetPose.srv
 CMakeFiles/turtle_interfaces: rosidl_cmake/srv/SetPose_Request.msg
 CMakeFiles/turtle_interfaces: rosidl_cmake/srv/SetPose_Response.msg
-CMakeFiles/turtle_interfaces: /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/src/turtle_interfaces/srv/SetColor.srv
+CMakeFiles/turtle_interfaces: /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/src/turtle_interfaces/srv/SetColor.srv
 CMakeFiles/turtle_interfaces: rosidl_cmake/srv/SetColor_Request.msg
 CMakeFiles/turtle_interfaces: rosidl_cmake/srv/SetColor_Response.msg
 CMakeFiles/turtle_interfaces: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
@@ -116,6 +116,6 @@ CMakeFiles/turtle_interfaces.dir/clean:
 .PHONY : CMakeFiles/turtle_interfaces.dir/clean
 
 CMakeFiles/turtle_interfaces.dir/depend:
-	cd /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/build/turtle_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/src/turtle_interfaces /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/src/turtle_interfaces /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/build/turtle_interfaces /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/build/turtle_interfaces /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/build/turtle_interfaces/CMakeFiles/turtle_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/turtle_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/src/turtle_interfaces /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/src/turtle_interfaces /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/turtle_interfaces /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/turtle_interfaces /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/turtle_interfaces/CMakeFiles/turtle_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/turtle_interfaces.dir/depend
 

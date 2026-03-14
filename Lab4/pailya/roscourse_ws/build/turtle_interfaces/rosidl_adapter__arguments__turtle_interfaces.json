@@ -1,8 +1,8 @@
 {
   "package_name": "turtle_interfaces",
   "non_idl_tuples": [
-    "/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/src/turtle_interfaces:msg/TurtleMsg.msg",
-    "/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/src/turtle_interfaces:srv/SetPose.srv",
-    "/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/src/turtle_interfaces:srv/SetColor.srv"
+    "/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/src/turtle_interfaces:msg/TurtleMsg.msg",
+    "/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/src/turtle_interfaces:srv/SetPose.srv",
+    "/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/src/turtle_interfaces:srv/SetColor.srv"
   ]
 }

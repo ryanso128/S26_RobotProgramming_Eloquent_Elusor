@@ -1,3 +1,0 @@
-# generated from colcon_core/shell/template/hook_prepend_value.sh.em
-
-_colcon_prepend_unique_value PYTHONPATH "/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/build/webcam"

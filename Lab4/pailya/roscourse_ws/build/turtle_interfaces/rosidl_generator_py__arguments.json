@@ -1,11 +1,11 @@
 {
   "package_name": "turtle_interfaces",
-  "output_dir": "/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces",
+  "output_dir": "/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces:msg/TurtleMsg.idl",
-    "/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces:srv/SetPose.idl",
-    "/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces:srv/SetColor.idl"
+    "/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces:msg/TurtleMsg.idl",
+    "/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces:srv/SetPose.idl",
+    "/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces:srv/SetColor.idl"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
@@ -82,9 +82,9 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces/msg/TurtleMsg.idl",
-    "/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces/srv/SetPose.idl",
-    "/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab3/pailya/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces/srv/SetColor.idl",
+    "/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces/msg/TurtleMsg.idl",
+    "/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces/srv/SetPose.idl",
+    "/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces/srv/SetColor.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl",

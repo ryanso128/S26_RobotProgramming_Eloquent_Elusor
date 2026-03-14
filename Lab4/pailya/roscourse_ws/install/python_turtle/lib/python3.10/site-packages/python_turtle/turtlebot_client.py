@@ -102,7 +102,7 @@ def main(args=None):
         cmd_msg = Twist()
         cmd_msg.linear.x = float(50 * unit_x)
         cmd_msg.angular.z = float(1 * unit_z)
-        cli_obj.twist_pub.publish(cmd_msg)
+        #cli_obj.twist_pub.publish(cmd_msg)
 
     # Destory the node explicitly
     cli_obj.destroy_node()
