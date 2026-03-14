@@ -1,6 +1,9 @@
 source;share/python_turtle/hook/cmake_prefix_path.ps1
 source;share/python_turtle/hook/cmake_prefix_path.dsv
 source;share/python_turtle/hook/cmake_prefix_path.sh
+source;share/python_turtle/hook/pythonpath.ps1
+source;share/python_turtle/hook/pythonpath.dsv
+source;share/python_turtle/hook/pythonpath.sh
 source;share/python_turtle/local_setup.bash
 source;share/python_turtle/local_setup.dsv
 source;share/python_turtle/local_setup.ps1
