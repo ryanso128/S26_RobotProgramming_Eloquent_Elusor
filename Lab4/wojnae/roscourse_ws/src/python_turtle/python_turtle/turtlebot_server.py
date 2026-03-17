@@ -73,12 +73,24 @@ class TurtlebotServer(Node):
         # publish new turtle state
         self.turtle_pub.publish(self.turtle)
 
+    
     def set_color_callback(self, request, response):
-        # request.color is a string field defined in turtle_interfaces/srv/SetColor
-        self.turtle.color = request.color
-        self.get_logger().info('Turtle color set: %s' % (self.turtle.color))
-        response.ret = 1
+        # request.color is a string (e.g., 'orange' or '#RRGGBB')
+        try:
+            # Update the internal state that your server publishes in turtleState
+            self.turtle.color = request.color
+    
+            # OPTIONAL: log for visibility
+            self.get_logger().info(f"Turtle color set: {request.color}")
+    
+            # Fill the new response fields
+            response.success = True
+            response.message = f"Color set to {request.color}"
+        except Exception as e:
+            response.success = False
+            response.message = f"Failed to set color: {e}"
         return response
+
 
 
 def quat_from_rpy(roll, pitch, yaw):

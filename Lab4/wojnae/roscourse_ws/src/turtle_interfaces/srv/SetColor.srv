@@ -1,6 +1,4 @@
-int32 r
-int32 g
-int32 b
+string color
 ---
 bool success
 string message
