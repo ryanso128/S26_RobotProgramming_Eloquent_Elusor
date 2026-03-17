@@ -1,0 +1,41 @@
+[0.681s] Invoking command in '/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/src/webcam': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/webcam/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webcam build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/webcam/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/webcam/install.log --single-version-externally-managed install_data
+[0.923s] running egg_info
+[0.925s] creating ../../build/webcam/webcam.egg-info
+[0.925s] writing ../../build/webcam/webcam.egg-info/PKG-INFO
+[0.925s] writing dependency_links to ../../build/webcam/webcam.egg-info/dependency_links.txt
+[0.925s] writing entry points to ../../build/webcam/webcam.egg-info/entry_points.txt
+[0.925s] writing requirements to ../../build/webcam/webcam.egg-info/requires.txt
+[0.925s] writing top-level names to ../../build/webcam/webcam.egg-info/top_level.txt
+[0.925s] writing manifest file '../../build/webcam/webcam.egg-info/SOURCES.txt'
+[0.927s] reading manifest file '../../build/webcam/webcam.egg-info/SOURCES.txt'
+[0.927s] writing manifest file '../../build/webcam/webcam.egg-info/SOURCES.txt'
+[0.928s] running build
+[0.928s] running build_py
+[0.928s] creating /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/webcam/build
+[0.928s] creating /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/webcam/build/lib
+[0.928s] creating /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/webcam/build/lib/webcam
+[0.928s] copying webcam/cam_sub.py -> /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/webcam/build/lib/webcam
+[0.928s] copying webcam/__init__.py -> /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/webcam/build/lib/webcam
+[0.928s] copying webcam/cam_pub.py -> /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/webcam/build/lib/webcam
+[0.928s] running install
+[0.929s] running install_lib
+[0.929s] creating /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam
+[0.930s] copying /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/webcam/build/lib/webcam/cam_sub.py -> /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam
+[0.930s] copying /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/webcam/build/lib/webcam/__init__.py -> /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam
+[0.930s] copying /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/webcam/build/lib/webcam/cam_pub.py -> /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam
+[0.930s] byte-compiling /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam/cam_sub.py to cam_sub.cpython-310.pyc
+[0.932s] byte-compiling /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam/__init__.py to __init__.cpython-310.pyc
+[0.932s] byte-compiling /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam/cam_pub.py to cam_pub.cpython-310.pyc
+[0.932s] running install_data
+[0.932s] creating /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/install/webcam/share/ament_index
+[0.933s] creating /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/install/webcam/share/ament_index/resource_index
+[0.933s] creating /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/install/webcam/share/ament_index/resource_index/packages
+[0.933s] copying resource/webcam -> /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/install/webcam/share/ament_index/resource_index/packages
+[0.933s] copying package.xml -> /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/install/webcam/share/webcam
+[0.933s] running install_egg_info
+[0.940s] Copying ../../build/webcam/webcam.egg-info to /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam-0.0.0-py3.10.egg-info
+[0.941s] running install_scripts
+[0.967s] Installing webcam_pub script to /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/install/webcam/lib/webcam
+[0.967s] Installing webcam_sub script to /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/install/webcam/lib/webcam
+[0.968s] writing list of installed files to '/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/webcam/install.log'
+[0.998s] Invoked command in '/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/src/webcam' returned '0': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/webcam/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webcam build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/webcam/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab4/pailya/roscourse_ws/build/webcam/install.log --single-version-externally-managed install_data
