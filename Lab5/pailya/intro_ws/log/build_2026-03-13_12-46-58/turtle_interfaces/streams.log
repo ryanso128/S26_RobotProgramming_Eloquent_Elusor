@@ -1,0 +1,23 @@
+[0.096s] Invoking command in '/home/yahboom/Desktop/intro_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/Desktop/intro_ws/install/python_parameters:/home/yahboom/Desktop/intro_ws/install/turtle_test:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/Desktop/intro_ws/build/turtle_interfaces -- -j4 -l4
+[0.412s] [ 10%] Built target turtle_interfaces__rosidl_generator_c
+[0.466s] [ 12%] Built target turtle_interfaces__cpp
+[0.506s] [ 12%] Built target ament_cmake_python_copy_turtle_interfaces
+[0.584s] [ 23%] Built target turtle_interfaces__rosidl_typesupport_introspection_c
+[0.603s] [ 34%] Built target turtle_interfaces__rosidl_typesupport_c
+[0.629s] [ 44%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_c
+[0.681s] [ 55%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.810s] [ 65%] Built target turtle_interfaces__rosidl_typesupport_introspection_cpp
+[0.823s] [ 76%] Built target turtle_interfaces__rosidl_typesupport_cpp
+[0.986s] [ 76%] Built target turtle_interfaces
+[1.116s] [ 78%] Built target turtle_interfaces__py
+[1.242s] [ 87%] Built target turtle_interfaces__rosidl_generator_py
+[1.377s] running egg_info
+[1.377s] writing turtle_interfaces.egg-info/PKG-INFO
+[1.385s] writing dependency_links to turtle_interfaces.egg-info/dependency_links.txt
+[1.385s] writing top-level names to turtle_interfaces.egg-info/top_level.txt
+[1.386s] reading manifest file 'turtle_interfaces.egg-info/SOURCES.txt'
+[1.386s] writing manifest file 'turtle_interfaces.egg-info/SOURCES.txt'
+[1.390s] [ 91%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.409s] [ 95%] Built target turtle_interfaces__rosidl_typesupport_c__pyext
+[1.418s] [100%] Built target turtle_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.474s] [100%] Built target ament_cmake_python_build_turtle_interfaces_egg

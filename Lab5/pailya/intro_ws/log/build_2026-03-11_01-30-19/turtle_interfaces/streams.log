@@ -1,0 +1,302 @@
+[0.024s] Invoking command in '/home/yahboom/Desktop/intro_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/Desktop/intro_ws/build/turtle_interfaces -- -j4 -l4
+[0.080s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.228s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.239s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.241s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.276s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.294s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.849s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.170s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.503s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.539s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.558s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.632s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.632s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.632s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.632s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.668s] -- Found PythonExtra: .so  
+[1.780s] -- Added test 'lint_cmake' to check CMake code style
+[1.781s] -- Added test 'xmllint' to check XML markup files
+[1.795s] -- Configuring done
+[1.836s] -- Generating done
+[1.847s] -- Build files have been written to: /home/yahboom/Desktop/intro_ws/build/turtle_interfaces
+[1.904s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.926s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.976s] [  4%] Built target ament_cmake_python_copy_turtle_interfaces
+[2.335s] running egg_info
+[2.335s] creating turtle_interfaces.egg-info
+[2.335s] writing turtle_interfaces.egg-info/PKG-INFO
+[2.336s] writing dependency_links to turtle_interfaces.egg-info/dependency_links.txt
+[2.336s] writing top-level names to turtle_interfaces.egg-info/top_level.txt
+[2.337s] writing manifest file 'turtle_interfaces.egg-info/SOURCES.txt'
+[2.340s] reading manifest file 'turtle_interfaces.egg-info/SOURCES.txt'
+[2.341s] writing manifest file 'turtle_interfaces.egg-info/SOURCES.txt'
+[2.397s] [  4%] Built target ament_cmake_python_build_turtle_interfaces_egg
+[2.546s] [  4%] Built target turtle_interfaces__cpp
+[2.577s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.583s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.593s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.608s] [ 12%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/turtle_pose__functions.c.o[0m
+[2.779s] [ 14%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/set_colors__functions.c.o[0m
+[2.877s] [ 17%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/action/detail/make_square__functions.c.o[0m
+[2.989s] [ 19%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/turtle_pose__type_support.cpp.o[0m
+[3.096s] [ 21%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/turtle_pose__type_support.cpp.o[0m
+[3.148s] [ 23%] [32m[1mLinking C shared library libturtle_interfaces__rosidl_generator_c.so[0m
+[3.243s] [ 23%] Built target turtle_interfaces__rosidl_generator_c
+[3.287s] [ 25%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/srv/set_colors__type_support.cpp.o[0m
+[3.335s] [ 27%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/turtle_pose__type_support.cpp.o[0m
+[3.707s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.956s] [ 31%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/action/make_square__type_support.cpp.o[0m
+[4.202s] [ 34%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/srv/detail/set_colors__type_support.cpp.o[0m
+[4.215s] [ 36%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/srv/detail/dds_fastrtps/set_colors__type_support.cpp.o[0m
+[4.340s] [ 38%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/turtle_pose__type_support_c.cpp.o[0m
+[4.563s] [ 40%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_cpp.so[0m
+[4.664s] [ 40%] Built target turtle_interfaces__rosidl_typesupport_cpp
+[4.718s] [ 42%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/action/detail/make_square__type_support.cpp.o[0m
+[4.740s] [ 44%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/srv/detail/set_colors__type_support_c.cpp.o[0m
+[4.808s] [ 46%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/action/detail/make_square__type_support_c.cpp.o[0m
+[4.851s] [ 48%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/action/detail/dds_fastrtps/make_square__type_support.cpp.o[0m
+[5.106s] [ 51%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.370s] [ 53%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.565s] [ 55%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.573s] [ 57%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[5.618s] [ 57%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_c
+[5.678s] [ 59%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.719s] [ 59%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.719s] [ 61%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/turtle_pose__type_support.c.o[0m
+[5.740s] [ 63%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/set_colors__type_support.c.o[0m
+[5.744s] [ 63%] Built target turtle_interfaces__rosidl_typesupport_introspection_cpp
+[5.785s] [ 65%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/action/detail/make_square__type_support.c.o[0m
+[5.866s] [ 68%] [32m[1mLinking C shared library libturtle_interfaces__rosidl_typesupport_introspection_c.so[0m
+[5.949s] [ 68%] Built target turtle_interfaces__rosidl_typesupport_introspection_c
+[6.044s] [ 74%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/turtle_pose__type_support.cpp.o[0m
+[6.044s] [ 74%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/action/make_square__type_support.cpp.o[0m
+[6.044s] [ 74%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/srv/set_colors__type_support.cpp.o[0m
+[6.127s] [ 76%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_c.so[0m
+[6.212s] [ 76%] Built target turtle_interfaces__rosidl_typesupport_c
+[6.269s] [ 76%] Built target turtle_interfaces
+[6.331s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.057s] [ 78%] Built target turtle_interfaces__py
+[7.115s] [ 85%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_interfaces/srv/_set_colors_s.c.o[0m
+[7.115s] [ 85%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_interfaces/msg/_turtle_pose_s.c.o[0m
+[7.115s] [ 85%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_interfaces/action/_make_square_s.c.o[0m
+[7.349s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interfaces/libturtle_interfaces__rosidl_generator_py.so[0m
+[7.438s] [ 87%] Built target turtle_interfaces__rosidl_generator_py
+[7.492s] [ 89%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.493s] [ 91%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[7.493s] [ 93%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.642s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.644s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.650s] [100%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.715s] [100%] Built target turtle_interfaces__rosidl_typesupport_c__pyext
+[7.715s] [100%] Built target turtle_interfaces__rosidl_typesupport_introspection_c__pyext
+[7.736s] [100%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[7.760s] Invoked command in '/home/yahboom/Desktop/intro_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/Desktop/intro_ws/build/turtle_interfaces -- -j4 -l4
+[8.233s] Invoking command in '/home/yahboom/Desktop/intro_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/Desktop/intro_ws/build/turtle_interfaces
+[8.253s] -- Install configuration: ""
+[8.254s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/ament_index/resource_index/rosidl_interfaces/turtle_interfaces
+[8.254s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[8.254s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action
+[8.254s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail
+[8.255s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/make_square__struct.h
+[8.255s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/make_square__type_support.h
+[8.255s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/make_square__functions.c
+[8.255s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/make_square__functions.h
+[8.255s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/make_square.h
+[8.255s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[8.255s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/set_colors.h
+[8.256s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[8.256s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_colors__struct.h
+[8.256s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_colors__type_support.h
+[8.256s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_colors__functions.c
+[8.256s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_colors__functions.h
+[8.256s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[8.256s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[8.256s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_pose__functions.c
+[8.256s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_pose__functions.h
+[8.256s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_pose__struct.h
+[8.256s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_pose__type_support.h
+[8.257s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/turtle_pose.h
+[8.257s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_generator_c__visibility_control.h
+[8.257s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/environment/library_path.sh
+[8.257s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/environment/library_path.dsv
+[8.257s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_c.so
+[8.258s] -- Set runtime path of "/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_c.so" to ""
+[8.258s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[8.258s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action
+[8.258s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail
+[8.259s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/make_square__rosidl_typesupport_fastrtps_c.h
+[8.259s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[8.259s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[8.259s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_colors__rosidl_typesupport_fastrtps_c.h
+[8.259s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[8.259s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[8.259s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_pose__rosidl_typesupport_fastrtps_c.h
+[8.259s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.259s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_c.so
+[8.259s] -- Set runtime path of "/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[8.260s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[8.260s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action
+[8.260s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail
+[8.260s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/make_square__type_support.c
+[8.260s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/make_square__rosidl_typesupport_introspection_c.h
+[8.260s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[8.260s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[8.260s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_colors__type_support.c
+[8.261s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_colors__rosidl_typesupport_introspection_c.h
+[8.261s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[8.261s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[8.261s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_pose__rosidl_typesupport_introspection_c.h
+[8.262s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_pose__type_support.c
+[8.262s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.262s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_c.so
+[8.262s] -- Set runtime path of "/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[8.262s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_c.so
+[8.263s] -- Set runtime path of "/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_c.so" to ""
+[8.263s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[8.263s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action
+[8.263s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail
+[8.263s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/make_square__builder.hpp
+[8.263s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/make_square__traits.hpp
+[8.263s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/make_square__struct.hpp
+[8.264s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/make_square.hpp
+[8.267s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[8.267s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[8.268s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_colors__builder.hpp
+[8.268s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_colors__traits.hpp
+[8.268s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_colors__struct.hpp
+[8.268s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/set_colors.hpp
+[8.268s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[8.268s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[8.268s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_pose__builder.hpp
+[8.268s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_pose__traits.hpp
+[8.268s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_pose__struct.hpp
+[8.268s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/turtle_pose.hpp
+[8.268s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[8.269s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action
+[8.269s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail
+[8.269s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/make_square__rosidl_typesupport_fastrtps_cpp.hpp
+[8.269s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/dds_fastrtps
+[8.269s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[8.269s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[8.269s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_colors__rosidl_typesupport_fastrtps_cpp.hpp
+[8.269s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/dds_fastrtps
+[8.269s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[8.269s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[8.269s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/dds_fastrtps
+[8.269s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[8.269s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.269s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[8.269s] -- Set runtime path of "/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.269s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[8.269s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action
+[8.269s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail
+[8.269s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/make_square__rosidl_typesupport_introspection_cpp.hpp
+[8.269s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/make_square__type_support.cpp
+[8.269s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[8.269s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[8.269s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_colors__type_support.cpp
+[8.270s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_colors__rosidl_typesupport_introspection_cpp.hpp
+[8.270s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[8.270s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[8.270s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_pose__rosidl_typesupport_introspection_cpp.hpp
+[8.270s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_pose__type_support.cpp
+[8.270s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_cpp.so
+[8.270s] -- Set runtime path of "/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[8.270s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_cpp.so
+[8.270s] -- Set runtime path of "/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_cpp.so" to ""
+[8.270s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/environment/pythonpath.sh
+[8.270s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/environment/pythonpath.dsv
+[8.272s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info
+[8.272s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[8.272s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[8.272s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[8.272s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[8.274s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces
+[8.274s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/libturtle_interfaces__rosidl_generator_py.so
+[8.274s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/action
+[8.274s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/action/_make_square.py
+[8.274s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/action/__init__.py
+[8.274s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/action/_make_square_s.c
+[8.275s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_c.c
+[8.275s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv
+[8.275s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/__init__.py
+[8.275s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/_set_colors.py
+[8.275s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/_set_colors_s.c
+[8.275s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.276s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/__init__.py
+[8.276s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.276s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[8.276s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg
+[8.276s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/_turtle_pose.py
+[8.276s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/__init__.py
+[8.276s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/_turtle_pose_s.c
+[8.277s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.277s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.337s] Listing '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces'...
+[8.337s] Compiling '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/__init__.py'...
+[8.337s] Listing '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/action'...
+[8.337s] Compiling '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/action/__init__.py'...
+[8.337s] Compiling '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/action/_make_square.py'...
+[8.337s] Listing '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg'...
+[8.338s] Compiling '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/__init__.py'...
+[8.338s] Compiling '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/_turtle_pose.py'...
+[8.338s] Listing '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv'...
+[8.338s] Compiling '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/__init__.py'...
+[8.338s] Compiling '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/_set_colors.py'...
+[8.342s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.343s] -- Set runtime path of "/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.343s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.344s] -- Set runtime path of "/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.344s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.346s] -- Set runtime path of "/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.346s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_py.so
+[8.346s] -- Set runtime path of "/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_py.so" to ""
+[8.346s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/msg/TurtlePose.idl
+[8.346s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetColors.idl
+[8.346s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/action/MakeSquare.idl
+[8.347s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/msg/TurtlePose.msg
+[8.347s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetColors.srv
+[8.347s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetColors_Request.msg
+[8.347s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetColors_Response.msg
+[8.347s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/action/MakeSquare.action
+[8.347s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/ament_index/resource_index/package_run_dependencies/turtle_interfaces
+[8.348s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/ament_index/resource_index/parent_prefix_path/turtle_interfaces
+[8.348s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/environment/ament_prefix_path.sh
+[8.348s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/environment/ament_prefix_path.dsv
+[8.349s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/environment/path.sh
+[8.349s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/environment/path.dsv
+[8.349s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.bash
+[8.350s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.sh
+[8.350s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.zsh
+[8.350s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.dsv
+[8.352s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/package.dsv
+[8.352s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/ament_index/resource_index/packages/turtle_interfaces
+[8.352s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_cExport.cmake
+[8.352s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_cExport-noconfig.cmake
+[8.352s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[8.352s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.352s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[8.352s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.352s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cExport.cmake
+[8.353s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[8.353s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_cppExport.cmake
+[8.353s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.354s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.354s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[8.354s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.354s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cppExport.cmake
+[8.354s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[8.354s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_pyExport.cmake
+[8.355s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[8.355s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake-extras.cmake
+[8.355s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.356s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.356s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[8.356s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[8.356s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.356s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.356s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfacesConfig.cmake
+[8.357s] -- Up-to-date: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfacesConfig-version.cmake
+[8.357s] -- Installing: /home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/package.xml
+[8.360s] Invoked command in '/home/yahboom/Desktop/intro_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/Desktop/intro_ws/build/turtle_interfaces

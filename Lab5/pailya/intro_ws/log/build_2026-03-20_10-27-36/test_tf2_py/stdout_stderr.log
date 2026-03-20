@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/test_tf2_py/test_tf2_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/test_tf2_py/test_tf2_py.egg-info/dependency_links.txt
+writing entry points to ../../build/test_tf2_py/test_tf2_py.egg-info/entry_points.txt
+writing requirements to ../../build/test_tf2_py/test_tf2_py.egg-info/requires.txt
+writing top-level names to ../../build/test_tf2_py/test_tf2_py.egg-info/top_level.txt
+reading manifest file '../../build/test_tf2_py/test_tf2_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/test_tf2_py/test_tf2_py.egg-info/SOURCES.txt'
+running build
+running build_py
+copying test_tf2_py/turtle_tf2_listener.py -> /home/yahboom/Desktop/intro_ws/build/test_tf2_py/build/lib/test_tf2_py
+running install
+running install_lib
+copying /home/yahboom/Desktop/intro_ws/build/test_tf2_py/build/lib/test_tf2_py/turtle_tf2_listener.py -> /home/yahboom/Desktop/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py
+byte-compiling /home/yahboom/Desktop/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py/turtle_tf2_listener.py to turtle_tf2_listener.cpython-310.pyc
+running install_data
+copying launch/tf2_demo.launch.py -> /home/yahboom/Desktop/intro_ws/install/test_tf2_py/share/test_tf2_py/launch
+running install_egg_info
+removing '/home/yahboom/Desktop/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/test_tf2_py/test_tf2_py.egg-info to /home/yahboom/Desktop/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtle_tf2_broadcaster script to /home/yahboom/Desktop/intro_ws/install/test_tf2_py/lib/test_tf2_py
+Installing turtle_tf2_listener script to /home/yahboom/Desktop/intro_ws/install/test_tf2_py/lib/test_tf2_py
+writing list of installed files to '/home/yahboom/Desktop/intro_ws/build/test_tf2_py/install.log'

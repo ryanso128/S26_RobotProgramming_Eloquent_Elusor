@@ -1,0 +1,23 @@
+[0.652s] Invoking command in '/home/yahboom/Desktop/intro_ws/src/turtle_test': PYTHONPATH=/home/yahboom/Desktop/intro_ws/build/turtle_test/prefix_override:/home/yahboom/Desktop/intro_ws/install/turtle_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_test build --build-base /home/yahboom/Desktop/intro_ws/build/turtle_test/build install --record /home/yahboom/Desktop/intro_ws/build/turtle_test/install.log --single-version-externally-managed install_data
+[0.902s] running egg_info
+[0.903s] writing ../../build/turtle_test/turtle_test.egg-info/PKG-INFO
+[0.903s] writing dependency_links to ../../build/turtle_test/turtle_test.egg-info/dependency_links.txt
+[0.903s] writing entry points to ../../build/turtle_test/turtle_test.egg-info/entry_points.txt
+[0.903s] writing requirements to ../../build/turtle_test/turtle_test.egg-info/requires.txt
+[0.904s] writing top-level names to ../../build/turtle_test/turtle_test.egg-info/top_level.txt
+[0.905s] reading manifest file '../../build/turtle_test/turtle_test.egg-info/SOURCES.txt'
+[0.905s] adding license file 'LICENSE'
+[0.906s] writing manifest file '../../build/turtle_test/turtle_test.egg-info/SOURCES.txt'
+[0.906s] running build
+[0.906s] running build_py
+[0.906s] running install
+[0.906s] running install_lib
+[0.907s] running install_data
+[0.907s] running install_egg_info
+[0.909s] removing '/home/yahboom/Desktop/intro_ws/install/turtle_test/lib/python3.10/site-packages/turtle_test-0.0.0-py3.10.egg-info' (and everything under it)
+[0.910s] Copying ../../build/turtle_test/turtle_test.egg-info to /home/yahboom/Desktop/intro_ws/install/turtle_test/lib/python3.10/site-packages/turtle_test-0.0.0-py3.10.egg-info
+[0.910s] running install_scripts
+[0.944s] Installing make_square script to /home/yahboom/Desktop/intro_ws/install/turtle_test/lib/turtle_test
+[0.945s] Installing turtle script to /home/yahboom/Desktop/intro_ws/install/turtle_test/lib/turtle_test
+[0.945s] writing list of installed files to '/home/yahboom/Desktop/intro_ws/build/turtle_test/install.log'
+[0.973s] Invoked command in '/home/yahboom/Desktop/intro_ws/src/turtle_test' returned '0': PYTHONPATH=/home/yahboom/Desktop/intro_ws/build/turtle_test/prefix_override:/home/yahboom/Desktop/intro_ws/install/turtle_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_test build --build-base /home/yahboom/Desktop/intro_ws/build/turtle_test/build install --record /home/yahboom/Desktop/intro_ws/build/turtle_test/install.log --single-version-externally-managed install_data

@@ -1,0 +1,24 @@
+[0.077s] Invoking command in '/home/yahboom/Desktop/intro_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/Desktop/intro_ws/install/time_tf2_py:/home/yahboom/Desktop/intro_ws/install/turtle_test:/home/yahboom/Desktop/intro_ws/install/test_tf2_py:/home/yahboom/Desktop/intro_ws/install/python_parameters:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/Desktop/intro_ws/build/turtle_interfaces -- -j4 -l4
+[0.708s] [  4%] Built target turtle_interfaces__cpp
+[0.709s] [ 12%] Built target turtle_interfaces__rosidl_generator_c
+[0.709s] [ 12%] Built target ament_cmake_python_copy_turtle_interfaces
+[0.710s] [ 23%] Built target turtle_interfaces__rosidl_typesupport_cpp
+[0.711s] [ 34%] Built target turtle_interfaces__rosidl_typesupport_introspection_c
+[0.711s] [ 44%] Built target turtle_interfaces__rosidl_typesupport_c
+[0.712s] [ 55%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_c
+[0.712s] [ 65%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.712s] [ 76%] Built target turtle_interfaces__rosidl_typesupport_introspection_cpp
+[0.712s] [ 76%] Built target turtle_interfaces
+[0.712s] [ 78%] Built target turtle_interfaces__py
+[0.712s] [ 87%] Built target turtle_interfaces__rosidl_generator_py
+[0.712s] [ 91%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.712s] running egg_info
+[0.712s] writing turtle_interfaces.egg-info/PKG-INFO
+[0.713s] writing dependency_links to turtle_interfaces.egg-info/dependency_links.txt
+[0.713s] writing top-level names to turtle_interfaces.egg-info/top_level.txt
+[0.713s] reading manifest file 'turtle_interfaces.egg-info/SOURCES.txt'
+[0.714s] [ 95%] Built target turtle_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.714s] writing manifest file 'turtle_interfaces.egg-info/SOURCES.txt'
+[0.714s] [100%] Built target turtle_interfaces__rosidl_typesupport_c__pyext
+[0.714s] [100%] Built target ament_cmake_python_build_turtle_interfaces_egg
+[1.015s] Invoked command in '/home/yahboom/Desktop/intro_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/Desktop/intro_ws/install/time_tf2_py:/home/yahboom/Desktop/intro_ws/install/turtle_test:/home/yahboom/Desktop/intro_ws/install/test_tf2_py:/home/yahboom/Desktop/intro_ws/install/python_parameters:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/Desktop/intro_ws/build/turtle_interfaces -- -j4 -l4
