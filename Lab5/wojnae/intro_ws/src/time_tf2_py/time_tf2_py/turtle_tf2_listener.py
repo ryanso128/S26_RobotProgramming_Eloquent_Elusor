@@ -1,3 +1,17 @@
+# Copyright 2021 Open Source Robotics Foundation, Inc.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 import math
 
 from geometry_msgs.msg import Twist
@@ -10,7 +24,6 @@ from tf2_ros.buffer import Buffer
 from tf2_ros.transform_listener import TransformListener
 
 from turtlesim.srv import Spawn
-from tf2_ros import LookupException, ConnectivityException, ExtrapolationException
 
 
 class FrameListener(Node):
@@ -50,18 +63,14 @@ class FrameListener(Node):
                 # Look up for the transformation between target_frame and turtle2 frames
                 # and send velocity commands for turtle2 to reach target_frame
                 try:
-                	when = self.get_clock().now()-rclpy.time.Duration(seconds = 5.0)
-                	t = self.tf_buffer.lookup_transform_full(
-						target_frame=to_frame_rel,
-						target_time=rclpy.time.Time(),
-						source_frame=from_frame_rel,
-						source_time=when,
-						fixed_frame='world',
-						timeout=rclpy.duration.Duration(seconds=0.05))
-                except (LookupException, ConnectivityException, ExtrapolationException):
-                	self.get_logger().info('Transform not ready')
-                	return
-                    
+                    t = self.tf_buffer.lookup_transform(
+                        to_frame_rel,
+                        from_frame_rel,
+                        rclpy.time.Time())
+                except TransformException as ex:
+                    self.get_logger().info(
+                        f'Could not transform {to_frame_rel} to {from_frame_rel}: {ex}')
+                    return
 
                 msg = Twist()
                 scale_rotation_rate = 1.0
