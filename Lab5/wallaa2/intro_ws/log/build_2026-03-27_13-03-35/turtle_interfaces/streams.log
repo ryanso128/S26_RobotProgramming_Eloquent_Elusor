@@ -1,0 +1,321 @@
+[0.126s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/src/turtle_interfaces -DCMAKE_INSTALL_PREFIX=/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces
+[0.721s] -- The C compiler identification is GNU 11.4.0
+[1.130s] -- The CXX compiler identification is GNU 11.4.0
+[1.198s] -- Detecting C compiler ABI info
+[1.762s] -- Detecting C compiler ABI info - done
+[1.806s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.810s] -- Detecting C compile features
+[1.811s] -- Detecting C compile features - done
+[1.818s] -- Detecting CXX compiler ABI info
+[2.392s] -- Detecting CXX compiler ABI info - done
+[2.412s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.413s] -- Detecting CXX compile features
+[2.416s] -- Detecting CXX compile features - done
+[2.466s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.306s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.742s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.909s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.130s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.742s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.226s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.240s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[9.507s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.957s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.120s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[11.210s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[11.413s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[11.414s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.415s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[11.415s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[11.555s] -- Found PythonExtra: .so  
+[12.107s] -- Added test 'lint_cmake' to check CMake code style
+[12.130s] -- Added test 'xmllint' to check XML markup files
+[12.265s] -- Configuring done
+[12.635s] -- Generating done
+[12.671s] -- Build files have been written to: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/turtle_interfaces
+[12.705s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/src/turtle_interfaces -DCMAKE_INSTALL_PREFIX=/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces
+[12.717s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/turtle_interfaces -- -j4 -l4
+[13.279s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[13.385s] [  2%] Built target ament_cmake_python_copy_turtle_interfaces
+[13.639s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[18.020s] running egg_info
+[18.022s] creating turtle_interfaces.egg-info
+[18.022s] writing turtle_interfaces.egg-info/PKG-INFO
+[18.024s] writing dependency_links to turtle_interfaces.egg-info/dependency_links.txt
+[18.025s] writing top-level names to turtle_interfaces.egg-info/top_level.txt
+[18.031s] writing manifest file 'turtle_interfaces.egg-info/SOURCES.txt'
+[18.069s] reading manifest file 'turtle_interfaces.egg-info/SOURCES.txt'
+[18.082s] writing manifest file 'turtle_interfaces.egg-info/SOURCES.txt'
+[18.499s] [  4%] Built target ament_cmake_python_build_turtle_interfaces_egg
+[22.399s] [  4%] Built target turtle_interfaces__cpp
+[23.840s] [  6%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/turtle_pose__functions.c.o[0m
+[24.146s] [  8%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/set_colors__functions.c.o[0m
+[24.621s] [ 10%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/action/detail/make_square__functions.c.o[0m
+[25.254s] [ 12%] [32m[1mLinking C shared library libturtle_interfaces__rosidl_generator_c.so[0m
+[25.523s] [ 12%] Built target turtle_interfaces__rosidl_generator_c
+[25.591s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[29.767s] [ 17%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/turtle_pose__type_support.cpp.o[0m
+[33.937s] [ 19%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/srv/detail/set_colors__type_support.cpp.o[0m
+[36.546s] [ 21%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/action/detail/make_square__type_support.cpp.o[0m
+[42.799s] [ 23%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[44.136s] [ 23%] Built target turtle_interfaces__rosidl_typesupport_introspection_cpp
+[44.263s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[49.197s] [ 27%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/turtle_pose__type_support_c.cpp.o[0m
+[51.601s] [ 29%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/srv/detail/set_colors__type_support_c.cpp.o[0m
+[54.996s] [ 31%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/action/detail/make_square__type_support_c.cpp.o[0m
+[56.864s] [ 34%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[57.279s] [ 34%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_c
+[57.340s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[59.784s] [ 38%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/turtle_pose__type_support.c.o[0m
+[59.968s] [ 40%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/set_colors__type_support.c.o[0m
+[60.169s] [ 42%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/action/detail/make_square__type_support.c.o[0m
+[60.567s] [ 44%] [32m[1mLinking C shared library libturtle_interfaces__rosidl_typesupport_introspection_c.so[0m
+[60.799s] [ 44%] Built target turtle_interfaces__rosidl_typesupport_introspection_c
+[60.871s] [ 46%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[62.435s] [ 48%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/turtle_pose__type_support.cpp.o[0m
+[62.790s] [ 51%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/srv/set_colors__type_support.cpp.o[0m
+[63.066s] [ 53%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/action/make_square__type_support.cpp.o[0m
+[63.324s] [ 55%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_c.so[0m
+[63.584s] [ 55%] Built target turtle_interfaces__rosidl_typesupport_c
+[63.662s] [ 57%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[66.284s] [ 59%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/turtle_pose__type_support.cpp.o[0m
+[69.161s] [ 61%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/action/detail/dds_fastrtps/make_square__type_support.cpp.o[0m
+[73.430s] [ 63%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/srv/detail/dds_fastrtps/set_colors__type_support.cpp.o[0m
+[75.649s] [ 65%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[76.202s] [ 65%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_cpp
+[76.320s] [ 68%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[78.173s] [ 70%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/turtle_pose__type_support.cpp.o[0m
+[79.938s] [ 72%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/action/make_square__type_support.cpp.o[0m
+[83.337s] [ 74%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/srv/set_colors__type_support.cpp.o[0m
+[85.357s] [ 76%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_cpp.so[0m
+[85.645s] [ 76%] Built target turtle_interfaces__rosidl_typesupport_cpp
+[85.997s] [ 76%] Built target turtle_interfaces
+[86.274s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[92.943s] [ 78%] Built target turtle_interfaces__py
+[93.220s] [ 80%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_interfaces/msg/_turtle_pose_s.c.o[0m
+[93.742s] [ 82%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_interfaces/action/_make_square_s.c.o[0m
+[94.188s] [ 85%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_interfaces/srv/_set_colors_s.c.o[0m
+[94.556s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interfaces/libturtle_interfaces__rosidl_generator_py.so[0m
+[94.783s] [ 87%] Built target turtle_interfaces__rosidl_generator_py
+[94.947s] [ 89%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[95.429s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[95.652s] [ 91%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[95.893s] [ 93%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[96.384s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[96.594s] [ 95%] Built target turtle_interfaces__rosidl_typesupport_c__pyext
+[96.835s] [ 97%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[97.418s] [100%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[97.661s] [100%] Built target turtle_interfaces__rosidl_typesupport_introspection_c__pyext
+[97.757s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/turtle_interfaces -- -j4 -l4
+[97.765s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/turtle_interfaces
+[97.891s] -- Install configuration: ""
+[97.895s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/ament_index/resource_index/rosidl_interfaces/turtle_interfaces
+[97.895s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[97.897s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action
+[97.898s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail
+[97.898s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/make_square__struct.h
+[97.898s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/make_square__type_support.h
+[97.904s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/make_square__functions.c
+[97.905s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/make_square__functions.h
+[97.906s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/make_square.h
+[97.907s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[97.908s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/set_colors.h
+[97.914s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[97.914s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_colors__struct.h
+[97.914s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_colors__type_support.h
+[97.914s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_colors__functions.c
+[97.915s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_colors__functions.h
+[97.916s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[97.921s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[97.921s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_pose__functions.c
+[97.927s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_pose__functions.h
+[97.928s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_pose__struct.h
+[97.928s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_pose__type_support.h
+[97.928s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/turtle_pose.h
+[97.931s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_generator_c__visibility_control.h
+[97.933s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/environment/library_path.sh
+[97.933s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/environment/library_path.dsv
+[97.933s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_c.so
+[97.940s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_c.so" to ""
+[97.940s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[97.940s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action
+[97.941s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail
+[97.941s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/make_square__rosidl_typesupport_fastrtps_c.h
+[97.943s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[97.943s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[97.946s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_colors__rosidl_typesupport_fastrtps_c.h
+[97.946s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[97.947s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[97.947s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_pose__rosidl_typesupport_fastrtps_c.h
+[97.947s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[97.953s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_c.so
+[97.953s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[97.953s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[97.955s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action
+[97.955s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail
+[97.955s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/make_square__type_support.c
+[97.958s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/make_square__rosidl_typesupport_introspection_c.h
+[97.958s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[97.958s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[97.958s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_colors__type_support.c
+[97.959s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_colors__rosidl_typesupport_introspection_c.h
+[97.962s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[97.962s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[97.962s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_pose__rosidl_typesupport_introspection_c.h
+[97.964s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_pose__type_support.c
+[97.966s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[97.969s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_c.so
+[97.969s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[97.972s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_c.so
+[97.976s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_c.so" to ""
+[97.976s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[97.980s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action
+[97.982s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail
+[97.983s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/make_square__builder.hpp
+[97.984s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/make_square__traits.hpp
+[97.984s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/make_square__type_support.hpp
+[97.988s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/make_square__struct.hpp
+[97.990s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/make_square.hpp
+[97.990s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[97.993s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[97.993s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_colors__type_support.hpp
+[97.993s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_colors__builder.hpp
+[97.994s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_colors__traits.hpp
+[97.995s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_colors__struct.hpp
+[98.001s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/set_colors.hpp
+[98.002s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[98.002s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[98.002s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[98.003s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_pose__type_support.hpp
+[98.003s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_pose__builder.hpp
+[98.006s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_pose__traits.hpp
+[98.007s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_pose__struct.hpp
+[98.007s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/turtle_pose.hpp
+[98.008s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[98.008s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action
+[98.008s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail
+[98.009s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/make_square__rosidl_typesupport_fastrtps_cpp.hpp
+[98.014s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/dds_fastrtps
+[98.014s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[98.014s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[98.016s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_colors__rosidl_typesupport_fastrtps_cpp.hpp
+[98.016s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/dds_fastrtps
+[98.017s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[98.017s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[98.017s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/dds_fastrtps
+[98.018s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[98.020s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[98.020s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[98.024s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[98.024s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[98.024s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action
+[98.025s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail
+[98.027s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/make_square__rosidl_typesupport_introspection_cpp.hpp
+[98.027s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/make_square__type_support.cpp
+[98.027s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[98.028s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[98.029s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_colors__type_support.cpp
+[98.031s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_colors__rosidl_typesupport_introspection_cpp.hpp
+[98.032s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[98.035s] -- Up-to-date: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[98.035s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_pose__rosidl_typesupport_introspection_cpp.hpp
+[98.035s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_pose__type_support.cpp
+[98.036s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_cpp.so
+[98.037s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[98.040s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_cpp.so
+[98.043s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_cpp.so" to ""
+[98.043s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/environment/pythonpath.sh
+[98.046s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/environment/pythonpath.dsv
+[98.047s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info
+[98.047s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[98.051s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[98.052s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[98.052s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[98.052s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces
+[98.052s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/libturtle_interfaces__rosidl_generator_py.so
+[98.056s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/action
+[98.057s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/action/_make_square.py
+[98.057s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/action/__init__.py
+[98.057s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/action/_make_square_s.c
+[98.060s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_c.c
+[98.061s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv
+[98.063s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/__init__.py
+[98.066s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/_set_colors.py
+[98.067s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/_set_colors_s.c
+[98.073s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[98.074s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/__init__.py
+[98.075s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[98.079s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[98.080s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg
+[98.080s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/_turtle_pose.py
+[98.080s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/__init__.py
+[98.080s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/_turtle_pose_s.c
+[98.081s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[98.085s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[98.602s] Listing '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces'...
+[98.602s] Compiling '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/__init__.py'...
+[98.602s] Listing '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/action'...
+[98.602s] Compiling '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/action/__init__.py'...
+[98.603s] Compiling '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/action/_make_square.py'...
+[98.603s] Listing '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg'...
+[98.603s] Compiling '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/__init__.py'...
+[98.603s] Compiling '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/_turtle_pose.py'...
+[98.603s] Listing '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv'...
+[98.609s] Compiling '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/__init__.py'...
+[98.609s] Compiling '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/_set_colors.py'...
+[98.647s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[98.656s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[98.656s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[98.662s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[98.662s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[98.664s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[98.666s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_py.so
+[98.673s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_py.so" to ""
+[98.673s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/msg/TurtlePose.idl
+[98.674s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetColors.idl
+[98.678s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/action/MakeSquare.idl
+[98.679s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/msg/TurtlePose.msg
+[98.680s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetColors.srv
+[98.681s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetColors_Request.msg
+[98.684s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetColors_Response.msg
+[98.689s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/action/MakeSquare.action
+[98.691s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/ament_index/resource_index/package_run_dependencies/turtle_interfaces
+[98.696s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/ament_index/resource_index/parent_prefix_path/turtle_interfaces
+[98.696s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/environment/ament_prefix_path.sh
+[98.696s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/environment/ament_prefix_path.dsv
+[98.697s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/environment/path.sh
+[98.699s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/environment/path.dsv
+[98.703s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.bash
+[98.703s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.sh
+[98.703s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.zsh
+[98.705s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.dsv
+[98.706s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/package.dsv
+[98.709s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/ament_index/resource_index/packages/turtle_interfaces
+[98.711s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_cExport.cmake
+[98.715s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_cExport-noconfig.cmake
+[98.715s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[98.726s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[98.726s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[98.727s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[98.727s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cExport.cmake
+[98.727s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[98.729s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_cppExport.cmake
+[98.735s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[98.736s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[98.736s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[98.737s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[98.741s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cppExport.cmake
+[98.743s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[98.746s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_pyExport.cmake
+[98.746s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[98.749s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake-extras.cmake
+[98.750s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[98.752s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[98.755s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[98.756s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[98.758s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[98.762s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[98.763s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfacesConfig.cmake
+[98.763s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfacesConfig-version.cmake
+[98.764s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/turtle_interfaces/share/turtle_interfaces/package.xml
+[98.786s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/turtle_interfaces

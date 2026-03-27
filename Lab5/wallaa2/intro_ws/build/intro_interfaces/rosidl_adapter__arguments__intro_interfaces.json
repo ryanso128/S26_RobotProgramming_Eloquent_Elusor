@@ -1,0 +1,8 @@
+{
+  "package_name": "intro_interfaces",
+  "non_idl_tuples": [
+    "/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/src/intro_interfaces:msg/Num.msg",
+    "/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/src/intro_interfaces:msg/Sphere.msg",
+    "/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/src/intro_interfaces:srv/Area.srv"
+  ]
+}

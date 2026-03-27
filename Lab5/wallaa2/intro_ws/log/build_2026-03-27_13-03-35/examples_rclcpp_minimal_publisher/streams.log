@@ -1,0 +1,96 @@
+[0.138s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher
+[0.574s] -- The C compiler identification is GNU 11.4.0
+[0.950s] -- The CXX compiler identification is GNU 11.4.0
+[1.007s] -- Detecting C compiler ABI info
+[1.437s] -- Detecting C compiler ABI info - done
+[1.455s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.462s] -- Detecting C compile features
+[1.465s] -- Detecting C compile features - done
+[1.465s] -- Detecting CXX compiler ABI info
+[1.993s] -- Detecting CXX compiler ABI info - done
+[2.050s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.050s] -- Detecting CXX compile features
+[2.052s] -- Detecting CXX compile features - done
+[2.121s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.014s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.012s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[4.646s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.734s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.851s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.010s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.320s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.210s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.344s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.538s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.802s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.186s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.309s] -- Looking for pthread.h
+[8.681s] -- Looking for pthread.h - found
+[8.681s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.104s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.113s] -- Found Threads: TRUE  
+[9.991s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.072s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.085s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.085s] -- Configured cppcheck include dirs: 
+[11.086s] -- Configured cppcheck exclude dirs and/or files: 
+[11.092s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.093s] -- Configured cpplint exclude dirs and/or files: 
+[11.099s] -- Added test 'lint_cmake' to check CMake code style
+[11.108s] -- Added test 'uncrustify' to check C / C++ code style
+[11.109s] -- Configured uncrustify additional arguments: 
+[11.115s] -- Added test 'xmllint' to check XML markup files
+[11.128s] -- Configuring done
+[11.268s] -- Generating done
+[11.341s] -- Build files have been written to: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclcpp_minimal_publisher
+[11.393s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher
+[11.395s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclcpp_minimal_publisher -- -j4 -l4
+[11.935s] [  8%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[28.699s] [ 16%] [32m[1mLinking CXX executable publisher_lambda[0m
+[29.422s] [ 16%] Built target publisher_lambda
+[29.678s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[46.821s] [ 33%] [32m[1mLinking CXX executable publisher_member_function_with_unique_network_flow_endpoints[0m
+[47.650s] [ 33%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[47.927s] [ 41%] [32mBuilding CXX object CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o[0m
+[65.683s] [ 50%] [32m[1mLinking CXX executable publisher_wait_for_all_acked[0m
+[66.665s] [ 50%] Built target publisher_wait_for_all_acked
+[66.838s] [ 58%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[80.880s] [ 66%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[81.685s] [ 66%] Built target publisher_not_composable
+[81.842s] [ 75%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[99.479s] [ 83%] [32m[1mLinking CXX executable publisher_member_function_with_type_adapter[0m
+[100.225s] [ 83%] Built target publisher_member_function_with_type_adapter
+[100.484s] [ 91%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[116.990s] [100%] [32m[1mLinking CXX executable publisher_member_function[0m
+[117.616s] [100%] Built target publisher_member_function
+[117.676s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclcpp_minimal_publisher -- -j4 -l4
+[117.682s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclcpp_minimal_publisher
+[117.743s] -- Install configuration: ""
+[117.748s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[117.748s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda" to ""
+[117.749s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[117.756s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function" to ""
+[117.756s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter
+[117.759s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter" to ""
+[117.759s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints
+[117.765s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints" to ""
+[117.766s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked
+[117.772s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked" to ""
+[117.772s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[117.776s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable" to ""
+[117.777s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[117.778s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[117.778s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[117.782s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[117.782s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[117.783s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[117.783s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[117.784s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[117.784s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[117.786s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[117.786s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[117.786s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[117.787s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[117.787s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[117.790s] -- Installing: /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[117.802s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclcpp_minimal_publisher

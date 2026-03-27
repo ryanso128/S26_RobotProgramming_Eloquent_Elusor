@@ -1,0 +1,45 @@
+[5.081s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/src/examples/rclpy/topics/minimal_subscriber': PYTHONPATH=/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_minimal_subscriber/build install --record /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed install_data
+[6.401s] running egg_info
+[6.403s] creating ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info
+[6.405s] writing ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[6.411s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[6.412s] writing entry points to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[6.413s] writing requirements to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[6.413s] writing top-level names to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[6.418s] writing manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[6.422s] reading manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[6.427s] writing manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[6.427s] running build
+[6.428s] running build_py
+[6.432s] creating /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_minimal_subscriber/build
+[6.435s] creating /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_minimal_subscriber/build/lib
+[6.435s] creating /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[6.435s] copying examples_rclpy_minimal_subscriber/subscriber_lambda.py -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[6.435s] copying examples_rclpy_minimal_subscriber/__init__.py -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[6.436s] copying examples_rclpy_minimal_subscriber/subscriber_old_school.py -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[6.436s] copying examples_rclpy_minimal_subscriber/subscriber_member_function.py -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[6.436s] running install
+[6.437s] running install_lib
+[6.439s] creating /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+[6.442s] copying /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_lambda.py -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+[6.444s] copying /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/__init__.py -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+[6.444s] copying /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_old_school.py -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+[6.447s] copying /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_member_function.py -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+[6.449s] byte-compiling /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber/subscriber_lambda.py to subscriber_lambda.cpython-310.pyc
+[6.450s] byte-compiling /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber/__init__.py to __init__.cpython-310.pyc
+[6.450s] byte-compiling /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber/subscriber_old_school.py to subscriber_old_school.cpython-310.pyc
+[6.455s] byte-compiling /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[6.459s] running install_data
+[6.460s] creating /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_minimal_subscriber/share/ament_index
+[6.460s] creating /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index
+[6.460s] creating /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[6.460s] copying resource/examples_rclpy_minimal_subscriber -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[6.463s] copying package.xml -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_minimal_subscriber/share/examples_rclpy_minimal_subscriber
+[6.463s] running install_egg_info
+[6.472s] Copying ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info to /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber-0.15.5-py3.10.egg-info
+[6.482s] running install_scripts
+[6.645s] Installing subscriber_lambda script to /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[6.646s] Installing subscriber_member_function script to /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[6.649s] Installing subscriber_old_school script to /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[6.653s] writing list of installed files to '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_minimal_subscriber/install.log'
+[6.771s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/src/examples/rclpy/topics/minimal_subscriber' returned '0': PYTHONPATH=/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_minimal_subscriber/build install --record /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed install_data

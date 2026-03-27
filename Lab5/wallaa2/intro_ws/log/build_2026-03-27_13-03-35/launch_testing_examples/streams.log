@@ -1,0 +1,51 @@
+[4.530s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/src/examples/launch_testing/launch_testing_examples': PYTHONPATH=/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/launch_testing_examples build --build-base /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/launch_testing_examples/build install --record /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/launch_testing_examples/install.log --single-version-externally-managed install_data
+[5.522s] running egg_info
+[5.524s] creating ../../../../build/launch_testing_examples/launch_testing_examples.egg-info
+[5.525s] writing ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/PKG-INFO
+[5.526s] writing dependency_links to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/dependency_links.txt
+[5.527s] writing entry points to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/entry_points.txt
+[5.527s] writing requirements to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/requires.txt
+[5.529s] writing top-level names to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/top_level.txt
+[5.529s] writing manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[5.534s] reading manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[5.537s] writing manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[5.538s] running build
+[5.539s] running build_py
+[5.540s] creating /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/launch_testing_examples/build
+[5.540s] creating /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/launch_testing_examples/build/lib
+[5.541s] creating /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[5.544s] copying launch_testing_examples/check_msgs_launch_test.py -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[5.548s] copying launch_testing_examples/check_multiple_nodes_launch_test.py -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[5.548s] copying launch_testing_examples/hello_world_launch_test.py -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[5.549s] copying launch_testing_examples/check_node_launch_test.py -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[5.549s] copying launch_testing_examples/__init__.py -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[5.549s] copying launch_testing_examples/set_param_launch_test.py -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[5.549s] copying launch_testing_examples/record_rosbag_launch_test.py -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[5.552s] running install
+[5.553s] running install_lib
+[5.558s] creating /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[5.558s] copying /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/launch_testing_examples/build/lib/launch_testing_examples/check_msgs_launch_test.py -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[5.559s] copying /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/launch_testing_examples/build/lib/launch_testing_examples/check_multiple_nodes_launch_test.py -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[5.560s] copying /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/launch_testing_examples/build/lib/launch_testing_examples/hello_world_launch_test.py -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[5.560s] copying /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/launch_testing_examples/build/lib/launch_testing_examples/check_node_launch_test.py -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[5.565s] copying /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/launch_testing_examples/build/lib/launch_testing_examples/__init__.py -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[5.565s] copying /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/launch_testing_examples/build/lib/launch_testing_examples/set_param_launch_test.py -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[5.567s] copying /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/launch_testing_examples/build/lib/launch_testing_examples/record_rosbag_launch_test.py -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[5.574s] byte-compiling /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/check_msgs_launch_test.py to check_msgs_launch_test.cpython-310.pyc
+[5.576s] byte-compiling /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/check_multiple_nodes_launch_test.py to check_multiple_nodes_launch_test.cpython-310.pyc
+[5.584s] byte-compiling /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/hello_world_launch_test.py to hello_world_launch_test.cpython-310.pyc
+[5.587s] byte-compiling /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/check_node_launch_test.py to check_node_launch_test.cpython-310.pyc
+[5.588s] byte-compiling /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/__init__.py to __init__.cpython-310.pyc
+[5.593s] byte-compiling /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/set_param_launch_test.py to set_param_launch_test.cpython-310.pyc
+[5.595s] byte-compiling /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/record_rosbag_launch_test.py to record_rosbag_launch_test.cpython-310.pyc
+[5.605s] running install_data
+[5.608s] creating /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/launch_testing_examples/share/ament_index
+[5.609s] creating /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/launch_testing_examples/share/ament_index/resource_index
+[5.609s] creating /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[5.609s] copying resource/launch_testing_examples -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[5.610s] copying package.xml -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/launch_testing_examples/share/launch_testing_examples
+[5.610s] running install_egg_info
+[5.610s] Copying ../../../../build/launch_testing_examples/launch_testing_examples.egg-info to /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples-0.15.5-py3.10.egg-info
+[5.614s] running install_scripts
+[5.890s] writing list of installed files to '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/launch_testing_examples/install.log'
+[6.052s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/src/examples/launch_testing/launch_testing_examples' returned '0': PYTHONPATH=/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/launch_testing_examples build --build-base /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/launch_testing_examples/build install --record /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/launch_testing_examples/install.log --single-version-externally-managed install_data

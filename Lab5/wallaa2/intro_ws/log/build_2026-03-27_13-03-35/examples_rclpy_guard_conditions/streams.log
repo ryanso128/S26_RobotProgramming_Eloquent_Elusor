@@ -1,0 +1,37 @@
+[3.223s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/src/examples/rclpy/guard_conditions': PYTHONPATH=/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_guard_conditions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_guard_conditions build --build-base /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_guard_conditions/build install --record /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_guard_conditions/install.log --single-version-externally-managed install_data
+[4.963s] running egg_info
+[4.969s] creating ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info
+[4.970s] writing ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/PKG-INFO
+[4.970s] writing dependency_links to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/dependency_links.txt
+[4.970s] writing entry points to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/entry_points.txt
+[4.971s] writing requirements to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/requires.txt
+[4.971s] writing top-level names to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/top_level.txt
+[4.973s] writing manifest file '../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[4.983s] reading manifest file '../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[4.988s] writing manifest file '../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[4.993s] running build
+[4.994s] running build_py
+[4.994s] creating /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_guard_conditions/build
+[4.995s] creating /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_guard_conditions/build/lib
+[4.995s] creating /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+[4.995s] copying examples_rclpy_guard_conditions/__init__.py -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+[4.999s] copying examples_rclpy_guard_conditions/trigger_guard_condition.py -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+[4.999s] running install
+[5.000s] running install_lib
+[5.011s] creating /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions
+[5.012s] copying /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions/__init__.py -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions
+[5.012s] copying /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions/trigger_guard_condition.py -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions
+[5.020s] byte-compiling /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions/__init__.py to __init__.cpython-310.pyc
+[5.021s] byte-compiling /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions/trigger_guard_condition.py to trigger_guard_condition.cpython-310.pyc
+[5.027s] running install_data
+[5.027s] creating /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_guard_conditions/share/ament_index
+[5.027s] creating /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index
+[5.027s] creating /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+[5.027s] copying resource/examples_rclpy_guard_conditions -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+[5.027s] copying package.xml -> /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_guard_conditions/share/examples_rclpy_guard_conditions
+[5.027s] running install_egg_info
+[5.038s] Copying ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info to /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions-0.15.5-py3.10.egg-info
+[5.044s] running install_scripts
+[5.174s] Installing trigger_guard_condition script to /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_guard_conditions/lib/examples_rclpy_guard_conditions
+[5.174s] writing list of installed files to '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_guard_conditions/install.log'
+[5.276s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/src/examples/rclpy/guard_conditions' returned '0': PYTHONPATH=/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_guard_conditions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_guard_conditions build --build-base /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_guard_conditions/build install --record /home/yahboom/Desktop/team_repo/Lab5/wallaa2/intro_ws/build/examples_rclpy_guard_conditions/install.log --single-version-externally-managed install_data
