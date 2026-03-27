@@ -1,0 +1,51 @@
+running egg_info
+creating ../build/test_tf2_py/test_tf2_py.egg-info
+writing ../build/test_tf2_py/test_tf2_py.egg-info/PKG-INFO
+writing dependency_links to ../build/test_tf2_py/test_tf2_py.egg-info/dependency_links.txt
+writing entry points to ../build/test_tf2_py/test_tf2_py.egg-info/entry_points.txt
+writing requirements to ../build/test_tf2_py/test_tf2_py.egg-info/requires.txt
+writing top-level names to ../build/test_tf2_py/test_tf2_py.egg-info/top_level.txt
+writing manifest file '../build/test_tf2_py/test_tf2_py.egg-info/SOURCES.txt'
+reading manifest file '../build/test_tf2_py/test_tf2_py.egg-info/SOURCES.txt'
+writing manifest file '../build/test_tf2_py/test_tf2_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/build
+creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/build/lib
+creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/build/lib/test_tf2_py
+copying test_tf2_py/turtle_tf2_broadcaster.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/build/lib/test_tf2_py
+copying test_tf2_py/__init__.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/build/lib/test_tf2_py
+copying test_tf2_py/fixed_frame_tf2_broadcaster.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/build/lib/test_tf2_py
+copying test_tf2_py/turtle_tf2_listener.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/build/lib/test_tf2_py
+copying test_tf2_py/dynamic_frame_tf2_broadcaster.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/build/lib/test_tf2_py
+running install
+running install_lib
+creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py
+copying /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/build/lib/test_tf2_py/turtle_tf2_broadcaster.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py
+copying /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/build/lib/test_tf2_py/__init__.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py
+copying /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/build/lib/test_tf2_py/fixed_frame_tf2_broadcaster.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py
+copying /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/build/lib/test_tf2_py/turtle_tf2_listener.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py
+copying /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/build/lib/test_tf2_py/dynamic_frame_tf2_broadcaster.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py
+byte-compiling /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-310.pyc
+byte-compiling /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py/fixed_frame_tf2_broadcaster.py to fixed_frame_tf2_broadcaster.cpython-310.pyc
+byte-compiling /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py/turtle_tf2_listener.py to turtle_tf2_listener.cpython-310.pyc
+byte-compiling /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py/dynamic_frame_tf2_broadcaster.py to dynamic_frame_tf2_broadcaster.cpython-310.pyc
+running install_data
+creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/share/ament_index
+creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/share/ament_index/resource_index
+creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/share/ament_index/resource_index/packages
+copying resource/test_tf2_py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/share/test_tf2_py
+creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/share/test_tf2_py/launch
+copying launch/tf2_fixed_frame_demo.launch.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/share/test_tf2_py/launch
+copying launch/tf2_demo.launch.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/share/test_tf2_py/launch
+copying launch/tf2_dynamic_frame_demo.launch.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/share/test_tf2_py/launch
+running install_egg_info
+Copying ../build/test_tf2_py/test_tf2_py.egg-info to /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing dynamic_frame_tf2_broadcaster script to /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/test_tf2_py
+Installing fixed_frame_tf2_broadcaster script to /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/test_tf2_py
+Installing turtle_tf2_broadcaster script to /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/test_tf2_py
+Installing turtle_tf2_listener script to /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/test_tf2_py
+writing list of installed files to '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/install.log'

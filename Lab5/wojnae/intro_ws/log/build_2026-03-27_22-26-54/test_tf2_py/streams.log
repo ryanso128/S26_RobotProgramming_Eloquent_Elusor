@@ -1,0 +1,53 @@
+[2.310s] Invoking command in '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/test_tf2_py': PYTHONPATH=/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/prefix_override:/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/test_tf2_py build --build-base /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/build install --record /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/install.log --single-version-externally-managed install_data
+[3.126s] running egg_info
+[3.127s] creating ../build/test_tf2_py/test_tf2_py.egg-info
+[3.127s] writing ../build/test_tf2_py/test_tf2_py.egg-info/PKG-INFO
+[3.128s] writing dependency_links to ../build/test_tf2_py/test_tf2_py.egg-info/dependency_links.txt
+[3.129s] writing entry points to ../build/test_tf2_py/test_tf2_py.egg-info/entry_points.txt
+[3.129s] writing requirements to ../build/test_tf2_py/test_tf2_py.egg-info/requires.txt
+[3.129s] writing top-level names to ../build/test_tf2_py/test_tf2_py.egg-info/top_level.txt
+[3.130s] writing manifest file '../build/test_tf2_py/test_tf2_py.egg-info/SOURCES.txt'
+[3.135s] reading manifest file '../build/test_tf2_py/test_tf2_py.egg-info/SOURCES.txt'
+[3.137s] writing manifest file '../build/test_tf2_py/test_tf2_py.egg-info/SOURCES.txt'
+[3.137s] running build
+[3.138s] running build_py
+[3.138s] creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/build
+[3.139s] creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/build/lib
+[3.140s] creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/build/lib/test_tf2_py
+[3.140s] copying test_tf2_py/turtle_tf2_broadcaster.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/build/lib/test_tf2_py
+[3.140s] copying test_tf2_py/__init__.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/build/lib/test_tf2_py
+[3.140s] copying test_tf2_py/fixed_frame_tf2_broadcaster.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/build/lib/test_tf2_py
+[3.141s] copying test_tf2_py/turtle_tf2_listener.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/build/lib/test_tf2_py
+[3.142s] copying test_tf2_py/dynamic_frame_tf2_broadcaster.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/build/lib/test_tf2_py
+[3.143s] running install
+[3.144s] running install_lib
+[3.146s] creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py
+[3.146s] copying /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/build/lib/test_tf2_py/turtle_tf2_broadcaster.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py
+[3.148s] copying /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/build/lib/test_tf2_py/__init__.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py
+[3.148s] copying /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/build/lib/test_tf2_py/fixed_frame_tf2_broadcaster.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py
+[3.149s] copying /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/build/lib/test_tf2_py/turtle_tf2_listener.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py
+[3.149s] copying /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/build/lib/test_tf2_py/dynamic_frame_tf2_broadcaster.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py
+[3.151s] byte-compiling /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-310.pyc
+[3.153s] byte-compiling /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py/__init__.py to __init__.cpython-310.pyc
+[3.154s] byte-compiling /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py/fixed_frame_tf2_broadcaster.py to fixed_frame_tf2_broadcaster.cpython-310.pyc
+[3.155s] byte-compiling /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py/turtle_tf2_listener.py to turtle_tf2_listener.cpython-310.pyc
+[3.157s] byte-compiling /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py/dynamic_frame_tf2_broadcaster.py to dynamic_frame_tf2_broadcaster.cpython-310.pyc
+[3.158s] running install_data
+[3.159s] creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/share/ament_index
+[3.159s] creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/share/ament_index/resource_index
+[3.160s] creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/share/ament_index/resource_index/packages
+[3.160s] copying resource/test_tf2_py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/share/ament_index/resource_index/packages
+[3.161s] copying package.xml -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/share/test_tf2_py
+[3.161s] creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/share/test_tf2_py/launch
+[3.162s] copying launch/tf2_fixed_frame_demo.launch.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/share/test_tf2_py/launch
+[3.162s] copying launch/tf2_demo.launch.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/share/test_tf2_py/launch
+[3.162s] copying launch/tf2_dynamic_frame_demo.launch.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/share/test_tf2_py/launch
+[3.163s] running install_egg_info
+[3.168s] Copying ../build/test_tf2_py/test_tf2_py.egg-info to /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py-0.0.0-py3.10.egg-info
+[3.171s] running install_scripts
+[3.233s] Installing dynamic_frame_tf2_broadcaster script to /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/test_tf2_py
+[3.234s] Installing fixed_frame_tf2_broadcaster script to /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/test_tf2_py
+[3.234s] Installing turtle_tf2_broadcaster script to /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/test_tf2_py
+[3.235s] Installing turtle_tf2_listener script to /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/test_tf2_py
+[3.236s] writing list of installed files to '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/install.log'
+[3.294s] Invoked command in '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/test_tf2_py' returned '0': PYTHONPATH=/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/prefix_override:/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/install/test_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/test_tf2_py build --build-base /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/build install --record /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab5/wojnae/intro_ws/build/test_tf2_py/install.log --single-version-externally-managed install_data
