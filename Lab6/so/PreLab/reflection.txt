@@ -1,3 +1,5 @@
 The first part of accessing background knowledge talks about how to translate between different base frames. We represent this translation as a 2x1 matrix where the first value is the x translation and the second value is the y translation. This matrix is a 2x1 as the picture shown is a 2D image. All frames are in the perspective of other frames so frame b with respect to frame a would be [1 2]. However frame a with respect to frame b would be [-1 -2]. 
 
-The second par of accessing background knowledge has us looking at a similar image but frame b is rotated 90 degrees. The translations are similar but 
+The second part of accessing background knowledge has us looking at a similar image but frame b is rotated 90 degrees. The translations are similar but I just had to be mindful of each perspective's origin.
+
+The expanding on background knowledge expands further on rotation and how to express this as a matrix. By using the right hand rule we can orient origin A to origin B.
