@@ -1,0 +1,37 @@
+[0.721s] Invoking command in '/home/yahboom/Desktop/roscourse_sim_ws/src/my_robot': PYTHONPATH=/home/yahboom/Desktop/roscourse_sim_ws/build/my_robot/prefix_override:/home/yahboom/Desktop/roscourse_sim_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/yahboom/Desktop/roscourse_sim_ws/build/my_robot/build install --record /home/yahboom/Desktop/roscourse_sim_ws/build/my_robot/install.log --single-version-externally-managed install_data
+[0.952s] running egg_info
+[0.953s] creating ../../build/my_robot/my_robot.egg-info
+[0.953s] writing ../../build/my_robot/my_robot.egg-info/PKG-INFO
+[0.953s] writing dependency_links to ../../build/my_robot/my_robot.egg-info/dependency_links.txt
+[0.954s] writing entry points to ../../build/my_robot/my_robot.egg-info/entry_points.txt
+[0.954s] writing requirements to ../../build/my_robot/my_robot.egg-info/requires.txt
+[0.954s] writing top-level names to ../../build/my_robot/my_robot.egg-info/top_level.txt
+[0.954s] writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[0.955s] reading manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[0.956s] writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[0.956s] running build
+[0.956s] running build_py
+[0.956s] creating /home/yahboom/Desktop/roscourse_sim_ws/build/my_robot/build
+[0.956s] creating /home/yahboom/Desktop/roscourse_sim_ws/build/my_robot/build/lib
+[0.956s] creating /home/yahboom/Desktop/roscourse_sim_ws/build/my_robot/build/lib/my_robot
+[0.956s] copying my_robot/__init__.py -> /home/yahboom/Desktop/roscourse_sim_ws/build/my_robot/build/lib/my_robot
+[0.957s] running install
+[0.957s] running install_lib
+[0.958s] creating /home/yahboom/Desktop/roscourse_sim_ws/install/my_robot/lib/python3.10/site-packages/my_robot
+[0.958s] copying /home/yahboom/Desktop/roscourse_sim_ws/build/my_robot/build/lib/my_robot/__init__.py -> /home/yahboom/Desktop/roscourse_sim_ws/install/my_robot/lib/python3.10/site-packages/my_robot
+[0.960s] byte-compiling /home/yahboom/Desktop/roscourse_sim_ws/install/my_robot/lib/python3.10/site-packages/my_robot/__init__.py to __init__.cpython-310.pyc
+[0.960s] running install_data
+[0.960s] creating /home/yahboom/Desktop/roscourse_sim_ws/install/my_robot/share/ament_index
+[0.960s] creating /home/yahboom/Desktop/roscourse_sim_ws/install/my_robot/share/ament_index/resource_index
+[0.960s] creating /home/yahboom/Desktop/roscourse_sim_ws/install/my_robot/share/ament_index/resource_index/packages
+[0.961s] copying resource/my_robot -> /home/yahboom/Desktop/roscourse_sim_ws/install/my_robot/share/ament_index/resource_index/packages
+[0.961s] copying package.xml -> /home/yahboom/Desktop/roscourse_sim_ws/install/my_robot/share/my_robot
+[0.961s] copying urdf/my_robot.urdf -> /home/yahboom/Desktop/roscourse_sim_ws/install/my_robot/share/my_robot
+[0.962s] creating /home/yahboom/Desktop/roscourse_sim_ws/install/my_robot/share/my_robot/launch
+[0.962s] copying launch/my_robot_rviz.launch.py -> /home/yahboom/Desktop/roscourse_sim_ws/install/my_robot/share/my_robot/launch
+[0.962s] copying rviz/my_robot.rviz -> /home/yahboom/Desktop/roscourse_sim_ws/install/my_robot/share/my_robot
+[0.962s] running install_egg_info
+[0.964s] Copying ../../build/my_robot/my_robot.egg-info to /home/yahboom/Desktop/roscourse_sim_ws/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info
+[0.966s] running install_scripts
+[0.986s] writing list of installed files to '/home/yahboom/Desktop/roscourse_sim_ws/build/my_robot/install.log'
+[1.010s] Invoked command in '/home/yahboom/Desktop/roscourse_sim_ws/src/my_robot' returned '0': PYTHONPATH=/home/yahboom/Desktop/roscourse_sim_ws/build/my_robot/prefix_override:/home/yahboom/Desktop/roscourse_sim_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/yahboom/Desktop/roscourse_sim_ws/build/my_robot/build install --record /home/yahboom/Desktop/roscourse_sim_ws/build/my_robot/install.log --single-version-externally-managed install_data
