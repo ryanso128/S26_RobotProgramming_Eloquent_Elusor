@@ -1,0 +1,76 @@
+[0.060s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/src/examples/rclcpp/timers/minimal_timer -DCMAKE_INSTALL_PREFIX=/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_minimal_timer
+[0.357s] -- The C compiler identification is GNU 11.4.0
+[0.584s] -- The CXX compiler identification is GNU 11.4.0
+[0.614s] -- Detecting C compiler ABI info
+[1.039s] -- Detecting C compiler ABI info - done
+[1.069s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.070s] -- Detecting C compile features
+[1.072s] -- Detecting C compile features - done
+[1.079s] -- Detecting CXX compiler ABI info
+[1.441s] -- Detecting CXX compiler ABI info - done
+[1.463s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.464s] -- Detecting CXX compile features
+[1.464s] -- Detecting CXX compile features - done
+[1.506s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.234s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.063s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[3.588s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.676s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.794s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.936s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.143s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.633s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.680s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.329s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.543s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.800s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.924s] -- Looking for pthread.h
+[6.305s] -- Looking for pthread.h - found
+[6.307s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.661s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.664s] -- Found Threads: TRUE  
+[7.002s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.634s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.641s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.647s] -- Configured cppcheck include dirs: 
+[7.647s] -- Configured cppcheck exclude dirs and/or files: 
+[7.654s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.654s] -- Configured cpplint exclude dirs and/or files: 
+[7.658s] -- Added test 'lint_cmake' to check CMake code style
+[7.665s] -- Added test 'uncrustify' to check C / C++ code style
+[7.665s] -- Configured uncrustify additional arguments: 
+[7.671s] -- Added test 'xmllint' to check XML markup files
+[7.684s] -- Configuring done
+[7.731s] -- Generating done
+[7.752s] -- Build files have been written to: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/examples_rclcpp_minimal_timer
+[7.784s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/src/examples/rclcpp/timers/minimal_timer -DCMAKE_INSTALL_PREFIX=/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_minimal_timer
+[7.788s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/examples_rclcpp_minimal_timer -- -j4 -l4
+[8.112s] [ 25%] [32mBuilding CXX object CMakeFiles/timer_lambda.dir/lambda.cpp.o[0m
+[16.947s] [ 50%] [32m[1mLinking CXX executable timer_lambda[0m
+[17.320s] [ 50%] Built target timer_lambda
+[17.454s] [ 75%] [32mBuilding CXX object CMakeFiles/timer_member_function.dir/member_function.cpp.o[0m
+[26.144s] [100%] [32m[1mLinking CXX executable timer_member_function[0m
+[26.606s] [100%] Built target timer_member_function
+[26.665s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/examples_rclcpp_minimal_timer -- -j4 -l4
+[26.669s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/examples_rclcpp_minimal_timer
+[26.727s] -- Install configuration: ""
+[26.730s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+[26.730s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda" to ""
+[26.730s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+[26.733s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function" to ""
+[26.735s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[26.735s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[26.739s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+[26.740s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv
+[26.740s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+[26.740s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.dsv
+[26.740s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+[26.741s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+[26.741s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+[26.741s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.dsv
+[26.742s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv
+[26.742s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[26.742s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[26.743s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[26.743s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml
+[26.752s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/examples_rclcpp_minimal_timer

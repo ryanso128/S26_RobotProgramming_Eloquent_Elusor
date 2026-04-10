@@ -1,0 +1,71 @@
+[0.088s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/src/examples/rclcpp/executors/multithreaded_executor -DCMAKE_INSTALL_PREFIX=/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_multithreaded_executor
+[0.337s] -- The C compiler identification is GNU 11.4.0
+[0.527s] -- The CXX compiler identification is GNU 11.4.0
+[0.553s] -- Detecting C compiler ABI info
+[0.933s] -- Detecting C compiler ABI info - done
+[0.950s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.954s] -- Detecting C compile features
+[0.955s] -- Detecting C compile features - done
+[0.959s] -- Detecting CXX compiler ABI info
+[1.338s] -- Detecting CXX compiler ABI info - done
+[1.352s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.352s] -- Detecting CXX compile features
+[1.353s] -- Detecting CXX compile features - done
+[1.405s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.129s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.018s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[3.654s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.729s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.814s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.922s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.113s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.712s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.771s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.462s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.668s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.946s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.078s] -- Looking for pthread.h
+[6.445s] -- Looking for pthread.h - found
+[6.447s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.863s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.870s] -- Found Threads: TRUE  
+[7.257s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.868s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.874s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.876s] -- Configured cppcheck include dirs: 
+[7.876s] -- Configured cppcheck exclude dirs and/or files: 
+[7.885s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.885s] -- Configured cpplint exclude dirs and/or files: 
+[7.897s] -- Added test 'lint_cmake' to check CMake code style
+[7.907s] -- Added test 'uncrustify' to check C / C++ code style
+[7.907s] -- Configured uncrustify additional arguments: 
+[7.911s] -- Added test 'xmllint' to check XML markup files
+[7.925s] -- Configuring done
+[7.962s] -- Generating done
+[7.977s] -- Build files have been written to: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/examples_rclcpp_multithreaded_executor
+[8.021s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/src/examples/rclcpp/executors/multithreaded_executor -DCMAKE_INSTALL_PREFIX=/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_multithreaded_executor
+[8.025s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/examples_rclcpp_multithreaded_executor -- -j4 -l4
+[8.364s] [ 50%] [32mBuilding CXX object CMakeFiles/multithreaded_executor.dir/multithreaded_executor.cpp.o[0m
+[32.518s] [100%] [32m[1mLinking CXX executable multithreaded_executor[0m
+[33.611s] [100%] Built target multithreaded_executor
+[33.671s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/examples_rclcpp_multithreaded_executor -- -j4 -l4
+[33.673s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/examples_rclcpp_multithreaded_executor
+[33.724s] -- Install configuration: ""
+[33.725s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_multithreaded_executor/lib/examples_rclcpp_multithreaded_executor/multithreaded_executor
+[33.746s] -- Set runtime path of "/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_multithreaded_executor/lib/examples_rclcpp_multithreaded_executor/multithreaded_executor" to ""
+[33.747s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_multithreaded_executor
+[33.750s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_multithreaded_executor
+[33.750s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.sh
+[33.751s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.dsv
+[33.752s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.sh
+[33.754s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.dsv
+[33.755s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.bash
+[33.756s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.sh
+[33.757s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.zsh
+[33.757s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.dsv
+[33.758s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.dsv
+[33.760s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/packages/examples_rclcpp_multithreaded_executor
+[33.761s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig.cmake
+[33.762s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig-version.cmake
+[33.765s] -- Installing: /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.xml
+[33.769s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/examples_rclcpp_multithreaded_executor

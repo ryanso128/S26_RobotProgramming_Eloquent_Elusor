@@ -1,0 +1,53 @@
+[3.385s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/src/test_tf2_py': PYTHONPATH=/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/test_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/test_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_tf2_py build --build-base /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/test_tf2_py/build install --record /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/test_tf2_py/install.log --single-version-externally-managed install_data
+[4.347s] running egg_info
+[4.350s] creating ../../build/test_tf2_py/test_tf2_py.egg-info
+[4.350s] writing ../../build/test_tf2_py/test_tf2_py.egg-info/PKG-INFO
+[4.350s] writing dependency_links to ../../build/test_tf2_py/test_tf2_py.egg-info/dependency_links.txt
+[4.350s] writing entry points to ../../build/test_tf2_py/test_tf2_py.egg-info/entry_points.txt
+[4.351s] writing requirements to ../../build/test_tf2_py/test_tf2_py.egg-info/requires.txt
+[4.351s] writing top-level names to ../../build/test_tf2_py/test_tf2_py.egg-info/top_level.txt
+[4.352s] writing manifest file '../../build/test_tf2_py/test_tf2_py.egg-info/SOURCES.txt'
+[4.358s] reading manifest file '../../build/test_tf2_py/test_tf2_py.egg-info/SOURCES.txt'
+[4.361s] writing manifest file '../../build/test_tf2_py/test_tf2_py.egg-info/SOURCES.txt'
+[4.362s] running build
+[4.362s] running build_py
+[4.362s] creating /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/test_tf2_py/build
+[4.363s] creating /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/test_tf2_py/build/lib
+[4.363s] creating /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/test_tf2_py/build/lib/test_tf2_py
+[4.366s] copying test_tf2_py/turtle_tf2_broadcaster.py -> /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/test_tf2_py/build/lib/test_tf2_py
+[4.366s] copying test_tf2_py/__init__.py -> /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/test_tf2_py/build/lib/test_tf2_py
+[4.366s] copying test_tf2_py/fixed_frame_tf2_broadcaster.py -> /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/test_tf2_py/build/lib/test_tf2_py
+[4.367s] copying test_tf2_py/turtle_tf2_listener.py -> /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/test_tf2_py/build/lib/test_tf2_py
+[4.367s] copying test_tf2_py/dynamic_frame_tf2_broadcaster.py -> /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/test_tf2_py/build/lib/test_tf2_py
+[4.367s] running install
+[4.370s] running install_lib
+[4.370s] creating /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py
+[4.370s] copying /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/test_tf2_py/build/lib/test_tf2_py/turtle_tf2_broadcaster.py -> /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py
+[4.371s] copying /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/test_tf2_py/build/lib/test_tf2_py/__init__.py -> /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py
+[4.371s] copying /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/test_tf2_py/build/lib/test_tf2_py/fixed_frame_tf2_broadcaster.py -> /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py
+[4.371s] copying /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/test_tf2_py/build/lib/test_tf2_py/turtle_tf2_listener.py -> /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py
+[4.372s] copying /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/test_tf2_py/build/lib/test_tf2_py/dynamic_frame_tf2_broadcaster.py -> /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py
+[4.372s] byte-compiling /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-310.pyc
+[4.373s] byte-compiling /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py/__init__.py to __init__.cpython-310.pyc
+[4.375s] byte-compiling /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py/fixed_frame_tf2_broadcaster.py to fixed_frame_tf2_broadcaster.cpython-310.pyc
+[4.375s] byte-compiling /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py/turtle_tf2_listener.py to turtle_tf2_listener.cpython-310.pyc
+[4.377s] byte-compiling /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py/dynamic_frame_tf2_broadcaster.py to dynamic_frame_tf2_broadcaster.cpython-310.pyc
+[4.378s] running install_data
+[4.378s] creating /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/test_tf2_py/share/ament_index
+[4.378s] creating /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/test_tf2_py/share/ament_index/resource_index
+[4.379s] creating /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/test_tf2_py/share/ament_index/resource_index/packages
+[4.379s] copying resource/test_tf2_py -> /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/test_tf2_py/share/ament_index/resource_index/packages
+[4.379s] copying package.xml -> /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/test_tf2_py/share/test_tf2_py
+[4.380s] creating /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/test_tf2_py/share/test_tf2_py/launch
+[4.382s] copying launch/tf2_fixed_frame_demo.launch.py -> /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/test_tf2_py/share/test_tf2_py/launch
+[4.382s] copying launch/tf2_demo.launch.py -> /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/test_tf2_py/share/test_tf2_py/launch
+[4.383s] copying launch/tf2_dynamic_frame_demo.launch.py -> /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/test_tf2_py/share/test_tf2_py/launch
+[4.383s] running install_egg_info
+[4.387s] Copying ../../build/test_tf2_py/test_tf2_py.egg-info to /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/test_tf2_py/lib/python3.10/site-packages/test_tf2_py-0.0.0-py3.10.egg-info
+[4.390s] running install_scripts
+[4.456s] Installing dynamic_frame_tf2_broadcaster script to /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/test_tf2_py/lib/test_tf2_py
+[4.456s] Installing fixed_frame_tf2_broadcaster script to /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/test_tf2_py/lib/test_tf2_py
+[4.456s] Installing turtle_tf2_broadcaster script to /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/test_tf2_py/lib/test_tf2_py
+[4.457s] Installing turtle_tf2_listener script to /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/test_tf2_py/lib/test_tf2_py
+[4.459s] writing list of installed files to '/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/test_tf2_py/install.log'
+[4.516s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/src/test_tf2_py' returned '0': PYTHONPATH=/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/test_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/test_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_tf2_py build --build-base /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/test_tf2_py/build install --record /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/test_tf2_py/install.log --single-version-externally-managed install_data

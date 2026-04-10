@@ -1,0 +1,44 @@
+[2.367s] Invoking command in '/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/src/webots_test': PYTHONPATH=/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/webots_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/webots_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/webots_test build --build-base /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/webots_test/build install --record /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/webots_test/install.log --single-version-externally-managed install_data
+[3.201s] running egg_info
+[3.202s] creating ../../build/webots_test/webots_test.egg-info
+[3.203s] writing ../../build/webots_test/webots_test.egg-info/PKG-INFO
+[3.203s] writing dependency_links to ../../build/webots_test/webots_test.egg-info/dependency_links.txt
+[3.204s] writing entry points to ../../build/webots_test/webots_test.egg-info/entry_points.txt
+[3.205s] writing requirements to ../../build/webots_test/webots_test.egg-info/requires.txt
+[3.205s] writing top-level names to ../../build/webots_test/webots_test.egg-info/top_level.txt
+[3.206s] writing manifest file '../../build/webots_test/webots_test.egg-info/SOURCES.txt'
+[3.211s] reading manifest file '../../build/webots_test/webots_test.egg-info/SOURCES.txt'
+[3.211s] adding license file 'LICENSE'
+[3.213s] writing manifest file '../../build/webots_test/webots_test.egg-info/SOURCES.txt'
+[3.214s] running build
+[3.214s] running build_py
+[3.215s] creating /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/webots_test/build
+[3.215s] creating /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/webots_test/build/lib
+[3.216s] creating /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/webots_test/build/lib/webots_test
+[3.216s] copying webots_test/__init__.py -> /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/webots_test/build/lib/webots_test
+[3.217s] copying webots_test/my_robot_driver.py -> /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/webots_test/build/lib/webots_test
+[3.218s] running install
+[3.219s] running install_lib
+[3.221s] creating /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/webots_test/lib/python3.10/site-packages/webots_test
+[3.221s] copying /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/webots_test/build/lib/webots_test/__init__.py -> /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/webots_test/lib/python3.10/site-packages/webots_test
+[3.221s] copying /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/webots_test/build/lib/webots_test/my_robot_driver.py -> /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/webots_test/lib/python3.10/site-packages/webots_test
+[3.224s] byte-compiling /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/webots_test/lib/python3.10/site-packages/webots_test/__init__.py to __init__.cpython-310.pyc
+[3.224s] byte-compiling /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/webots_test/lib/python3.10/site-packages/webots_test/my_robot_driver.py to my_robot_driver.cpython-310.pyc
+[3.226s] running install_data
+[3.227s] creating /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/webots_test/share/ament_index
+[3.227s] creating /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/webots_test/share/ament_index/resource_index
+[3.228s] creating /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/webots_test/share/ament_index/resource_index/packages
+[3.228s] copying resource/webots_test -> /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/webots_test/share/ament_index/resource_index/packages
+[3.229s] creating /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/webots_test/share/webots_test/launch
+[3.229s] copying launch/robot_launch.py -> /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/webots_test/share/webots_test/launch
+[3.230s] creating /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/webots_test/share/webots_test/worlds
+[3.231s] copying worlds/my_world.wbt -> /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/webots_test/share/webots_test/worlds
+[3.232s] creating /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/webots_test/share/webots_test/urdf
+[3.232s] copying urdf/my_robot.urdf -> /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/webots_test/share/webots_test/urdf
+[3.233s] copying package.xml -> /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/webots_test/share/webots_test
+[3.233s] running install_egg_info
+[3.240s] Copying ../../build/webots_test/webots_test.egg-info to /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/webots_test/lib/python3.10/site-packages/webots_test-0.0.0-py3.10.egg-info
+[3.244s] running install_scripts
+[3.329s] Installing my_robot_driver script to /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/webots_test/lib/webots_test
+[3.330s] writing list of installed files to '/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/webots_test/install.log'
+[3.379s] Invoked command in '/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/src/webots_test' returned '0': PYTHONPATH=/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/webots_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/install/webots_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/webots_test build --build-base /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/webots_test/build install --record /home/yahboom/Desktop/team_repo/Lab7/wallaa2/prelab/intro_ws/build/webots_test/install.log --single-version-externally-managed install_data

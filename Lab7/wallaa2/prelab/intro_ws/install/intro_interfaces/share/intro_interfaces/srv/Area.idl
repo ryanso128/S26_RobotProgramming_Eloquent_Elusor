@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from intro_interfaces/srv/Area.srv
+// generated code does not contain a copyright notice
+
+
+module intro_interfaces {
+  module srv {
+    struct Area_Request {
+      @default (value="circle")
+      string shape;
+
+      sequence<double, 2> size;
+    };
+    struct Area_Response {
+      double area;
+
+      int64 errflag;
+    };
+  };
+};
