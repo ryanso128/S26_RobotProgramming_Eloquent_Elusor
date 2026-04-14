@@ -49,6 +49,12 @@
             <origin xyz="0 0 ${base_height / 2.0}" rpy="0 0 0"/>
             <material name="green"/>
         </visual>
+        <collision>
+            <geometry>
+                <box size="${base_length} ${base_width} ${base_height}" />
+            </geometry>
+            <origin xyz="0 0 ${base_height / 2.0}" rpy="0 0 0" />
+        </collision>
         <xacro:box_inertia mass="5.0" lx="${base_length}" ly="${base_width}" lz="${base_height}" xyz="0 0 ${base_height / 2.0}" rpy="0 0 0" />
     </link>
     <link name="lidar">
@@ -59,6 +65,12 @@
             <origin xyz="0 0 0" rpy="0 0 0" />
             <material name="white"/>
         </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.1" length="0.05" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+        </collision>
         <xacro:cylinder_inertia mass="1.0" h="0.05" r="0.1" xyz="0 0 0" rpy="0 0 0"/>
     </link>
     <joint name="base_lidar_joint" type="fixed">
@@ -74,6 +86,12 @@
             <origin xyz="0 0 ${wheel_length / 2.0}" rpy="0 0 0" />
             <material name="gray"/>
         </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="${wheel_radius}" length="${wheel_length}" />
+            </geometry>
+            <origin xyz="0 0 ${wheel_length / 2.0}" rpy="0 0 0" />
+        </collision>
         <xacro:cylinder_inertia mass="1.0" h="${wheel_length}" r="${wheel_radius}" xyz="0 0 ${wheel_length / 2.0}" rpy="0 0 0" />
     </link>
     <joint name="base_left_wheel_joint" type="continuous">
@@ -90,7 +108,13 @@
             <origin xyz="0 0 ${-wheel_length / 2.0}" rpy="0 0 0" />
             <material name="gray"/>
         </visual>
-         <xacro:cylinder_inertia mass="1.0" h="${wheel_length}" r="${wheel_radius}" xyz="0 0 ${-wheel_length / 2.0}" rpy="0 0 0" />
+        <collision>
+            <geometry>
+                <cylinder radius="${wheel_radius}" length="${wheel_length}" />
+            </geometry>
+            <origin xyz="0 0 ${-wheel_length / 2.0}" rpy="0 0 0" />
+        </collision>
+        <xacro:cylinder_inertia mass="1.0" h="${wheel_length}" r="${wheel_radius}" xyz="0 0 ${-wheel_length / 2.0}" rpy="0 0 0" />
     </link>
     <joint name="base_right_wheel_joint" type="continuous">
         <parent link="base_link"/>
@@ -106,7 +130,13 @@
             <origin xyz="0 0 0" rpy="0 0 0" />
             <material name="gray" />
         </visual>
-         <xacro:cylinder_inertia mass="2.0" r="${wheel_radius / 2.0}" xyz="0 0 0" rpy="0 0 0" />
+        <collision>
+            <geometry>
+                <sphere radius="${wheel_radius / 2.0}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+        </collision>
+        <xacro:sphere_inertia mass="2.0" r="${wheel_radius / 2.0}" xyz="0 0 0" rpy="0 0 0" />
     </link>
     <joint name="base_caster_wheel_joint" type="fixed">
         <parent link="base_link" />
@@ -119,4 +149,76 @@
         <child link="base_link" />
         <origin xyz="0 0 ${wheel_radius}" rpy="0 0 0" />
     </joint>
+    <gazebo reference="base_link">
+        <material>Gazebo/Green</material>
+    </gazebo>
+    <gazebo reference="caster_wheel">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+    <gazebo reference="left_wheel">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+    <gazebo reference="right_wheel">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+    <gazebo reference="lidar">
+        <material>Gazebo/White</material>
+    </gazebo>
+    <gazebo>
+        <plugin name="diff_drive_controller" filename="libgazebo_ros_diff_drive.so">
+            <!-- Update rate in Hz -->
+            <update_rate>50</update_rate>
+
+            <!-- wheels -->
+            <left_joint>base_left_wheel_joint</left_joint>
+            <right_joint>base_right_wheel_joint</right_joint>
+
+            <!-- kinematics -->
+            <wheel_separation>0.4</wheel_separation>
+            <wheel_diameter>0.2</wheel_diameter>
+
+            <!-- output -->
+            <publish_odom>true</publish_odom>
+            <publish_odom_tf>true</publish_odom_tf>
+            <publish_wheel_tf>true</publish_wheel_tf>
+
+            <odometry_topic>odom</odometry_topic>
+            <odometry_frame>odom</odometry_frame>
+            <robot_base_frame>base_footprint</robot_base_frame>
+
+            <!-- input -->
+            <command_topic>cmd_vel</command_topic>
+
+        </plugin>
+    </gazebo>
+    <gazebo reference="lidar">
+        <sensor name="lidar_scan" type="ray">
+            <always_on>true</always_on>
+            <pose> 0 0 0 0 0 0 </pose>
+            <visualize>true</visualize>
+            <update_rate>10</update_rate>
+            <ray>
+                <scan>
+                    <horizontal>
+                        <samples>360</samples>
+                        <resolution>1.000</resolution>
+                        <min_angle>-3.14</min_angle>
+                        <max_angle>3.14</max_angle>
+                    </horizontal>
+                </scan>
+                <range>
+                    <min>0.3</min>
+                    <max>15.0</max>
+                    <resolution>0.15</resolution>
+                </range>
+            </ray>
+            <plugin name="scan" filename="libgazebo_ros_ray_sensor.so">
+                <ros>
+                    <remapping>~/out:=scan</remapping>
+                </ros>
+                <output_type>sensor_msgs/LaserScan</output_type>
+                <frame_name>lidar</frame_name>
+            </plugin>
+        </sensor>
+    </gazebo> 
 </robot>
