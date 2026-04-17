@@ -27,6 +27,7 @@ copying resource/my_robot -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/
 copying package.xml -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/install/my_robot/share/my_robot
 creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/install/my_robot/share/my_robot/launch
 copying launch/my_robot_xacro_rviz.launch.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/install/my_robot/share/my_robot/launch
+copying launch/my_robot_gazebo_rviz.launch.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/install/my_robot/share/my_robot/launch
 creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/install/my_robot/share/my_robot/urdf
 copying urdf/my_robot.urdf.xacro -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/install/my_robot/share/my_robot/urdf
 running install_egg_info
