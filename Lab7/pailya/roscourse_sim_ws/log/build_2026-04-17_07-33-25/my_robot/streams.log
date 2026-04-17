@@ -1,0 +1,22 @@
+[1.797s] Invoking command in '/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab7/pailya/roscourse_sim_ws/src/my_robot': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab7/pailya/roscourse_sim_ws/build/my_robot/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab7/pailya/roscourse_sim_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab7/pailya/roscourse_sim_ws/build/my_robot/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab7/pailya/roscourse_sim_ws/build/my_robot/install.log --single-version-externally-managed install_data
+[2.409s] running egg_info
+[2.409s] writing ../../build/my_robot/my_robot.egg-info/PKG-INFO
+[2.410s] writing dependency_links to ../../build/my_robot/my_robot.egg-info/dependency_links.txt
+[2.411s] writing entry points to ../../build/my_robot/my_robot.egg-info/entry_points.txt
+[2.413s] writing requirements to ../../build/my_robot/my_robot.egg-info/requires.txt
+[2.413s] writing top-level names to ../../build/my_robot/my_robot.egg-info/top_level.txt
+[2.416s] reading manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[2.418s] writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[2.418s] running build
+[2.418s] running build_py
+[2.419s] running install
+[2.419s] running install_lib
+[2.421s] running install_data
+[2.421s] copying urdf/my_robot.urdf.xacro -> /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab7/pailya/roscourse_sim_ws/install/my_robot/share/my_robot
+[2.422s] copying launch/my_robot_xacro_rviz.launch.py -> /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab7/pailya/roscourse_sim_ws/install/my_robot/share/my_robot/launch
+[2.422s] running install_egg_info
+[2.426s] removing '/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab7/pailya/roscourse_sim_ws/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[2.427s] Copying ../../build/my_robot/my_robot.egg-info to /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab7/pailya/roscourse_sim_ws/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info
+[2.429s] running install_scripts
+[2.504s] writing list of installed files to '/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab7/pailya/roscourse_sim_ws/build/my_robot/install.log'
+[2.587s] Invoked command in '/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab7/pailya/roscourse_sim_ws/src/my_robot' returned '0': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab7/pailya/roscourse_sim_ws/build/my_robot/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab7/pailya/roscourse_sim_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab7/pailya/roscourse_sim_ws/build/my_robot/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Eloquent_Elusor/Lab7/pailya/roscourse_sim_ws/build/my_robot/install.log --single-version-externally-managed install_data
