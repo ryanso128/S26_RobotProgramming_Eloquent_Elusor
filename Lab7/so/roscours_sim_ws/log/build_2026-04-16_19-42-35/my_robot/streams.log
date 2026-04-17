@@ -1,0 +1,37 @@
+[2.252s] Invoking command in '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/src/my_robot': PYTHONPATH=/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/build/my_robot/prefix_override:/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/build/my_robot/build install --record /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/build/my_robot/install.log --single-version-externally-managed install_data
+[2.830s] running egg_info
+[2.831s] creating ../../build/my_robot/my_robot.egg-info
+[2.832s] writing ../../build/my_robot/my_robot.egg-info/PKG-INFO
+[2.833s] writing dependency_links to ../../build/my_robot/my_robot.egg-info/dependency_links.txt
+[2.833s] writing entry points to ../../build/my_robot/my_robot.egg-info/entry_points.txt
+[2.833s] writing requirements to ../../build/my_robot/my_robot.egg-info/requires.txt
+[2.834s] writing top-level names to ../../build/my_robot/my_robot.egg-info/top_level.txt
+[2.835s] writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[2.839s] reading manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[2.841s] writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[2.841s] running build
+[2.841s] running build_py
+[2.841s] creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/build/my_robot/build
+[2.842s] creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/build/my_robot/build/lib
+[2.842s] creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/build/my_robot/build/lib/my_robot
+[2.843s] copying my_robot/__init__.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/build/my_robot/build/lib/my_robot
+[2.843s] running install
+[2.844s] running install_lib
+[2.845s] creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/install/my_robot/lib/python3.10/site-packages/my_robot
+[2.845s] copying /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/build/my_robot/build/lib/my_robot/__init__.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/install/my_robot/lib/python3.10/site-packages/my_robot
+[2.847s] byte-compiling /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/install/my_robot/lib/python3.10/site-packages/my_robot/__init__.py to __init__.cpython-310.pyc
+[2.847s] running install_data
+[2.847s] creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/install/my_robot/share/ament_index
+[2.848s] creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/install/my_robot/share/ament_index/resource_index
+[2.848s] creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/install/my_robot/share/ament_index/resource_index/packages
+[2.848s] copying resource/my_robot -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/install/my_robot/share/ament_index/resource_index/packages
+[2.848s] copying package.xml -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/install/my_robot/share/my_robot
+[2.849s] copying urdf/my_robot.urdf -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/install/my_robot/share/my_robot
+[2.849s] creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/install/my_robot/share/my_robot/launch
+[2.849s] copying launch/my_robot_rviz.launch.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/install/my_robot/share/my_robot/launch
+[2.850s] copying rviz/my_robot.rviz -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/install/my_robot/share/my_robot
+[2.850s] running install_egg_info
+[2.856s] Copying ../../build/my_robot/my_robot.egg-info to /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info
+[2.858s] running install_scripts
+[2.914s] writing list of installed files to '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/build/my_robot/install.log'
+[2.950s] Invoked command in '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/src/my_robot' returned '0': PYTHONPATH=/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/build/my_robot/prefix_override:/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/build/my_robot/build install --record /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/build/my_robot/install.log --single-version-externally-managed install_data

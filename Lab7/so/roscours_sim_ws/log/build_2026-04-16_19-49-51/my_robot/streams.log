@@ -1,0 +1,22 @@
+[2.167s] Invoking command in '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/src/my_robot': PYTHONPATH=/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/build/my_robot/prefix_override:/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/build/my_robot/build install --record /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/build/my_robot/install.log --single-version-externally-managed install_data
+[2.744s] running egg_info
+[2.746s] writing ../../build/my_robot/my_robot.egg-info/PKG-INFO
+[2.747s] writing dependency_links to ../../build/my_robot/my_robot.egg-info/dependency_links.txt
+[2.748s] writing entry points to ../../build/my_robot/my_robot.egg-info/entry_points.txt
+[2.748s] writing requirements to ../../build/my_robot/my_robot.egg-info/requires.txt
+[2.748s] writing top-level names to ../../build/my_robot/my_robot.egg-info/top_level.txt
+[2.753s] reading manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[2.754s] writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[2.755s] running build
+[2.755s] running build_py
+[2.756s] running install
+[2.757s] running install_lib
+[2.760s] running install_data
+[2.760s] copying urdf/my_robot.urdf.xacro -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/install/my_robot/share/my_robot
+[2.761s] copying launch/my_robot_xacro_rviz.launch.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/install/my_robot/share/my_robot/launch
+[2.761s] running install_egg_info
+[2.765s] removing '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[2.766s] Copying ../../build/my_robot/my_robot.egg-info to /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info
+[2.767s] running install_scripts
+[2.817s] writing list of installed files to '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/build/my_robot/install.log'
+[2.857s] Invoked command in '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/src/my_robot' returned '0': PYTHONPATH=/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/build/my_robot/prefix_override:/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/build/my_robot/build install --record /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/so/roscours_sim_ws/build/my_robot/install.log --single-version-externally-managed install_data
