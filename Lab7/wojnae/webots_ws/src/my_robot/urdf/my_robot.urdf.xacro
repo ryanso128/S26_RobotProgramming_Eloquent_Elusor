@@ -148,7 +148,7 @@
       rpy="0 0 0"/>
   </link>
 
-  <joint name="base_left_wheel_joint" type="fixed">
+  <joint name="base_left_wheel_joint" type="continuous">
     <parent link="base_link"/>
     <child link="left_wheel"/>
     <origin xyz="-0.15 0.25 0" rpy="${-pi / 2.0} 0 0"/>
@@ -178,7 +178,7 @@
       rpy="0 0 0"/>
   </link>
 
-  <joint name="base_right_wheel_joint" type="fixed">
+  <joint name="base_right_wheel_joint" type="continuous">
     <parent link="base_link"/>
     <child link="right_wheel"/>
     <origin xyz="-0.15 -0.25 0" rpy="${-pi / 2.0} 0 0"/>
@@ -213,5 +213,58 @@
     <origin xyz="0.25 0 -0.05" rpy="0 0 0"/>
   </joint>
 
-</robot>
+  <!-- ================= GAZEBO MATERIALS ================= -->
+  <gazebo reference="base_link">
+    <material>Gazebo/Green</material>
+  </gazebo>
 
+  <gazebo reference="left_wheel">
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+  <gazebo reference="right_wheel">
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+  <gazebo reference="caster_wheel">
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+  <gazebo reference="lidar">
+    <material>Gazebo/White</material>
+  </gazebo>
+
+  <!-- ================= DIFF DRIVE PLUGIN ================= -->
+
+  <gazebo>
+    <plugin name="diff_drive_controller"
+      filename="libgazebo_ros_diff_drive.so">
+
+      <!-- Update rate in Hz -->
+      <update_rate>50</update_rate>
+
+      <!-- Wheels -->
+      <left_joint>base_left_wheel_joint</left_joint>
+      <right_joint>base_right_wheel_joint</right_joint>
+
+      <!-- Kinematics -->
+      <wheel_separation>0.4</wheel_separation>
+      <wheel_diameter>0.2</wheel_diameter>
+
+      <!-- Output -->
+      <publish_odom>true</publish_odom>
+      <publish_odom_tf>true</publish_odom_tf>
+      <publish_wheel_tf>true</publish_wheel_tf>
+
+      <odometry_topic>odom</odometry_topic>
+      <odometry_frame>odom</odometry_frame>
+      <robot_base_frame>base_footprint</robot_base_frame>
+
+      <!-- Input -->
+      <command_topic>cmd_vel</command_topic>
+
+    </plugin>
+  </gazebo>
+
+
+</robot>
