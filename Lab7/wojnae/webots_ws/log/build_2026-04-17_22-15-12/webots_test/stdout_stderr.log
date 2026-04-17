@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/webots_test/webots_test.egg-info
+writing ../../build/webots_test/webots_test.egg-info/PKG-INFO
+writing dependency_links to ../../build/webots_test/webots_test.egg-info/dependency_links.txt
+writing entry points to ../../build/webots_test/webots_test.egg-info/entry_points.txt
+writing requirements to ../../build/webots_test/webots_test.egg-info/requires.txt
+writing top-level names to ../../build/webots_test/webots_test.egg-info/top_level.txt
+writing manifest file '../../build/webots_test/webots_test.egg-info/SOURCES.txt'
+reading manifest file '../../build/webots_test/webots_test.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/webots_test/webots_test.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/build/webots_test/build
+creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/build/webots_test/build/lib
+creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/build/webots_test/build/lib/webots_test
+copying webots_test/__init__.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/build/webots_test/build/lib/webots_test
+copying webots_test/my_robot_driver.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/build/webots_test/build/lib/webots_test
+running install
+running install_lib
+creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/install/webots_test/lib/python3.10/site-packages/webots_test
+copying /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/build/webots_test/build/lib/webots_test/__init__.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/install/webots_test/lib/python3.10/site-packages/webots_test
+copying /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/build/webots_test/build/lib/webots_test/my_robot_driver.py -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/install/webots_test/lib/python3.10/site-packages/webots_test
+byte-compiling /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/install/webots_test/lib/python3.10/site-packages/webots_test/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/install/webots_test/lib/python3.10/site-packages/webots_test/my_robot_driver.py to my_robot_driver.cpython-310.pyc
+running install_data
+creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/install/webots_test/share/ament_index
+creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/install/webots_test/share/ament_index/resource_index
+creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/install/webots_test/share/ament_index/resource_index/packages
+copying resource/webots_test -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/install/webots_test/share/ament_index/resource_index/packages
+copying package.xml -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/install/webots_test/share/webots_test
+running install_egg_info
+Copying ../../build/webots_test/webots_test.egg-info to /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/install/webots_test/lib/python3.10/site-packages/webots_test-0.0.0-py3.10.egg-info
+running install_scripts
+Installing my_robot_driver script to /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/install/webots_test/lib/webots_test
+writing list of installed files to '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/build/webots_test/install.log'

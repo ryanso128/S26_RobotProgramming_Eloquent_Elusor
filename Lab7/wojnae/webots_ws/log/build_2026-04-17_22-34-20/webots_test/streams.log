@@ -1,0 +1,25 @@
+[1.992s] Invoking command in '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/src/webots_test': PYTHONPATH=/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/build/webots_test/prefix_override:/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/install/webots_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_test build --build-base /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/build/webots_test/build install --record /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/build/webots_test/install.log --single-version-externally-managed install_data
+[2.863s] running egg_info
+[2.865s] writing ../../build/webots_test/webots_test.egg-info/PKG-INFO
+[2.866s] writing dependency_links to ../../build/webots_test/webots_test.egg-info/dependency_links.txt
+[2.867s] writing entry points to ../../build/webots_test/webots_test.egg-info/entry_points.txt
+[2.868s] writing requirements to ../../build/webots_test/webots_test.egg-info/requires.txt
+[2.868s] writing top-level names to ../../build/webots_test/webots_test.egg-info/top_level.txt
+[2.876s] reading manifest file '../../build/webots_test/webots_test.egg-info/SOURCES.txt'
+[2.877s] adding license file 'LICENSE'
+[2.877s] writing manifest file '../../build/webots_test/webots_test.egg-info/SOURCES.txt'
+[2.877s] running build
+[2.877s] running build_py
+[2.877s] running install
+[2.878s] running install_lib
+[2.882s] running install_data
+[2.883s] copying worlds/my_world.wbt -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/install/webots_test/share/webots_test/worlds
+[2.884s] creating /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/install/webots_test/share/webots_test/urdf
+[2.884s] copying urdf/my_robot.urdf -> /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/install/webots_test/share/webots_test/urdf
+[2.884s] running install_egg_info
+[2.889s] removing '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/install/webots_test/lib/python3.10/site-packages/webots_test-0.0.0-py3.10.egg-info' (and everything under it)
+[2.891s] Copying ../../build/webots_test/webots_test.egg-info to /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/install/webots_test/lib/python3.10/site-packages/webots_test-0.0.0-py3.10.egg-info
+[2.895s] running install_scripts
+[2.974s] Installing my_robot_driver script to /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/install/webots_test/lib/webots_test
+[2.975s] writing list of installed files to '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/build/webots_test/install.log'
+[3.033s] Invoked command in '/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/src/webots_test' returned '0': PYTHONPATH=/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/build/webots_test/prefix_override:/home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/install/webots_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_test build --build-base /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/build/webots_test/build install --record /home/yahboom/S26_RobotProgramming_Eloquent_Elusor/Lab7/wojnae/webots_ws/build/webots_test/install.log --single-version-externally-managed install_data
