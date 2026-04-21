@@ -1,0 +1,1 @@
+This file subcribes to cmd_vel. Whenever a twist message is published to cmd_vel, the ROS2 commands will be translated into velocities used by the left and right motors of the robot.

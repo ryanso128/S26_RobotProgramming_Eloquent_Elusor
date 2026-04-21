@@ -1,0 +1,352 @@
+[0.088s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.088s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x764cfb756c20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x764cfb756710>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x764cfb756710>>)
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.236s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yahboom/Desktop/intro_ws'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extension 'ros'
+[0.251s] DEBUG:colcon.colcon_core.package_identification:Package 'src/python_parameters' with type 'ros.ament_python' and name 'python_parameters'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_tf2_py) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_tf2_py) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_tf2_py) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_tf2_py) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_tf2_py) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_tf2_py) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_tf2_py) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_tf2_py) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_tf2_py) by extension 'ros'
+[0.252s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_tf2_py' with type 'ros.ament_python' and name 'test_tf2_py'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/time_tf2_py) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/time_tf2_py) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/time_tf2_py) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/time_tf2_py) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/time_tf2_py) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/time_tf2_py) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/time_tf2_py) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/time_tf2_py) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/time_tf2_py) by extension 'ros'
+[0.253s] DEBUG:colcon.colcon_core.package_identification:Package 'src/time_tf2_py' with type 'ros.ament_python' and name 'time_tf2_py'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_interfaces' with type 'ros.ament_cmake' and name 'turtle_interfaces'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_test) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_test) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_test) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_test) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_test) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_test) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_test) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_test) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_test) by extension 'ros'
+[0.256s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_test' with type 'ros.ament_python' and name 'turtle_test'
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.294s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/yahboom/Desktop/intro_ws/install
+[0.294s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 19 installed packages in /home/yahboom/yahboomcar_ws/install
+[0.295s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/yahboom/gmapping_ws/install
+[0.296s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 76 installed packages in /home/yahboom/cartoros2/install
+[0.298s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 347 installed packages in /opt/ros/humble
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_args' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_target' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_clean_cache' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_clean_first' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_force_configure' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'ament_cmake_args' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'catkin_cmake_args' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.335s] DEBUG:colcon.colcon_core.verb:Building package 'python_parameters' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yahboom/Desktop/intro_ws/build/python_parameters', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yahboom/Desktop/intro_ws/install/python_parameters', 'merge_install': False, 'path': '/home/yahboom/Desktop/intro_ws/src/python_parameters', 'symlink_install': False, 'test_result_base': None}
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'test_tf2_py' build argument 'cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'test_tf2_py' build argument 'cmake_target' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'test_tf2_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'test_tf2_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'test_tf2_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'test_tf2_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'test_tf2_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'test_tf2_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'test_tf2_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.336s] DEBUG:colcon.colcon_core.verb:Building package 'test_tf2_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yahboom/Desktop/intro_ws/build/test_tf2_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yahboom/Desktop/intro_ws/install/test_tf2_py', 'merge_install': False, 'path': '/home/yahboom/Desktop/intro_ws/src/test_tf2_py', 'symlink_install': False, 'test_result_base': None}
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'time_tf2_py' build argument 'cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'time_tf2_py' build argument 'cmake_target' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'time_tf2_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'time_tf2_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'time_tf2_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'time_tf2_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'time_tf2_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'time_tf2_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'time_tf2_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.336s] DEBUG:colcon.colcon_core.verb:Building package 'time_tf2_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yahboom/Desktop/intro_ws/build/time_tf2_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yahboom/Desktop/intro_ws/install/time_tf2_py', 'merge_install': False, 'path': '/home/yahboom/Desktop/intro_ws/src/time_tf2_py', 'symlink_install': False, 'test_result_base': None}
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.337s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yahboom/Desktop/intro_ws/build/turtle_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces', 'merge_install': False, 'path': '/home/yahboom/Desktop/intro_ws/src/turtle_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtle_test' build argument 'cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtle_test' build argument 'cmake_target' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtle_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtle_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtle_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtle_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtle_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtle_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtle_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.337s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yahboom/Desktop/intro_ws/build/turtle_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yahboom/Desktop/intro_ws/install/turtle_test', 'merge_install': False, 'path': '/home/yahboom/Desktop/intro_ws/src/turtle_test', 'symlink_install': False, 'test_result_base': None}
+[0.338s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.339s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.339s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yahboom/Desktop/intro_ws/src/turtle_interfaces' with build type 'ament_cmake'
+[0.339s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yahboom/Desktop/intro_ws/src/turtle_interfaces'
+[0.342s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.342s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.342s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.352s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yahboom/Desktop/intro_ws/src/python_parameters' with build type 'ament_python'
+[0.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_parameters', 'ament_prefix_path')
+[0.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/intro_ws/install/python_parameters/share/python_parameters/hook/ament_prefix_path.ps1'
+[0.354s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/Desktop/intro_ws/install/python_parameters/share/python_parameters/hook/ament_prefix_path.dsv'
+[0.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/intro_ws/install/python_parameters/share/python_parameters/hook/ament_prefix_path.sh'
+[0.360s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.360s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.371s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yahboom/Desktop/intro_ws/src/test_tf2_py' with build type 'ament_python'
+[0.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_tf2_py', 'ament_prefix_path')
+[0.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/intro_ws/install/test_tf2_py/share/test_tf2_py/hook/ament_prefix_path.ps1'
+[0.377s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/Desktop/intro_ws/install/test_tf2_py/share/test_tf2_py/hook/ament_prefix_path.dsv'
+[0.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/intro_ws/install/test_tf2_py/share/test_tf2_py/hook/ament_prefix_path.sh'
+[0.379s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.379s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.391s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yahboom/Desktop/intro_ws/src/time_tf2_py' with build type 'ament_python'
+[0.391s] Level 1:colcon.colcon_core.shell:create_environment_hook('time_tf2_py', 'ament_prefix_path')
+[0.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/intro_ws/install/time_tf2_py/share/time_tf2_py/hook/ament_prefix_path.ps1'
+[0.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/Desktop/intro_ws/install/time_tf2_py/share/time_tf2_py/hook/ament_prefix_path.dsv'
+[0.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/intro_ws/install/time_tf2_py/share/time_tf2_py/hook/ament_prefix_path.sh'
+[0.393s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.393s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/Desktop/intro_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/Desktop/intro_ws/install/turtle_test:/home/yahboom/Desktop/intro_ws/install/test_tf2_py:/home/yahboom/Desktop/intro_ws/install/python_parameters:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/Desktop/intro_ws/build/turtle_interfaces -- -j4 -l4
+[0.773s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yahboom/Desktop/intro_ws/src/python_parameters'
+[0.773s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.773s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.065s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yahboom/Desktop/intro_ws/src/test_tf2_py'
+[1.066s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.066s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.349s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yahboom/Desktop/intro_ws/src/time_tf2_py'
+[1.349s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.349s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/Desktop/intro_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/Desktop/intro_ws/install/turtle_test:/home/yahboom/Desktop/intro_ws/install/test_tf2_py:/home/yahboom/Desktop/intro_ws/install/python_parameters:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/Desktop/intro_ws/build/turtle_interfaces -- -j4 -l4
+[1.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/Desktop/intro_ws/src/test_tf2_py': PYTHONPATH=/home/yahboom/Desktop/intro_ws/build/test_tf2_py/prefix_override:/home/yahboom/Desktop/intro_ws/install/test_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_tf2_py build --build-base /home/yahboom/Desktop/intro_ws/build/test_tf2_py/build install --record /home/yahboom/Desktop/intro_ws/build/test_tf2_py/install.log --single-version-externally-managed install_data
+[1.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/Desktop/intro_ws/src/python_parameters': PYTHONPATH=/home/yahboom/Desktop/intro_ws/build/python_parameters/prefix_override:/home/yahboom/Desktop/intro_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/yahboom/Desktop/intro_ws/build/python_parameters/build install --record /home/yahboom/Desktop/intro_ws/build/python_parameters/install.log --single-version-externally-managed install_data
+[1.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/Desktop/intro_ws/src/time_tf2_py': PYTHONPATH=/home/yahboom/Desktop/intro_ws/build/time_tf2_py/prefix_override:/home/yahboom/Desktop/intro_ws/install/time_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/time_tf2_py build --build-base /home/yahboom/Desktop/intro_ws/build/time_tf2_py/build install --record /home/yahboom/Desktop/intro_ws/build/time_tf2_py/install.log --single-version-externally-managed install_data
+[1.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/Desktop/intro_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/Desktop/intro_ws/install/turtle_test:/home/yahboom/Desktop/intro_ws/install/test_tf2_py:/home/yahboom/Desktop/intro_ws/install/python_parameters:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/Desktop/intro_ws/build/turtle_interfaces
+[2.080s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_interfaces)
+[2.083s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces' for CMake module files
+[2.087s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces' for CMake config files
+[2.088s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'cmake_prefix_path')
+[2.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.ps1'
+[2.089s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.dsv'
+[2.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.sh'
+[2.100s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/lib'
+[2.100s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'ld_library_path_lib')
+[2.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.ps1'
+[2.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/Desktop/intro_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/Desktop/intro_ws/install/turtle_test:/home/yahboom/Desktop/intro_ws/install/test_tf2_py:/home/yahboom/Desktop/intro_ws/install/python_parameters:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/Desktop/intro_ws/build/turtle_interfaces
+[2.101s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.dsv'
+[2.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.sh'
+[2.102s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/bin'
+[2.103s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/lib/pkgconfig/turtle_interfaces.pc'
+[2.104s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/lib/python3.10/site-packages'
+[2.104s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/bin'
+[2.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/package.ps1'
+[2.107s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/package.dsv'
+[2.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/package.sh'
+[2.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/package.bash'
+[2.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/package.zsh'
+[2.117s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/colcon-core/packages/turtle_interfaces)
+[2.124s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/python_parameters' for CMake module files
+[2.125s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/python_parameters' for CMake config files
+[2.126s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/python_parameters/lib'
+[2.126s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/python_parameters/bin'
+[2.124s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/Desktop/intro_ws/src/python_parameters' returned '0': PYTHONPATH=/home/yahboom/Desktop/intro_ws/build/python_parameters/prefix_override:/home/yahboom/Desktop/intro_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/yahboom/Desktop/intro_ws/build/python_parameters/build install --record /home/yahboom/Desktop/intro_ws/build/python_parameters/install.log --single-version-externally-managed install_data
+[2.130s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/python_parameters/lib/pkgconfig/python_parameters.pc'
+[2.130s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/python_parameters/lib/python3.10/site-packages'
+[2.130s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_parameters', 'pythonpath')
+[2.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/intro_ws/install/python_parameters/share/python_parameters/hook/pythonpath.ps1'
+[2.131s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/Desktop/intro_ws/install/python_parameters/share/python_parameters/hook/pythonpath.dsv'
+[2.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/intro_ws/install/python_parameters/share/python_parameters/hook/pythonpath.sh'
+[2.135s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/python_parameters/bin'
+[2.135s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(python_parameters)
+[2.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/intro_ws/install/python_parameters/share/python_parameters/package.ps1'
+[2.136s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahboom/Desktop/intro_ws/install/python_parameters/share/python_parameters/package.dsv'
+[2.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/intro_ws/install/python_parameters/share/python_parameters/package.sh'
+[2.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/intro_ws/install/python_parameters/share/python_parameters/package.bash'
+[2.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/intro_ws/install/python_parameters/share/python_parameters/package.zsh'
+[2.138s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahboom/Desktop/intro_ws/install/python_parameters/share/colcon-core/packages/python_parameters)
+[2.154s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/test_tf2_py' for CMake module files
+[2.154s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/test_tf2_py' for CMake config files
+[2.155s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/test_tf2_py/lib'
+[2.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/Desktop/intro_ws/src/test_tf2_py' returned '0': PYTHONPATH=/home/yahboom/Desktop/intro_ws/build/test_tf2_py/prefix_override:/home/yahboom/Desktop/intro_ws/install/test_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_tf2_py build --build-base /home/yahboom/Desktop/intro_ws/build/test_tf2_py/build install --record /home/yahboom/Desktop/intro_ws/build/test_tf2_py/install.log --single-version-externally-managed install_data
+[2.158s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/test_tf2_py/bin'
+[2.158s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/test_tf2_py/lib/pkgconfig/test_tf2_py.pc'
+[2.158s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/test_tf2_py/lib/python3.10/site-packages'
+[2.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_tf2_py', 'pythonpath')
+[2.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/intro_ws/install/test_tf2_py/share/test_tf2_py/hook/pythonpath.ps1'
+[2.165s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/Desktop/intro_ws/install/test_tf2_py/share/test_tf2_py/hook/pythonpath.dsv'
+[2.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/intro_ws/install/test_tf2_py/share/test_tf2_py/hook/pythonpath.sh'
+[2.169s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/test_tf2_py/bin'
+[2.170s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_tf2_py)
+[2.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/intro_ws/install/test_tf2_py/share/test_tf2_py/package.ps1'
+[2.172s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahboom/Desktop/intro_ws/install/test_tf2_py/share/test_tf2_py/package.dsv'
+[2.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/intro_ws/install/test_tf2_py/share/test_tf2_py/package.sh'
+[2.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/intro_ws/install/test_tf2_py/share/test_tf2_py/package.bash'
+[2.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/intro_ws/install/test_tf2_py/share/test_tf2_py/package.zsh'
+[2.180s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahboom/Desktop/intro_ws/install/test_tf2_py/share/colcon-core/packages/test_tf2_py)
+[2.182s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/time_tf2_py' for CMake module files
+[2.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/Desktop/intro_ws/src/time_tf2_py' returned '0': PYTHONPATH=/home/yahboom/Desktop/intro_ws/build/time_tf2_py/prefix_override:/home/yahboom/Desktop/intro_ws/install/time_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/time_tf2_py build --build-base /home/yahboom/Desktop/intro_ws/build/time_tf2_py/build install --record /home/yahboom/Desktop/intro_ws/build/time_tf2_py/install.log --single-version-externally-managed install_data
+[2.183s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/time_tf2_py' for CMake config files
+[2.183s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/time_tf2_py/lib'
+[2.184s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/time_tf2_py/bin'
+[2.184s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/time_tf2_py/lib/pkgconfig/time_tf2_py.pc'
+[2.184s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/time_tf2_py/lib/python3.10/site-packages'
+[2.184s] Level 1:colcon.colcon_core.shell:create_environment_hook('time_tf2_py', 'pythonpath')
+[2.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/intro_ws/install/time_tf2_py/share/time_tf2_py/hook/pythonpath.ps1'
+[2.186s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/Desktop/intro_ws/install/time_tf2_py/share/time_tf2_py/hook/pythonpath.dsv'
+[2.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/intro_ws/install/time_tf2_py/share/time_tf2_py/hook/pythonpath.sh'
+[2.192s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/time_tf2_py/bin'
+[2.192s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(time_tf2_py)
+[2.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/intro_ws/install/time_tf2_py/share/time_tf2_py/package.ps1'
+[2.193s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahboom/Desktop/intro_ws/install/time_tf2_py/share/time_tf2_py/package.dsv'
+[2.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/intro_ws/install/time_tf2_py/share/time_tf2_py/package.sh'
+[2.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/intro_ws/install/time_tf2_py/share/time_tf2_py/package.bash'
+[2.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/intro_ws/install/time_tf2_py/share/time_tf2_py/package.zsh'
+[2.195s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahboom/Desktop/intro_ws/install/time_tf2_py/share/colcon-core/packages/time_tf2_py)
+[2.601s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_interfaces)
+[2.602s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces' for CMake module files
+[2.602s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces' for CMake config files
+[2.603s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'cmake_prefix_path')
+[2.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.ps1'
+[2.604s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.dsv'
+[2.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.sh'
+[2.605s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/lib'
+[2.605s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'ld_library_path_lib')
+[2.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.ps1'
+[2.606s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.dsv'
+[2.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.sh'
+[2.607s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/bin'
+[2.607s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/lib/pkgconfig/turtle_interfaces.pc'
+[2.607s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/lib/python3.10/site-packages'
+[2.607s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/bin'
+[2.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/package.ps1'
+[2.608s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/package.dsv'
+[2.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/package.sh'
+[2.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/package.bash'
+[2.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/turtle_interfaces/package.zsh'
+[2.611s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/share/colcon-core/packages/turtle_interfaces)
+[2.611s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yahboom/Desktop/intro_ws/src/turtle_test' with build type 'ament_python'
+[2.611s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_test', 'ament_prefix_path')
+[2.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/intro_ws/install/turtle_test/share/turtle_test/hook/ament_prefix_path.ps1'
+[2.613s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/Desktop/intro_ws/install/turtle_test/share/turtle_test/hook/ament_prefix_path.dsv'
+[2.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/intro_ws/install/turtle_test/share/turtle_test/hook/ament_prefix_path.sh'
+[2.615s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.615s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.935s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yahboom/Desktop/intro_ws/src/turtle_test'
+[2.935s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.935s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/Desktop/intro_ws/src/turtle_test': LD_LIBRARY_PATH=/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/lib:/home/yahboom/cartoros2/install/yahboom_web_savmap_interfaces/lib:/home/yahboom/cartoros2/install/yahboom_msgs/lib:/home/yahboom/cartoros2/install/yahboom_color_identify_interfaces/lib:/home/yahboom/cartoros2/install/yahboom_attitude_record_interfaces/lib:/home/yahboom/cartoros2/install/nav2_smoother/lib:/home/yahboom/cartoros2/install/nav2_graceful_controller/lib:/home/yahboom/cartoros2/install/nav2_controller/lib:/home/yahboom/cartoros2/install/dwb_plugins/lib:/home/yahboom/cartoros2/install/dwb_critics/lib:/home/yahboom/cartoros2/install/dwb_core/lib:/home/yahboom/cartoros2/install/nav_2d_utils/lib:/home/yahboom/cartoros2/install/dwb_msgs/lib:/home/yahboom/cartoros2/install/nav_2d_msgs/lib:/home/yahboom/cartoros2/install/nav2_waypoint_follower/lib:/home/yahboom/cartoros2/install/nav2_theta_star_planner/lib:/home/yahboom/cartoros2/install/nav2_smac_planner/lib:/home/yahboom/cartoros2/install/nav2_rotation_shim_controller/lib:/home/yahboom/cartoros2/install/nav2_regulated_pure_pursuit_controller/lib:/home/yahboom/cartoros2/install/nav2_planner/lib:/home/yahboom/cartoros2/install/nav2_navfn_planner/lib:/home/yahboom/cartoros2/install/nav2_mppi_controller/lib:/home/yahboom/cartoros2/install/nav2_constrained_smoother/lib:/home/yahboom/cartoros2/install/nav2_bt_navigator/lib:/home/yahboom/cartoros2/install/nav2_behaviors/lib:/home/yahboom/cartoros2/install/nav2_collision_monitor/lib:/home/yahboom/cartoros2/install/costmap_queue/lib:/home/yahboom/cartoros2/install/nav2_costmap_2d/lib:/home/yahboom/cartoros2/install/nav2_voxel_grid/lib:/home/yahboom/cartoros2/install/nav2_velocity_smoother/lib:/home/yahboom/cartoros2/install/nav2_rviz_plugins/lib:/home/yahboom/cartoros2/install/nav2_map_server/lib:/home/yahboom/cartoros2/install/nav2_lifecycle_manager/lib:/home/yahboom/cartoros2/install/nav2_behavior_tree/lib:/home/yahboom/cartoros2/install/nav2_amcl/lib:/home/yahboom/cartoros2/install/nav2_util/lib:/home/yahboom/cartoros2/install/nav2_msgs/lib:/home/yahboom/cartoros2/install/image_color_lab/lib:/home/yahboom/cartoros2/install/dynamixel_sdk_custom_interfaces/lib:/home/yahboom/cartoros2/install/dynamixel_sdk/lib:/home/yahboom/cartoros2/install/csm/lib:/home/yahboom/cartoros2/install/champ_msgs/lib:/home/yahboom/cartoros2/install/cartographer_ros_msgs/lib:/home/yahboom/yahboomcar_ws/install/yahboom_dog_msgs/lib:/home/yahboom/yahboomcar_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yahboom/yahboomcar_ws/install/dynamixel_sdk/lib:/home/yahboom/yahboomcar_ws/install/champ_msgs/lib:/home/yahboom/gmapping_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/include/std_msgs/std_msgs/msg/:/usr/lib/jvm/java-11-openjdk-amd64/lib/:/usr/lib/jvm/java-11-openjdk-amd64/lib/server/ PYTHONPATH=/home/yahboom/Desktop/intro_ws/build/turtle_test/prefix_override:/home/yahboom/Desktop/intro_ws/install/turtle_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_test build --build-base /home/yahboom/Desktop/intro_ws/build/turtle_test/build install --record /home/yahboom/Desktop/intro_ws/build/turtle_test/install.log --single-version-externally-managed install_data
+[3.595s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/turtle_test' for CMake module files
+[3.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/Desktop/intro_ws/src/turtle_test' returned '0': LD_LIBRARY_PATH=/home/yahboom/Desktop/intro_ws/install/turtle_interfaces/lib:/home/yahboom/cartoros2/install/yahboom_web_savmap_interfaces/lib:/home/yahboom/cartoros2/install/yahboom_msgs/lib:/home/yahboom/cartoros2/install/yahboom_color_identify_interfaces/lib:/home/yahboom/cartoros2/install/yahboom_attitude_record_interfaces/lib:/home/yahboom/cartoros2/install/nav2_smoother/lib:/home/yahboom/cartoros2/install/nav2_graceful_controller/lib:/home/yahboom/cartoros2/install/nav2_controller/lib:/home/yahboom/cartoros2/install/dwb_plugins/lib:/home/yahboom/cartoros2/install/dwb_critics/lib:/home/yahboom/cartoros2/install/dwb_core/lib:/home/yahboom/cartoros2/install/nav_2d_utils/lib:/home/yahboom/cartoros2/install/dwb_msgs/lib:/home/yahboom/cartoros2/install/nav_2d_msgs/lib:/home/yahboom/cartoros2/install/nav2_waypoint_follower/lib:/home/yahboom/cartoros2/install/nav2_theta_star_planner/lib:/home/yahboom/cartoros2/install/nav2_smac_planner/lib:/home/yahboom/cartoros2/install/nav2_rotation_shim_controller/lib:/home/yahboom/cartoros2/install/nav2_regulated_pure_pursuit_controller/lib:/home/yahboom/cartoros2/install/nav2_planner/lib:/home/yahboom/cartoros2/install/nav2_navfn_planner/lib:/home/yahboom/cartoros2/install/nav2_mppi_controller/lib:/home/yahboom/cartoros2/install/nav2_constrained_smoother/lib:/home/yahboom/cartoros2/install/nav2_bt_navigator/lib:/home/yahboom/cartoros2/install/nav2_behaviors/lib:/home/yahboom/cartoros2/install/nav2_collision_monitor/lib:/home/yahboom/cartoros2/install/costmap_queue/lib:/home/yahboom/cartoros2/install/nav2_costmap_2d/lib:/home/yahboom/cartoros2/install/nav2_voxel_grid/lib:/home/yahboom/cartoros2/install/nav2_velocity_smoother/lib:/home/yahboom/cartoros2/install/nav2_rviz_plugins/lib:/home/yahboom/cartoros2/install/nav2_map_server/lib:/home/yahboom/cartoros2/install/nav2_lifecycle_manager/lib:/home/yahboom/cartoros2/install/nav2_behavior_tree/lib:/home/yahboom/cartoros2/install/nav2_amcl/lib:/home/yahboom/cartoros2/install/nav2_util/lib:/home/yahboom/cartoros2/install/nav2_msgs/lib:/home/yahboom/cartoros2/install/image_color_lab/lib:/home/yahboom/cartoros2/install/dynamixel_sdk_custom_interfaces/lib:/home/yahboom/cartoros2/install/dynamixel_sdk/lib:/home/yahboom/cartoros2/install/csm/lib:/home/yahboom/cartoros2/install/champ_msgs/lib:/home/yahboom/cartoros2/install/cartographer_ros_msgs/lib:/home/yahboom/yahboomcar_ws/install/yahboom_dog_msgs/lib:/home/yahboom/yahboomcar_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yahboom/yahboomcar_ws/install/dynamixel_sdk/lib:/home/yahboom/yahboomcar_ws/install/champ_msgs/lib:/home/yahboom/gmapping_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/include/std_msgs/std_msgs/msg/:/usr/lib/jvm/java-11-openjdk-amd64/lib/:/usr/lib/jvm/java-11-openjdk-amd64/lib/server/ PYTHONPATH=/home/yahboom/Desktop/intro_ws/build/turtle_test/prefix_override:/home/yahboom/Desktop/intro_ws/install/turtle_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_test build --build-base /home/yahboom/Desktop/intro_ws/build/turtle_test/build install --record /home/yahboom/Desktop/intro_ws/build/turtle_test/install.log --single-version-externally-managed install_data
+[3.595s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/turtle_test' for CMake config files
+[3.596s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/turtle_test/lib'
+[3.596s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/turtle_test/bin'
+[3.596s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/turtle_test/lib/pkgconfig/turtle_test.pc'
+[3.596s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/turtle_test/lib/python3.10/site-packages'
+[3.596s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_test', 'pythonpath')
+[3.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/intro_ws/install/turtle_test/share/turtle_test/hook/pythonpath.ps1'
+[3.597s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/Desktop/intro_ws/install/turtle_test/share/turtle_test/hook/pythonpath.dsv'
+[3.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/Desktop/intro_ws/install/turtle_test/share/turtle_test/hook/pythonpath.sh'
+[3.598s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/Desktop/intro_ws/install/turtle_test/bin'
+[3.598s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_test)
+[3.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/intro_ws/install/turtle_test/share/turtle_test/package.ps1'
+[3.598s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahboom/Desktop/intro_ws/install/turtle_test/share/turtle_test/package.dsv'
+[3.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/intro_ws/install/turtle_test/share/turtle_test/package.sh'
+[3.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/intro_ws/install/turtle_test/share/turtle_test/package.bash'
+[3.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/Desktop/intro_ws/install/turtle_test/share/turtle_test/package.zsh'
+[3.600s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahboom/Desktop/intro_ws/install/turtle_test/share/colcon-core/packages/turtle_test)
+[3.600s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.601s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.601s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.601s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.609s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.609s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.610s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.627s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.628s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yahboom/Desktop/intro_ws/install/local_setup.ps1'
+[3.631s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yahboom/Desktop/intro_ws/install/_local_setup_util_ps1.py'
+[3.633s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yahboom/Desktop/intro_ws/install/setup.ps1'
+[3.638s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yahboom/Desktop/intro_ws/install/local_setup.sh'
+[3.639s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yahboom/Desktop/intro_ws/install/_local_setup_util_sh.py'
+[3.640s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yahboom/Desktop/intro_ws/install/setup.sh'
+[3.645s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yahboom/Desktop/intro_ws/install/local_setup.bash'
+[3.645s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yahboom/Desktop/intro_ws/install/setup.bash'
+[3.650s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yahboom/Desktop/intro_ws/install/local_setup.zsh'
+[3.651s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yahboom/Desktop/intro_ws/install/setup.zsh'

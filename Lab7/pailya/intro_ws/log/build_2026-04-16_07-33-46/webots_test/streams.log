@@ -1,0 +1,44 @@
+[1.215s] Invoking command in '/home/yahboom/Desktop/intro_ws/src/webots_test': PYTHONPATH=/home/yahboom/Desktop/intro_ws/build/webots_test/prefix_override:/home/yahboom/Desktop/intro_ws/install/webots_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_test build --build-base /home/yahboom/Desktop/intro_ws/build/webots_test/build install --record /home/yahboom/Desktop/intro_ws/build/webots_test/install.log --single-version-externally-managed install_data
+[1.484s] running egg_info
+[1.485s] creating ../../build/webots_test/webots_test.egg-info
+[1.486s] writing ../../build/webots_test/webots_test.egg-info/PKG-INFO
+[1.486s] writing dependency_links to ../../build/webots_test/webots_test.egg-info/dependency_links.txt
+[1.486s] writing entry points to ../../build/webots_test/webots_test.egg-info/entry_points.txt
+[1.486s] writing requirements to ../../build/webots_test/webots_test.egg-info/requires.txt
+[1.486s] writing top-level names to ../../build/webots_test/webots_test.egg-info/top_level.txt
+[1.487s] writing manifest file '../../build/webots_test/webots_test.egg-info/SOURCES.txt'
+[1.489s] reading manifest file '../../build/webots_test/webots_test.egg-info/SOURCES.txt'
+[1.489s] adding license file 'LICENSE'
+[1.490s] writing manifest file '../../build/webots_test/webots_test.egg-info/SOURCES.txt'
+[1.490s] running build
+[1.490s] running build_py
+[1.490s] creating /home/yahboom/Desktop/intro_ws/build/webots_test/build
+[1.490s] creating /home/yahboom/Desktop/intro_ws/build/webots_test/build/lib
+[1.490s] creating /home/yahboom/Desktop/intro_ws/build/webots_test/build/lib/webots_test
+[1.491s] copying webots_test/__init__.py -> /home/yahboom/Desktop/intro_ws/build/webots_test/build/lib/webots_test
+[1.491s] copying webots_test/my_robot_driver.py -> /home/yahboom/Desktop/intro_ws/build/webots_test/build/lib/webots_test
+[1.491s] running install
+[1.491s] running install_lib
+[1.492s] creating /home/yahboom/Desktop/intro_ws/install/webots_test/lib/python3.10/site-packages/webots_test
+[1.492s] copying /home/yahboom/Desktop/intro_ws/build/webots_test/build/lib/webots_test/__init__.py -> /home/yahboom/Desktop/intro_ws/install/webots_test/lib/python3.10/site-packages/webots_test
+[1.492s] copying /home/yahboom/Desktop/intro_ws/build/webots_test/build/lib/webots_test/my_robot_driver.py -> /home/yahboom/Desktop/intro_ws/install/webots_test/lib/python3.10/site-packages/webots_test
+[1.492s] byte-compiling /home/yahboom/Desktop/intro_ws/install/webots_test/lib/python3.10/site-packages/webots_test/__init__.py to __init__.cpython-310.pyc
+[1.492s] byte-compiling /home/yahboom/Desktop/intro_ws/install/webots_test/lib/python3.10/site-packages/webots_test/my_robot_driver.py to my_robot_driver.cpython-310.pyc
+[1.493s] running install_data
+[1.493s] creating /home/yahboom/Desktop/intro_ws/install/webots_test/share/ament_index
+[1.494s] creating /home/yahboom/Desktop/intro_ws/install/webots_test/share/ament_index/resource_index
+[1.494s] creating /home/yahboom/Desktop/intro_ws/install/webots_test/share/ament_index/resource_index/packages
+[1.494s] copying resource/webots_test -> /home/yahboom/Desktop/intro_ws/install/webots_test/share/ament_index/resource_index/packages
+[1.494s] creating /home/yahboom/Desktop/intro_ws/install/webots_test/share/webots_test/launch
+[1.496s] copying launch/robot_launch.py -> /home/yahboom/Desktop/intro_ws/install/webots_test/share/webots_test/launch
+[1.496s] creating /home/yahboom/Desktop/intro_ws/install/webots_test/share/webots_test/worlds
+[1.496s] copying worlds/my_world.wbt -> /home/yahboom/Desktop/intro_ws/install/webots_test/share/webots_test/worlds
+[1.496s] creating /home/yahboom/Desktop/intro_ws/install/webots_test/share/webots_test/urdf
+[1.496s] copying urdf/my_robot.urdf -> /home/yahboom/Desktop/intro_ws/install/webots_test/share/webots_test/urdf
+[1.496s] copying package.xml -> /home/yahboom/Desktop/intro_ws/install/webots_test/share/webots_test
+[1.496s] running install_egg_info
+[1.497s] Copying ../../build/webots_test/webots_test.egg-info to /home/yahboom/Desktop/intro_ws/install/webots_test/lib/python3.10/site-packages/webots_test-0.0.0-py3.10.egg-info
+[1.499s] running install_scripts
+[1.540s] Installing my_robot_driver script to /home/yahboom/Desktop/intro_ws/install/webots_test/lib/webots_test
+[1.540s] writing list of installed files to '/home/yahboom/Desktop/intro_ws/build/webots_test/install.log'
+[1.578s] Invoked command in '/home/yahboom/Desktop/intro_ws/src/webots_test' returned '0': PYTHONPATH=/home/yahboom/Desktop/intro_ws/build/webots_test/prefix_override:/home/yahboom/Desktop/intro_ws/install/webots_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_test build --build-base /home/yahboom/Desktop/intro_ws/build/webots_test/build install --record /home/yahboom/Desktop/intro_ws/build/webots_test/install.log --single-version-externally-managed install_data

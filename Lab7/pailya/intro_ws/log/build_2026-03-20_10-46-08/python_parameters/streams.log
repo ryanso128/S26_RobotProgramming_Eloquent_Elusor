@@ -1,0 +1,35 @@
+[1.113s] Invoking command in '/home/yahboom/Desktop/intro_ws/src/python_parameters': PYTHONPATH=/home/yahboom/Desktop/intro_ws/build/python_parameters/prefix_override:/home/yahboom/Desktop/intro_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/yahboom/Desktop/intro_ws/build/python_parameters/build install --record /home/yahboom/Desktop/intro_ws/build/python_parameters/install.log --single-version-externally-managed install_data
+[1.392s] running egg_info
+[1.392s] writing ../../build/python_parameters/UNKNOWN.egg-info/PKG-INFO
+[1.393s] writing dependency_links to ../../build/python_parameters/UNKNOWN.egg-info/dependency_links.txt
+[1.393s] writing top-level names to ../../build/python_parameters/UNKNOWN.egg-info/top_level.txt
+[1.393s] reading manifest file '../../build/python_parameters/UNKNOWN.egg-info/SOURCES.txt'
+[1.393s] writing manifest file '../../build/python_parameters/UNKNOWN.egg-info/SOURCES.txt'
+[1.393s] running build
+[1.393s] running install
+[1.393s] running install_data
+[1.393s] running install_egg_info
+[1.400s] removing '/home/yahboom/Desktop/intro_ws/install/python_parameters/lib/python3.10/site-packages/UNKNOWN-0.0.0-py3.10.egg-info' (and everything under it)
+[1.400s] Copying ../../build/python_parameters/UNKNOWN.egg-info to /home/yahboom/Desktop/intro_ws/install/python_parameters/lib/python3.10/site-packages/UNKNOWN-0.0.0-py3.10.egg-info
+[1.400s] running install_scripts
+[1.436s] writing list of installed files to '/home/yahboom/Desktop/intro_ws/build/python_parameters/install.log'
+[1.447s] running egg_info
+[1.447s] writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO
+[1.448s] writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+[1.449s] writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt
+[1.462s] writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt
+[1.462s] writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt
+[1.462s] reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[1.462s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[1.462s] running build
+[1.462s] running build_py
+[1.463s] running install
+[1.464s] running install_lib
+[1.471s] running install_data
+[1.471s] running install_egg_info
+[1.471s] removing '/home/yahboom/Desktop/intro_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters-0.0.0-py3.10.egg-info' (and everything under it)
+[1.471s] Copying ../../build/python_parameters/python_parameters.egg-info to /home/yahboom/Desktop/intro_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters-0.0.0-py3.10.egg-info
+[1.471s] running install_scripts
+[1.472s] Installing minimal_param_node script to /home/yahboom/Desktop/intro_ws/install/python_parameters/lib/python_parameters
+[1.472s] writing list of installed files to '/home/yahboom/Desktop/intro_ws/build/python_parameters/install.log'
+[1.511s] Invoked command in '/home/yahboom/Desktop/intro_ws/src/python_parameters' returned '0': PYTHONPATH=/home/yahboom/Desktop/intro_ws/build/python_parameters/prefix_override:/home/yahboom/Desktop/intro_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/yahboom/Desktop/intro_ws/build/python_parameters/build install --record /home/yahboom/Desktop/intro_ws/build/python_parameters/install.log --single-version-externally-managed install_data
