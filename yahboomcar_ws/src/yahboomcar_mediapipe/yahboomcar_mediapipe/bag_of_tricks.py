@@ -133,6 +133,33 @@ class PoseCtrlArm(Node):
       sleep(0.5)
       self.media_ros.pub_vel(-0.3, 0.3, 0.0)
 
+    def morse_buzzer(self, pattern):
+        unit = 0.1  # 1 time unit = 0.1 seconds
+    
+        for symbol in pattern:
+            if symbol == '.':  # dot
+                self.media_ros.RobotBuzzer()
+                sleep(unit)
+            elif symbol == '-':  # dash
+                self.media_ros.RobotBuzzer()
+                sleep(3 * unit)
+    
+            # gap between symbols
+            sleep(unit)
+    
+        # gap after full sequence
+        sleep(3 * unit)
+
+    def bark_buzzer(self):
+        bark_pattern = "-... .- .-. -.-"
+    
+        # Split by letters (space-separated)
+        letters = bark_pattern.split(" ")
+    
+        for letter in letters:
+            self.morse_buzzer(letter)
+            sleep(3 * 0.1)  # gap between letters
+
     def sound_buzzer(self):
         
         
@@ -174,6 +201,11 @@ class PoseCtrlArm(Node):
                 self.media_ros.pub_vel(0.0, 0.0,0.0)
                 sleep(3)
 
+            elif gesture == "Victory":
+                print("BARK")
+                self.bark_buzzer()
+                sleep(3)
+        
             self.event.set()
 
 def main():
