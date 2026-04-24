@@ -34,6 +34,7 @@ setup(
         'RobotCtrl = yahboomcar_mediapipe.RobotCtrl:main',
         'control_shape = yahboomcar_mediapipe.control_shape:main',
         'FingerCtrl = yahboomcar_mediapipe.FingerCtrl:main'
+        'bag_of_tricks = yahboomcar_mediapipe.bag_of_tricks:main'
         ],
     },
 )
