@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+        bag_of_tricks = yahboomcar_mediapipe.bag_of_tricks:main
         ],
     },
 )
