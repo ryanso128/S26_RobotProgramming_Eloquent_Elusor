@@ -106,16 +106,6 @@ class PoseCtrlArm(Node):
         self.media_ros.RobotBuzzer()
         sleep(1)
 
-
-    def car_ctrl_threading(self, lmList,bbox):
-        if self.event.is_set():
-            self.event.clear()
-            fingers = self.hand_detector.fingersUp(lmList)
-            gesture = self.hand_detector.get_gesture(lmList)
-            if gesture == "Yes":
-                print("YES")	
-                self.go_quadrilateral()
-                sleep(3)
     def do_octogoon(self):
       self.media_ros.pub_vel(0.15, 0.0, 0.0)
       sleep(0.5)
@@ -160,7 +150,15 @@ class PoseCtrlArm(Node):
             self.morse_buzzer(letter)
             sleep(3 * 0.1)  # gap between letters
 
-    def sound_buzzer(self):
+    def car_ctrl_threading(self, lmList,bbox):
+        if self.event.is_set():
+            self.event.clear()
+            fingers = self.hand_detector.fingersUp(lmList)
+            gesture = self.hand_detector.get_gesture(lmList)
+            if gesture == "Yes":
+                print("YES")	
+                self.go_quadrilateral()
+                sleep(3)
         
         
             elif gesture == "OK":
