@@ -132,7 +132,9 @@ class PoseCtrlArm(Node):
       self.media_ros.pub_vel(-0.15, 0, 0.0)
       sleep(0.5)
       self.media_ros.pub_vel(-0.3, 0.3, 0.0)
-       
+
+    def sound_buzzer(self):
+        
         
             elif gesture == "OK":
                 print("OK")
