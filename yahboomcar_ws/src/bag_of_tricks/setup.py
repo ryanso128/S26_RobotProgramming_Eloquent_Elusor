@@ -30,7 +30,6 @@ setup(
     entry_points={
         'console_scripts': [
         'bag_of_tricks = bag_of_tricks.bag_of_tricks:main',
-        'test_msg = bag_of_tricks.test_msg:main',
         'HandCtrl = bag_of_tricks.HandCtrl:main',
         'RobotCtrl = bag_of_tricks.RobotCtrl:main',
         'control_shape = bag_of_tricks.control_shape:main',
