@@ -30,17 +30,11 @@ setup(
     entry_points={
         'console_scripts': [
         'bag_of_tricks = bag_of_tricks.bag_of_tricks:main',
-        '01_HandDetector = bag_of_tricks.01_HandDetector:main',
-        '02_PoseDetector = bag_of_tricks.02_PoseDetector:main',
-        '03_Holistic = bag_of_tricks.03_Holistic:main',
-        '04_FaceMesh = bag_of_tricks.04_FaceMesh:main',
-        '05_FaceEyeDetection = bag_of_tricks.05_FaceEyeDetection:main',
         'test_msg = bag_of_tricks.test_msg:main',
         'HandCtrl = bag_of_tricks.HandCtrl:main',
         'RobotCtrl = bag_of_tricks.RobotCtrl:main',
         'control_shape = bag_of_tricks.control_shape:main',
         'FingerCtrl = bag_of_tricks.FingerCtrl:main',
-        'bag_of_tricks = bag_of_tricks.bag_of_tricks:main'
         'Mcnamu_driver	= bag_of_tricks.Mcnamu_driver:main',
         ],
     },
