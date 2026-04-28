@@ -86,15 +86,8 @@ class PoseCtrlArm(Node):
         sleep(1.5)
         self.media_ros.pub_vel(0.0, 0.0,0.0)
         sleep(0.5)
-
-        self.media_ros.pub_vel(0.0, 0.0,2.0)
-        sleep(0.5)
-        self.media_ros.pub_vel(0.0, 0.0,0.0)
-        sleep(0.5)
-        self.media_ros.pub_vel(0.15, 0.0,0.0)
-        sleep(1.5)
-        self.media_ros.RobotBuzzer()
-        sleep(1)
+    def straight_line(self):
+        self.media_ros.pub_vel(0.1, 0.0 , 0.0)  
 
     def Go_circle(self,flag):
         if (flag == 1):
@@ -151,8 +144,9 @@ class PoseCtrlArm(Node):
                 
             elif fingers[1] == fingers[2] == fingers[3] == fingers[4] and sum(fingers) == 4:
               print("four")
-              #filler movement
+              self.straight_line()
               sleep(3)
+                
             elif sum(fingers) == 5: 
                 print("5")
                 self.media_ros.pub_vel(0.0, 0.0,0.0)
