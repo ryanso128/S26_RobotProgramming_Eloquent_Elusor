@@ -177,8 +177,8 @@ class PoseCtrlArm(Node):
                 sleep(3)
 
 
-            elif fingers[1] == fingers[4] == 1 and sum(fingers) == 2:
-                print("ROCK")
+            elif fingers[1] == fingers[2] == 1 and sum(fingers) == 2:
+                print("two")
                 self.go_s()
                 sleep(3)
 
@@ -198,11 +198,6 @@ class PoseCtrlArm(Node):
             elif sum(fingers) == 5: 
                 print("5")
                 self.media_ros.pub_vel(0.0, 0.0,0.0)
-                sleep(3)
-
-            elif gesture == "Victory":
-                print("BARK")
-                self.bark_buzzer()
                 sleep(3)
         
             self.event.set()
