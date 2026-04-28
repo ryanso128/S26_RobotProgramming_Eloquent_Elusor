@@ -122,6 +122,7 @@ class PoseCtrlArm(Node):
       self.media_ros.pub_vel(-0.15, 0.0, 0.0)
       sleep(0.5)
       self.media_ros.pub_vel(-0.3, 0.3, 0.0)
+      sleep(1)
 
     def morse_buzzer(self, pattern):
         unit = 0.1  # 1 time unit = 0.1 seconds
@@ -188,7 +189,7 @@ class PoseCtrlArm(Node):
            
             elif fingers[1] == fingers[2] == fingers[3] == 1 and sum(fingers) == 3 :
                print("three")
-              # filler movement
+               self.bark_buzzer()
                sleep (3)
             elif fingers[1] == fingers[2] == fingers[3] == fingers[4] and sum(fingers) == 4:
               print("four")
