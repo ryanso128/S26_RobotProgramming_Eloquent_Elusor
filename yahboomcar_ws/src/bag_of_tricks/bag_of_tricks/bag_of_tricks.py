@@ -103,7 +103,6 @@ class PoseCtrlArm(Node):
         if (flag != 1):
             self.media_ros.pub_vel(0.1, 0.0,-1.0)
             sleep(4)
-        self.media_ros.RobotBuzzer()
         sleep(1)
 
     def do_octogoon(self):
@@ -122,62 +121,16 @@ class PoseCtrlArm(Node):
       self.media_ros.pub_vel(-0.15, 0.0, 0.0)
       sleep(0.5)
       self.media_ros.pub_vel(-0.3, 0.3, 0.0)
+      sleep(0.5)
+      self.media_ros.pub_vel(0.0, 0.0, 0.0)
       sleep(1)
-
-    def morse_buzzer(self, pattern):
-        unit = 0.1  # 1 time unit = 0.1 seconds
-    
-        for symbol in pattern:
-            if symbol == '.':  # dot
-                self.media_ros.RobotBuzzer()
-                sleep(unit)
-            elif symbol == '-':  # dash
-                self.media_ros.RobotBuzzer()
-                sleep(3 * unit)
-    
-            # gap between symbols
-            sleep(unit)
-    
-        # gap after full sequence
-        sleep(3 * unit)
-
-    def bark_buzzer(self):
-        bark_pattern = "-... .- .-. -.-"
-    
-        # Split by letters (space-separated)
-        letters = bark_pattern.split(" ")
-    
-        for letter in letters:
-            self.morse_buzzer(letter)
-            sleep(3 * 0.1)  # gap between letters
 
     def car_ctrl_threading(self, lmList,bbox):
         if self.event.is_set():
             self.event.clear()
             fingers = self.hand_detector.fingersUp(lmList)
             gesture = self.hand_detector.get_gesture(lmList)
-            if gesture == "Yes":
-                print("YES")	
-                self.go_quadrilateral()
-                sleep(3)
-        
-        
-            elif gesture == "OK":
-                print("OK")
-                self.Go_circle(1)
-                sleep(3)
-
-            elif gesture == "Thumb_down":
-                print("Thumb_down")
-                self.media_ros.pub_vel(0.1, 0.0,0.0)
-                sleep(2)
-                self.media_ros.pub_vel(-0.1, 0.0,0.0)
-                sleep(2)
-                self.media_ros.RobotBuzzer()
-                sleep(3)
-
-
-            elif fingers[1] == fingers[2] == 1 and sum(fingers) == 2:
+            if fingers[1] == fingers[2] == 1 and sum(fingers) == 2:
                 print("two")
                 self.go_s()
                 sleep(3)
@@ -189,8 +142,13 @@ class PoseCtrlArm(Node):
            
             elif fingers[1] == fingers[2] == fingers[3] == 1 and sum(fingers) == 3 :
                print("three")
-               self.bark_buzzer()
-               sleep (3)
+               self.media_ros.RobotBuzzer()
+               sleep (0.5)
+               self.media_ros.RobotBuzzer()
+               sleep (0.5)
+               self.media_ros.RobotBuzzer()
+               sleep (0.4)
+                
             elif fingers[1] == fingers[2] == fingers[3] == fingers[4] and sum(fingers) == 4:
               print("four")
               #filler movement
