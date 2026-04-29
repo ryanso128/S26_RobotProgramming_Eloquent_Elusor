@@ -106,7 +106,7 @@ class PoseCtrlArm(Node):
         self.media_ros.RobotBuzzer()
         sleep(1)
 
-    def do_octogoon(self):
+    def do_octagon(self):
       self.media_ros.pub_vel(0.15, 0.0, 0.0)
       sleep(0.5)
       self.media_ros.pub_vel(0.3, 0.3, 0.0)
@@ -183,7 +183,7 @@ class PoseCtrlArm(Node):
 
             elif fingers[1] == 1 and sum(fingers) == 1:
                 print("one")
-                self.do_octogoon()
+                self.do_octagon()
                 sleep(3)
            
             elif fingers[1] == fingers[2] == fingers[3] == 1 and sum(fingers) == 3 :
