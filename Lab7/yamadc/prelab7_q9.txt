@@ -1,0 +1,5 @@
+Based on this file, what can you determine about the function of this node? (e.g. what topics are utilized; what motion is possible)
+
+Answer: 
+The node subscribes to /cmd_vel. The mnessage type is geometry_msgs_Twist. 
+The node then converts linear.x to forward and backward motion while the angular.z converts to rotation. The bot can move forwards and backwards. It can rotate about the z axis and turn left or right. It can also do curved paths. 
